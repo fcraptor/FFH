@@ -371,14 +371,16 @@ export default function ZarzadzaniePowietrzem() {
             <Ionicons name="arrow-back" size={24} color={colors.text} />
           </Pressable>
 
-          <View style={styles.clockRow}>
-            <View style={[styles.clockBar, { backgroundColor: colors.clockBar }]}>
-              <Text style={styles.clockLabel}>Aktualny czas</Text>
-              <Text style={styles.clockText}>{formatClock(new Date(now))}</Text>
-            </View>
-            <View style={[styles.clockBar, { backgroundColor: colors.clockBar }]}>
-              <Text style={styles.clockLabel}>Czas AKCJI</Text>
-              <Text style={styles.clockText}>{formatClockDuration(Math.floor((now - actionStartTimestamp) / 1000))}</Text>
+          <View style={styles.clockRowContainer}>
+            <View style={styles.clockRow}>
+              <View style={[styles.clockBar, { backgroundColor: colors.clockBar }]}>
+                <Text style={styles.clockLabel}>Aktualny czas</Text>
+                <Text style={styles.clockText}>{formatClock(new Date(now))}</Text>
+              </View>
+              <View style={[styles.clockBar, { backgroundColor: colors.clockBar }]}>
+                <Text style={styles.clockLabel}>Czas AKCJI</Text>
+                <Text style={styles.clockText}>{formatClockDuration(Math.floor((now - actionStartTimestamp) / 1000))}</Text>
+              </View>
             </View>
           </View>
 
@@ -387,6 +389,7 @@ export default function ZarzadzaniePowietrzem() {
             testID="air-trash-button"
             style={({ pressed }) => [
               styles.headerButton,
+              styles.headerButtonRight,
               {
                 backgroundColor: theme === 'dark' ? 'rgba(255,255,255,0.15)' : colors.surface,
                 borderColor: colors.border,
@@ -518,9 +521,10 @@ const styles = StyleSheet.create({
   },
   headerMainRow: {
     alignItems: 'center',
-    flexDirection: 'row',
-    gap: 10,
+    justifyContent: 'center',
     marginBottom: 12,
+    minHeight: 52,
+    position: 'relative',
   },
   loadingContainer: {
     alignItems: 'center',
@@ -534,6 +538,11 @@ const styles = StyleSheet.create({
   },
   scrollArea: {
     flex: 1,
+  },
+  clockRowContainer: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    width: '100%',
   },
   clockBar: {
     alignItems: 'center',
@@ -570,9 +579,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderWidth: 2,
     justifyContent: 'center',
+    position: 'absolute',
+    top: 4,
   },
   headerButtonLeft: {
-    alignSelf: 'flex-start',
+    left: 0,
+  },
+  headerButtonRight: {
+    right: 0,
   },
   listSection: {
     flex: 1,

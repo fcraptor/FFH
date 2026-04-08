@@ -330,7 +330,11 @@ export default function CategoryDetailScreen() {
   };
 
   return (
-    <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]} edges={['left', 'right']}>
+    <SafeAreaView
+      style={[styles.container, { backgroundColor: colors.background }]}
+      edges={['left', 'right']}
+      {...(!isKpp ? panResponder.panHandlers : {})}
+    >
       {/* Header with category info */}
       <View style={[styles.header, { backgroundColor: categoryConfig.color }]}>
         <View style={styles.headerContent}>
@@ -470,10 +474,7 @@ export default function CategoryDetailScreen() {
           {/* Content Card */}
           <ScrollView style={styles.scrollView} contentContainerStyle={styles.scrollContent}>
             {currentTab && (
-              <View
-                {...panResponder.panHandlers}
-                style={[styles.contentCard, { backgroundColor: colors.card, borderColor: colors.border }]}
-              >
+              <View style={[styles.contentCard, { backgroundColor: colors.card, borderColor: colors.border }]}>
                 <View style={styles.cardHeader}>
                   <Text style={[styles.cardTitle, { color: colors.text }]}>{currentTab.title}</Text>
                   <TouchableOpacity onPress={handleFavorite} style={styles.favoriteBtn}>
@@ -800,12 +801,14 @@ const styles = StyleSheet.create({
   },
   modalImage: {
     flex: 1,
+    width: '100%',
     justifyContent: 'center',
     alignItems: 'center',
   },
   modalImageWithButtons: {
     flex: 1,
     marginBottom: 8,
+    width: '100%',
     justifyContent: 'center',
     alignItems: 'center',
   },
