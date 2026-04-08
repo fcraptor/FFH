@@ -33,6 +33,7 @@
 - 2026-04-08: Rozszerzono gest przesuwania kart w `szybki pomocnik` tak, aby działał z pustego obszaru strony, nie tylko z obszaru obrazu/tekstu.
 - 2026-04-08: Obrazy w `szybki pomocnik` są od razu renderowane na stronie na szerokość ekranu. Na natywnym runtime wspierają pinch/pan/reset, a na web preview pokazują bezpieczny fallback bez crasha.
 - 2026-04-08: Przywrócono galeriowy model obrazów — na stronie obraz jest pokazywany bez dodatkowych podpowiedzi, a po tapnięciu otwiera się pełnoekranowy viewer z wygodnym zoomem. Usunięto też tekstową podpowiedź o przesuwaniu kart.
+- 2026-04-08: Naprawiono ładowanie pojedynczych obrazów w `szybki pomocnik` — problemem była szerokość klikalnego kontenera obrazka; po poprawce pojedyncze karty obrazkowe znów renderują się poprawnie.
 
 ## Prioritized backlog
 ### P0

@@ -192,7 +192,7 @@ export const ZoomableImage: React.FC<ZoomableImageProps> = ({ uri, style }) => {
 
   return (
     <>
-      <TouchableOpacity onPress={openModal} activeOpacity={0.95}>
+      <TouchableOpacity onPress={openModal} activeOpacity={0.95} style={styles.pressable}>
         <View style={[styles.imageWrapper, style]}>
           <Image
             source={{ uri }}
@@ -265,6 +265,9 @@ export const ZoomableImage: React.FC<ZoomableImageProps> = ({ uri, style }) => {
 };
 
 const styles = StyleSheet.create({
+  pressable: {
+    width: '100%',
+  },
   imageWrapper: {
     width: '100%',
     height: 240,
