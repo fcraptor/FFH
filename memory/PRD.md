@@ -24,6 +24,7 @@
 - 2026-04-08: Wykonano test web preview na `http://127.0.0.1:3001/strefa-zagrozenia` — ekran ładuje się bez crasha, ale `react-native-webview` nie obsługuje platformy web, więc w tym trybie nie powstają requesty do OSM; potwierdzono to też raportem testowym `/app/test_reports/iteration_1.json`.
 - 2026-04-08: Zsynchronizowano frontend FFH do aktywnego `/app/frontend` z zachowaniem chronionych plików `.env` i `metro.config.js`, doinstalowano brakujące zależności i potwierdzono działanie App Preview pod adresem `https://dev-github-app.preview.emergentagent.com`.
 - 2026-04-08: Usunięto katalog `/app/FFH`, aby uniknąć pracy na dwóch kopiach projektu. Od tego momentu jedynym aktywnym frontendem roboczym jest `/app/frontend`.
+- 2026-04-08: Wdrożono globalne zarządzanie motywem zgodne z ustawieniem telefonu (`useColorScheme`) z zachowaniem ręcznego przełącznika Jasny/Ciemny w `Ustawienia > Wygląd`. Ekran `zarzadzanie-powietrzem` został przepięty z własnej stałej ciemnej palety na wspólny motyw aplikacji.
 
 ## Prioritized backlog
 ### P0
@@ -41,3 +42,4 @@
 - Jeśli potrzebna będzie pełna walidacja natywna, wykonać test na fizycznym Androidzie lub emulatorze z aktywnym WebView.
 - Dalszy rozwój prowadzić już wyłącznie w `/app/frontend`.
 - Przed zapisem do GitHub ponownie sklonować repo i zsynchronizować do niego aktualny stan z `/app/frontend`.
+- Rozważyć dodanie `testID` do kluczowych kontrolek, aby uprościć stabilne testy regresyjne.

@@ -78,7 +78,7 @@ export default function UstawieniaScreen() {
               <Ionicons name="moon" size={22} color={colors.text} />
               <View>
                 <Text style={[styles.settingLabel, { color: colors.text }]}>Tryb nocny</Text>
-                <Text style={[styles.settingHint, { color: colors.textSecondary }]}> 
+                <Text style={[styles.settingHint, { color: colors.textSecondary }]}>
                   {isSystemThemeEnabled
                     ? `Domyślnie zgodny z telefonem (${theme === 'dark' ? 'ciemny' : 'jasny'})`
                     : `Ręcznie ustawiony na ${theme === 'dark' ? 'ciemny' : 'jasny'}`}

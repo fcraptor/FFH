@@ -66,9 +66,13 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
     }
   };
 
-  const saveTheme = async (mode: ThemeMode) => {
+  const saveThemePreference = async (mode: ThemeMode | null) => {
     try {
-      await AsyncStorage.setItem(THEME_KEY, mode);
+      if (mode) {
+        await AsyncStorage.setItem(THEME_KEY, mode);
+      } else {
+        await AsyncStorage.removeItem(THEME_KEY);
+      }
     } catch (error) {
       console.error('Error saving theme:', error);
     }
@@ -76,13 +80,15 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
 
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
-    setThemeOverride(newTheme);
-    saveTheme(newTheme);
+    const nextOverride = newTheme === systemTheme ? null : newTheme;
+    setThemeOverride(nextOverride);
+    saveThemePreference(nextOverride);
   };
 
   const setTheme = (mode: ThemeMode) => {
-    setThemeOverride(mode);
-    saveTheme(mode);
+    const nextOverride = mode === systemTheme ? null : mode;
+    setThemeOverride(nextOverride);
+    saveThemePreference(nextOverride);
   };
 
   const currentColors = useMemo(() => colors[theme], [theme]);
