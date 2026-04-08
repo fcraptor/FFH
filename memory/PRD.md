@@ -34,6 +34,7 @@
 - 2026-04-08: Obrazy w `szybki pomocnik` są od razu renderowane na stronie na szerokość ekranu. Na natywnym runtime wspierają pinch/pan/reset, a na web preview pokazują bezpieczny fallback bez crasha.
 - 2026-04-08: Przywrócono galeriowy model obrazów — na stronie obraz jest pokazywany bez dodatkowych podpowiedzi, a po tapnięciu otwiera się pełnoekranowy viewer z wygodnym zoomem. Usunięto też tekstową podpowiedź o przesuwaniu kart.
 - 2026-04-08: Naprawiono ładowanie pojedynczych obrazów w `szybki pomocnik` — problemem była szerokość klikalnego kontenera obrazka; po poprawce pojedyncze karty obrazkowe znów renderują się poprawnie.
+- 2026-04-08: Naprawiono wyświetlanie obrazów w `KPP` zarówno na liście kart, jak i w pełnym podglądzie modala. Zamiast zagnieżdżonego viewer’a w modalu KPP obraz jest renderowany bezpośrednio, dzięki czemu jest od razu widoczny.
 
 ## Prioritized backlog
 ### P0

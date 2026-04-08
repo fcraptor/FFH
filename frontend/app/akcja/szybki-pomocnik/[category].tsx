@@ -532,11 +532,13 @@ export default function CategoryDetailScreen() {
           {activeSubItem ? (
             // Show sub-item content
             activeSubItem.type === 'image' && activeSubItem.url ? (
-              <ZoomableImage 
-                uri={getFullImageUrl(activeSubItem.url)} 
-                style={styles.modalImage}
-                title={activeSubItem.label}
-              />
+              <View style={styles.modalImage}>
+                <Image
+                  source={{ uri: getFullImageUrl(activeSubItem.url) }}
+                  style={styles.kppFullscreenImage}
+                  resizeMode="contain"
+                />
+              </View>
             ) : activeSubItem.type === 'text' && activeSubItem.content ? (
               <ScrollView style={styles.modalTextContent}>
                 <MarkdownText content={activeSubItem.content} fontSize={16} />
@@ -546,11 +548,13 @@ export default function CategoryDetailScreen() {
             // Show main content with sub-item buttons
             <>
               {kppModalImage && (
-                <ZoomableImage 
-                  uri={kppModalImage} 
-                  style={kppModalSubItems.length > 0 ? styles.modalImageWithButtons : styles.modalImage}
-                  title={kppModalTitle}
-                />
+                <View style={kppModalSubItems.length > 0 ? styles.modalImageWithButtons : styles.modalImage}>
+                  <Image
+                    source={{ uri: kppModalImage }}
+                    style={styles.kppFullscreenImage}
+                    resizeMode="contain"
+                  />
+                </View>
               )}
               
               {/* Sub-item buttons */}
@@ -798,6 +802,10 @@ const styles = StyleSheet.create({
   modalTextContent: {
     flex: 1,
     padding: 16,
+  },
+  kppFullscreenImage: {
+    width: '100%',
+    height: '100%',
   },
   subItemButtonsContainer: {
     flexDirection: 'row',
