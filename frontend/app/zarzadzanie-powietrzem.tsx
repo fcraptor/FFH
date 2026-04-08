@@ -17,6 +17,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { StatusBar } from 'expo-status-bar';
 
 import { useAirManagement } from '../src/contexts/AirManagementContext';
+import { useTheme } from '../src/contexts/ThemeContext';
 import { RotaCard } from '../src/components/air-management/RotaCard';
 import { InputModal } from '../src/components/air-management/InputModal';
 import { PressureModal } from '../src/components/air-management/PressureModal';
@@ -38,6 +39,7 @@ type InputModalState =
 export default function ZarzadzaniePowietrzem() {
   const router = useRouter();
   const insets = useSafeAreaInsets();
+  const { colors: appColors, theme } = useTheme();
   const {
     now,
     rotas,
@@ -57,26 +59,26 @@ export default function ZarzadzaniePowietrzem() {
   const [labelModal, setLabelModal] = useState<{ rotaId: string } | null>(null);
 
   const colors = useMemo(() => ({
-    background: '#141414',
-    surface: '#1F1F1F',
-    text: '#FFFFFF',
-    secondary: '#D7D7DB',
-    border: '#D0D0D0',
-    buttonGray: '#D3D3D3',
+    background: appColors.background,
+    surface: appColors.card,
+    text: appColors.text,
+    secondary: appColors.textSecondary,
+    border: theme === 'dark' ? '#4A4A4A' : '#D0D0D0',
+    buttonGray: theme === 'dark' ? '#C9CDD3' : '#D3D3D3',
     buttonYellow: '#FFE400',
     buttonRed: '#FF453A',
     accent: '#FFE400',
-    tile: '#E8E8E8',
-    overlay: 'rgba(0, 0, 0, 0.62)',
-    input: '#2B2B2F',
+    tile: theme === 'dark' ? '#303033' : '#E8E8E8',
+    overlay: theme === 'dark' ? 'rgba(0, 0, 0, 0.62)' : 'rgba(15, 23, 42, 0.28)',
+    input: theme === 'dark' ? '#2B2B2F' : '#F3F4F6',
     muted: '#000000',
-    clockBar: '#000000',
+    clockBar: theme === 'dark' ? '#000000' : '#1F2937',
     ready: '#19A4E6',
     safe: '#29B34A',
     warning: '#FFE400',
     danger: '#FF9F0A',
     critical: '#FF453A',
-  }), []);
+  }), [appColors, theme]);
 
   const standardRotas = rotas.filter((rota) => rota.kind === 'standard').sort((left, right) => left.displayOrder - right.displayOrder);
   const ritRotas = rotas.filter((rota) => rota.kind === 'rit').sort((left, right) => left.displayOrder - right.displayOrder);
@@ -341,7 +343,7 @@ export default function ZarzadzaniePowietrzem() {
   if (loading) {
     return (
       <SafeAreaView edges={['top', 'left', 'right', 'bottom']} style={[styles.loadingContainer, { backgroundColor: colors.background }]}>
-        <StatusBar style="light" />
+        <StatusBar style={theme === 'dark' ? 'light' : 'dark'} />
         <ActivityIndicator color={colors.buttonYellow} size="large" />
       </SafeAreaView>
     );
@@ -349,7 +351,7 @@ export default function ZarzadzaniePowietrzem() {
 
   return (
     <SafeAreaView edges={['top', 'left', 'right', 'bottom']} style={[styles.safeArea, { backgroundColor: colors.background }]}>
-      <StatusBar style="light" />
+      <StatusBar style={theme === 'dark' ? 'light' : 'dark'} />
 
       <View style={styles.fixedHeader}>
         <View style={styles.clockRow}>

@@ -1,5 +1,6 @@
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import React, { createContext, useContext, useState, useEffect, ReactNode, useMemo } from 'react';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { useColorScheme } from 'react-native';
 import { ThemeMode } from '../types';
 
 const THEME_KEY = 'firefighter_theme';
@@ -34,6 +35,7 @@ export const colors = {
 interface ThemeContextType {
   theme: ThemeMode;
   colors: typeof colors.light;
+  isSystemThemeEnabled: boolean;
   toggleTheme: () => void;
   setTheme: (mode: ThemeMode) => void;
 }
@@ -41,7 +43,11 @@ interface ThemeContextType {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export const ThemeProvider = ({ children }: { children: ReactNode }) => {
-  const [theme, setThemeState] = useState<ThemeMode>('light');
+  const systemColorScheme = useColorScheme();
+  const [themeOverride, setThemeOverride] = useState<ThemeMode | null>(null);
+
+  const systemTheme: ThemeMode = systemColorScheme === 'dark' ? 'dark' : 'light';
+  const theme = themeOverride ?? systemTheme;
 
   useEffect(() => {
     loadTheme();
@@ -50,8 +56,10 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
   const loadTheme = async () => {
     try {
       const stored = await AsyncStorage.getItem(THEME_KEY);
-      if (stored) {
-        setThemeState(stored as ThemeMode);
+      if (stored === 'light' || stored === 'dark') {
+        setThemeOverride(stored);
+      } else {
+        setThemeOverride(null);
       }
     } catch (error) {
       console.error('Error loading theme:', error);
@@ -68,19 +76,19 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
 
   const toggleTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light';
-    setThemeState(newTheme);
+    setThemeOverride(newTheme);
     saveTheme(newTheme);
   };
 
   const setTheme = (mode: ThemeMode) => {
-    setThemeState(mode);
+    setThemeOverride(mode);
     saveTheme(mode);
   };
 
-  const currentColors = colors[theme];
+  const currentColors = useMemo(() => colors[theme], [theme]);
 
   return (
-    <ThemeContext.Provider value={{ theme, colors: currentColors, toggleTheme, setTheme }}>
+    <ThemeContext.Provider value={{ theme, colors: currentColors, isSystemThemeEnabled: themeOverride === null, toggleTheme, setTheme }}>
       {children}
     </ThemeContext.Provider>
   );

@@ -6,7 +6,7 @@ import { useTheme } from '../src/contexts/ThemeContext';
 import { syncAllData, clearCache, getLastSyncTime } from '../src/utils/dataService';
 
 export default function UstawieniaScreen() {
-  const { colors, theme, toggleTheme } = useTheme();
+  const { colors, theme, toggleTheme, isSystemThemeEnabled } = useTheme();
   const [syncing, setSyncing] = useState(false);
   const [lastSync, setLastSync] = useState<string | null>(null);
 
@@ -76,7 +76,14 @@ export default function UstawieniaScreen() {
           <View style={styles.settingRow}>
             <View style={styles.settingInfo}>
               <Ionicons name="moon" size={22} color={colors.text} />
-              <Text style={[styles.settingLabel, { color: colors.text }]}>Tryb nocny</Text>
+              <View>
+                <Text style={[styles.settingLabel, { color: colors.text }]}>Tryb nocny</Text>
+                <Text style={[styles.settingHint, { color: colors.textSecondary }]}> 
+                  {isSystemThemeEnabled
+                    ? `Domyślnie zgodny z telefonem (${theme === 'dark' ? 'ciemny' : 'jasny'})`
+                    : `Ręcznie ustawiony na ${theme === 'dark' ? 'ciemny' : 'jasny'}`}
+                </Text>
+              </View>
             </View>
             <Switch
               value={theme === 'dark'}
