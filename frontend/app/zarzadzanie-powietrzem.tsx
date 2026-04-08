@@ -354,7 +354,7 @@ export default function ZarzadzaniePowietrzem() {
       <StatusBar style={theme === 'dark' ? 'light' : 'dark'} />
 
       <View style={styles.fixedHeader}>
-        <View style={styles.headerTopRow}>
+        <View style={styles.headerMainRow}>
           <Pressable
             onPress={() => router.back()}
             style={({ pressed }) => [
@@ -370,6 +370,17 @@ export default function ZarzadzaniePowietrzem() {
             <Ionicons name="arrow-back" size={24} color={colors.text} />
           </Pressable>
 
+          <View style={styles.clockRow}>
+            <View style={[styles.clockBar, { backgroundColor: colors.clockBar }]}> 
+              <Text style={styles.clockLabel}>Aktualny czas</Text>
+              <Text style={styles.clockText}>{formatClock(new Date(now))}</Text>
+            </View>
+            <View style={[styles.clockBar, { backgroundColor: colors.clockBar }]}> 
+              <Text style={styles.clockLabel}>Czas AKCJI</Text>
+              <Text style={styles.clockText}>{formatClockDuration(Math.floor((now - actionStartTimestamp) / 1000))}</Text>
+            </View>
+          </View>
+
           <Pressable
             onPress={handleClearAllData}
             style={({ pressed }) => [
@@ -383,17 +394,6 @@ export default function ZarzadzaniePowietrzem() {
           >
             <Ionicons name="trash-outline" size={24} color={colors.text} />
           </Pressable>
-        </View>
-
-        <View style={styles.clockRow}>
-          <View style={[styles.clockBar, { backgroundColor: colors.clockBar }]}>
-            <Text style={styles.clockLabel}>Aktualny czas</Text>
-            <Text style={styles.clockText}>{formatClock(new Date(now))}</Text>
-          </View>
-          <View style={[styles.clockBar, { backgroundColor: colors.clockBar }]}>
-            <Text style={styles.clockLabel}>Czas AKCJI</Text>
-            <Text style={styles.clockText}>{formatClockDuration(Math.floor((now - actionStartTimestamp) / 1000))}</Text>
-          </View>
         </View>
       </View>
 
@@ -511,13 +511,13 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   fixedHeader: {
-    paddingHorizontal: 18,
+    paddingHorizontal: 12,
     paddingTop: 8,
   },
-  headerTopRow: {
+  headerMainRow: {
     alignItems: 'center',
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    gap: 10,
     marginBottom: 12,
   },
   loadingContainer: {
@@ -535,29 +535,31 @@ const styles = StyleSheet.create({
   },
   clockBar: {
     alignItems: 'center',
-    borderRadius: 28,
-    flex: 1,
+    borderRadius: 20,
     justifyContent: 'center',
-    minHeight: 74,
-    paddingHorizontal: 10,
-    paddingVertical: 10,
+    minHeight: 52,
+    maxWidth: 124,
+    minWidth: 112,
+    paddingHorizontal: 8,
+    paddingVertical: 6,
   },
   clockRow: {
     flexDirection: 'row',
-    gap: 10,
+    gap: 8,
+    justifyContent: 'center',
   },
   clockLabel: {
     color: '#FFFFFF',
-    fontSize: 12,
+    fontSize: 10,
     fontWeight: '600',
-    marginBottom: 4,
+    marginBottom: 2,
   },
   clockText: {
     color: '#FFFFFF',
     fontFamily: 'monospace',
-    fontSize: 22,
+    fontSize: 16,
     fontWeight: '700',
-    letterSpacing: 0.5,
+    letterSpacing: 0.3,
   },
   headerButton: {
     width: 44,

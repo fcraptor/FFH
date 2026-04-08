@@ -1,15 +1,14 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import {
   View,
   Text,
   StyleSheet,
   ScrollView,
   TouchableOpacity,
-  Dimensions,
   ActivityIndicator,
-  Platform,
   Modal,
   Image,
+  PanResponder,
 } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -22,8 +21,6 @@ import { getCategoryIcon, getCategoryColor } from '../../../src/utils/categoryCo
 import { SzybkiPomocnikData, ContentItem, CategoryMetaData, SubItem } from '../../../src/types';
 import { ZoomableImage } from '../../../src/components/ZoomableImage';
 import { MarkdownText } from '../../../src/components/MarkdownText';
-
-const { width } = Dimensions.get('window');
 
 interface DynamicTab {
   key: string;
@@ -39,7 +36,6 @@ export default function CategoryDetailScreen() {
   const [data, setData] = useState<SzybkiPomocnikData | null>(null);
   const [activeTabIndex, setActiveTabIndex] = useState(0);
   const [loading, setLoading] = useState(true);
-  const scrollRef = useRef<ScrollView>(null);
   const tabScrollRef = useRef<ScrollView>(null);
   
   // State for fullscreen image modal in KPP
@@ -121,6 +117,21 @@ export default function CategoryDetailScreen() {
     setLoading(false);
   };
 
+  const tabs = categoryConfig?.tabs ?? [];
+
+  const panResponder = useMemo(() => PanResponder.create({
+    onMoveShouldSetPanResponder: (_, gestureState) => (
+      Math.abs(gestureState.dx) > 24 && Math.abs(gestureState.dy) < 12
+    ),
+    onPanResponderRelease: (_, gestureState) => {
+      if (gestureState.dx < -50 && activeTabIndex < tabs.length - 1) {
+        handleTabPress(activeTabIndex + 1);
+      } else if (gestureState.dx > 50 && activeTabIndex > 0) {
+        handleTabPress(activeTabIndex - 1);
+      }
+    },
+  }), [activeTabIndex, tabs.length]);
+
   if (loading) {
     return (
       <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]}>
@@ -139,7 +150,6 @@ export default function CategoryDetailScreen() {
     );
   }
 
-  const tabs = categoryConfig.tabs;
   const categoryData = data?.[categoryConfig.key as keyof SzybkiPomocnikData];
   const currentTab = tabs[activeTabIndex];
   
@@ -165,6 +175,7 @@ export default function CategoryDetailScreen() {
 
   const handleTabPress = (index: number) => {
     setActiveTabIndex(index);
+    tabScrollRef.current?.scrollTo({ x: Math.max(0, index * 120 - 24), animated: true });
   };
 
   const handleFavorite = () => {
@@ -458,7 +469,10 @@ export default function CategoryDetailScreen() {
           {/* Content Card */}
           <ScrollView style={styles.scrollView} contentContainerStyle={styles.scrollContent}>
             {currentTab && (
-              <View style={[styles.contentCard, { backgroundColor: colors.card, borderColor: colors.border }]}>
+              <View
+                {...panResponder.panHandlers}
+                style={[styles.contentCard, { backgroundColor: colors.card, borderColor: colors.border }]}
+              >
                 <View style={styles.cardHeader}>
                   <Text style={[styles.cardTitle, { color: colors.text }]}>{currentTab.title}</Text>
                   <TouchableOpacity onPress={handleFavorite} style={styles.favoriteBtn}>
@@ -471,6 +485,10 @@ export default function CategoryDetailScreen() {
                 </View>
                 <View style={styles.cardContent}>
                   {renderContent(currentContent)}
+                </View>
+                <View style={[styles.swipeHint, { borderTopColor: colors.border }]}> 
+                  <Ionicons name="swap-horizontal" size={16} color={colors.textSecondary} />
+                  <Text style={[styles.swipeHintText, { color: colors.textSecondary }]}>Przesuń palcem, aby przejść do kolejnej karty</Text>
                 </View>
               </View>
             )}
@@ -634,6 +652,19 @@ const styles = StyleSheet.create({
   },
   cardContent: {
     flex: 1,
+  },
+  swipeHint: {
+    alignItems: 'center',
+    borderTopWidth: 1,
+    flexDirection: 'row',
+    gap: 6,
+    justifyContent: 'center',
+    marginTop: 16,
+    paddingTop: 12,
+  },
+  swipeHintText: {
+    fontSize: 12,
+    fontWeight: '500',
   },
   contentText: {
     fontSize: 15,

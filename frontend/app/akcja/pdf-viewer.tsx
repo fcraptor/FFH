@@ -9,6 +9,7 @@ import { useTheme } from '../../src/contexts/ThemeContext';
 export default function PDFViewerScreen() {
   const { url, title } = useLocalSearchParams<{ url: string; title: string }>();
   const { colors } = useTheme();
+  const isLocalFile = Boolean(url?.startsWith('file://'));
 
   const openInBrowser = () => {
     if (url) {
@@ -34,19 +35,21 @@ export default function PDFViewerScreen() {
     <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]} edges={['left', 'right', 'bottom']}>
       <Stack.Screen options={{ title: title || 'Dokument' }} />
       
-      {Platform.OS === 'web' ? (
+      {Platform.OS === 'web' || isLocalFile ? (
         <View style={styles.webFallback}>
           <Ionicons name="document-text" size={80} color={colors.primary} />
           <Text style={[styles.webFallbackTitle, { color: colors.text }]}>{title}</Text>
           <Text style={[styles.webFallbackText, { color: colors.textSecondary }]}>
-            Aby otworzyć dokument PDF, kliknij przycisk poniżej
+            {isLocalFile
+              ? 'Dokument został pobrany do trybu offline. Kliknij poniżej, aby go otworzyć.'
+              : 'Aby otworzyć dokument PDF, kliknij przycisk poniżej'}
           </Text>
           <TouchableOpacity 
             style={[styles.openButton, { backgroundColor: colors.primary }]} 
             onPress={openInBrowser}
           >
             <Ionicons name="open-outline" size={24} color="#FFFFFF" />
-            <Text style={styles.openButtonText}>Otwórz PDF</Text>
+            <Text style={styles.openButtonText}>{isLocalFile ? 'Otwórz pobrany PDF' : 'Otwórz PDF'}</Text>
           </TouchableOpacity>
         </View>
       ) : (

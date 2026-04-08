@@ -1,5 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios';
+import * as FileSystem from 'expo-file-system/legacy';
+import { Platform } from 'react-native';
 import { SzybkiPomocnikData, ContentItem, CategoryMetaData, SubItem, ImageItem } from '../types';
 
 // Google Sheets configuration - direct access without backend
@@ -14,9 +16,197 @@ const CACHE_KEYS = {
   HAS_INITIAL_DATA: '@firefighter_has_initial_data',
 };
 
+const OFFLINE_ROOT = `${FileSystem.documentDirectory}firefighter-offline`;
+const OFFLINE_IMAGES_DIR = `${OFFLINE_ROOT}/images`;
+const OFFLINE_PDFS_DIR = `${OFFLINE_ROOT}/pdfs`;
+
 // Helper function to get CSV URL for a sheet
 const getSheetCsvUrl = (sheetName: string): string => {
   return `https://docs.google.com/spreadsheets/d/${GOOGLE_SHEET_ID}/gviz/tq?tqx=out:csv&sheet=${sheetName}`;
+};
+
+const extractDriveFileId = (url: string): string | null => {
+  if (!url) return null;
+
+  let match = url.match(/drive\.google\.com\/file\/d\/([^/]+)/);
+  if (match) return match[1];
+
+  match = url.match(/drive\.google\.com\/open\?id=([^&]+)/);
+  if (match) return match[1];
+
+  match = url.match(/[?&]id=([^&]+)/);
+  if (match) return match[1];
+
+  return null;
+};
+
+const getDriveDownloadUrl = (url: string): string => {
+  const fileId = extractDriveFileId(url);
+  if (!fileId) return url;
+  return `https://drive.google.com/uc?export=download&id=${fileId}`;
+};
+
+const hashString = (value: string): string => {
+  let hash = 0;
+  for (let i = 0; i < value.length; i += 1) {
+    hash = (hash << 5) - hash + value.charCodeAt(i);
+    hash |= 0;
+  }
+  return Math.abs(hash).toString(36);
+};
+
+const ensureOfflineDirectories = async (): Promise<void> => {
+  const [imagesInfo, pdfsInfo] = await Promise.all([
+    FileSystem.getInfoAsync(OFFLINE_IMAGES_DIR),
+    FileSystem.getInfoAsync(OFFLINE_PDFS_DIR),
+  ]);
+
+  if (!imagesInfo.exists) {
+    await FileSystem.makeDirectoryAsync(OFFLINE_IMAGES_DIR, { intermediates: true });
+  }
+
+  if (!pdfsInfo.exists) {
+    await FileSystem.makeDirectoryAsync(OFFLINE_PDFS_DIR, { intermediates: true });
+  }
+};
+
+const downloadFileIfNeeded = async (sourceUrl: string, directory: string, fallbackExtension: string): Promise<string> => {
+  if (!sourceUrl || sourceUrl.startsWith('file://')) return sourceUrl;
+  if (Platform.OS === 'web') return sourceUrl;
+
+  await ensureOfflineDirectories();
+
+  const cleanUrl = sourceUrl.split('?')[0];
+  const extensionMatch = cleanUrl.match(/\.(jpg|jpeg|png|webp|pdf)$/i);
+  const extension = extensionMatch ? `.${extensionMatch[1].toLowerCase()}` : fallbackExtension;
+  const targetUri = `${directory}/${hashString(sourceUrl)}${extension}`;
+
+  const fileInfo = await FileSystem.getInfoAsync(targetUri);
+  if (fileInfo.exists) {
+    return targetUri;
+  }
+
+  const downloadResult = await FileSystem.downloadAsync(sourceUrl, targetUri);
+  return downloadResult.uri;
+};
+
+const localizeSubItems = async (items?: SubItem[]): Promise<{ items?: SubItem[]; imageCount: number; pdfCount: number }> => {
+  if (!items || items.length === 0) {
+    return { items, imageCount: 0, pdfCount: 0 };
+  }
+
+  let imageCount = 0;
+  let pdfCount = 0;
+
+  const localizedItems = await Promise.all(items.map(async (item) => {
+    if (item.type === 'image' && item.url) {
+      imageCount += 1;
+      return {
+        ...item,
+        url: await downloadFileIfNeeded(getFullImageUrl(item.url), OFFLINE_IMAGES_DIR, '.jpg'),
+      };
+    }
+
+    if (item.type === 'pdf_link' && item.url) {
+      pdfCount += 1;
+      return {
+        ...item,
+        url: await downloadFileIfNeeded(getDriveDownloadUrl(item.url), OFFLINE_PDFS_DIR, '.pdf'),
+      };
+    }
+
+    return item;
+  }));
+
+  return { items: localizedItems, imageCount, pdfCount };
+};
+
+const localizeContentItem = async (content: ContentItem): Promise<{ content: ContentItem; imageCount: number; pdfCount: number }> => {
+  let imageCount = 0;
+  let pdfCount = 0;
+  const subItemsResult = await localizeSubItems(content.sub_items);
+
+  imageCount += subItemsResult.imageCount;
+  pdfCount += subItemsResult.pdfCount;
+
+  if (content.type === 'image') {
+    imageCount += 1;
+    return {
+      content: {
+        ...content,
+        url: await downloadFileIfNeeded(getFullImageUrl(content.url), OFFLINE_IMAGES_DIR, '.jpg'),
+        sub_items: subItemsResult.items,
+      },
+      imageCount,
+      pdfCount,
+    };
+  }
+
+  if (content.type === 'images') {
+    const urls = await Promise.all(content.urls.map(async (imageItem) => {
+      imageCount += 1;
+      return {
+        ...imageItem,
+        url: await downloadFileIfNeeded(getFullImageUrl(imageItem.url), OFFLINE_IMAGES_DIR, '.jpg'),
+      };
+    }));
+
+    return {
+      content: {
+        ...content,
+        urls,
+        sub_items: subItemsResult.items,
+      },
+      imageCount,
+      pdfCount,
+    };
+  }
+
+  if (content.type === 'mixed') {
+    const items = await Promise.all(content.items.map(async (item) => {
+      if (item.type === 'image' && item.url) {
+        imageCount += 1;
+        return {
+          ...item,
+          url: await downloadFileIfNeeded(getFullImageUrl(item.url), OFFLINE_IMAGES_DIR, '.jpg'),
+        };
+      }
+
+      return item;
+    }));
+
+    return {
+      content: {
+        ...content,
+        items,
+        sub_items: subItemsResult.items,
+      },
+      imageCount,
+      pdfCount,
+    };
+  }
+
+  if (content.type === 'pdf_link') {
+    pdfCount += 1;
+    return {
+      content: {
+        ...content,
+        url: await downloadFileIfNeeded(getDriveDownloadUrl(content.url), OFFLINE_PDFS_DIR, '.pdf'),
+        sub_items: subItemsResult.items,
+      },
+      imageCount,
+      pdfCount,
+    };
+  }
+
+  return {
+    content: {
+      ...content,
+      sub_items: subItemsResult.items,
+    },
+    imageCount,
+    pdfCount,
+  };
 };
 
 // Helper function to convert Google Drive links to direct image URLs
@@ -551,6 +741,58 @@ export const syncAllData = async (): Promise<boolean> => {
   } catch (error) {
     console.error('Error syncing data:', error);
     return false;
+  }
+};
+
+export const downloadAkcjaDataForOffline = async (): Promise<{ success: boolean; imageCount: number; pdfCount: number }> => {
+  try {
+    const [szybkiPomocnikData, proceduryData] = await Promise.all([
+      fetchSzybkiPomocnik(true),
+      fetchProcedury(true),
+    ]);
+
+    if (!szybkiPomocnikData || !proceduryData) {
+      return { success: false, imageCount: 0, pdfCount: 0 };
+    }
+
+    const localizedSzybkiPomocnik = JSON.parse(JSON.stringify(szybkiPomocnikData)) as SzybkiPomocnikData;
+    let imageCount = 0;
+    let pdfCount = 0;
+
+    for (const categoryKey of Object.keys(localizedSzybkiPomocnik)) {
+      const categoryData = localizedSzybkiPomocnik[categoryKey];
+      const contentKeys = Object.keys(categoryData).filter((key) => key !== '_meta');
+
+      for (const contentKey of contentKeys) {
+        const content = categoryData[contentKey] as ContentItem | undefined;
+        if (!content || typeof content !== 'object' || !('type' in content)) continue;
+
+        const localized = await localizeContentItem(content);
+        categoryData[contentKey] = localized.content;
+        imageCount += localized.imageCount;
+        pdfCount += localized.pdfCount;
+      }
+    }
+
+    const localizedProcedury = await Promise.all(proceduryData.map(async (procedure) => {
+      pdfCount += 1;
+      return {
+        ...procedure,
+        pdf_link: await downloadFileIfNeeded(getDriveDownloadUrl(procedure.pdf_link), OFFLINE_PDFS_DIR, '.pdf'),
+      };
+    }));
+
+    await AsyncStorage.multiSet([
+      [CACHE_KEYS.SZYBKI_POMOCNIK, JSON.stringify(localizedSzybkiPomocnik)],
+      [CACHE_KEYS.PROCEDURY, JSON.stringify(localizedProcedury)],
+      [CACHE_KEYS.LAST_SYNC, new Date().toISOString()],
+      [CACHE_KEYS.HAS_INITIAL_DATA, 'true'],
+    ]);
+
+    return { success: true, imageCount, pdfCount };
+  } catch (error) {
+    console.error('Error downloading Akcja data for offline:', error);
+    return { success: false, imageCount: 0, pdfCount: 0 };
   }
 };
 

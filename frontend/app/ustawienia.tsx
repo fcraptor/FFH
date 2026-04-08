@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Switch, Alert } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Switch, Alert, ActivityIndicator } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { useTheme } from '../src/contexts/ThemeContext';
-import { syncAllData, clearCache, getLastSyncTime } from '../src/utils/dataService';
+import { syncAllData, clearCache, getLastSyncTime, downloadAkcjaDataForOffline } from '../src/utils/dataService';
 
 export default function UstawieniaScreen() {
   const { colors, theme, toggleTheme, isSystemThemeEnabled } = useTheme();
   const [syncing, setSyncing] = useState(false);
+  const [downloadingOffline, setDownloadingOffline] = useState(false);
   const [lastSync, setLastSync] = useState<string | null>(null);
 
   useEffect(() => {
@@ -48,6 +49,22 @@ export default function UstawieniaScreen() {
         },
       ]
     );
+  };
+
+  const handleOfflineDownload = async () => {
+    setDownloadingOffline(true);
+    const result = await downloadAkcjaDataForOffline();
+    setDownloadingOffline(false);
+
+    if (result.success) {
+      await loadLastSync();
+      Alert.alert(
+        'Gotowe',
+        `Pobrano materiały Akcja do działania offline. Obrazy: ${result.imageCount}, PDF: ${result.pdfCount}.`
+      );
+    } else {
+      Alert.alert('Błąd', 'Nie udało się pobrać materiałów offline. Sprawdź połączenie z internetem i spróbuj ponownie.');
+    }
   };
 
   const formatDate = (dateString: string | null) => {
@@ -129,6 +146,25 @@ export default function UstawieniaScreen() {
               </View>
             </View>
             <Ionicons name="chevron-forward" size={22} color={colors.textSecondary} />
+          </TouchableOpacity>
+
+          <View style={[styles.divider, { backgroundColor: colors.border }]} />
+
+          <TouchableOpacity style={styles.settingRow} onPress={handleOfflineDownload} disabled={downloadingOffline}>
+            <View style={styles.settingInfo}>
+              <Ionicons name="download" size={22} color={colors.text} />
+              <View>
+                <Text style={[styles.settingLabel, { color: colors.text }]}>
+                  {downloadingOffline ? 'Pobieranie danych...' : 'Pobierz dane'}
+                </Text>
+                <Text style={[styles.settingHint, { color: colors.textSecondary }]}>Pobiera dane do działania offline</Text>
+              </View>
+            </View>
+            {downloadingOffline ? (
+              <ActivityIndicator size="small" color={colors.primary} />
+            ) : (
+              <Ionicons name="chevron-forward" size={22} color={colors.textSecondary} />
+            )}
           </TouchableOpacity>
         </View>
 
