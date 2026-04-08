@@ -32,6 +32,7 @@
 - 2026-04-08: Doprecyzowano UX `zarzadzanie-powietrzem` — strzałka została w lewym górnym rogu, kosz w prawym górnym rogu, a zegary wyśrodkowano między nimi.
 - 2026-04-08: Rozszerzono gest przesuwania kart w `szybki pomocnik` tak, aby działał z pustego obszaru strony, nie tylko z obszaru obrazu/tekstu.
 - 2026-04-08: Obrazy w `szybki pomocnik` są od razu renderowane na stronie na szerokość ekranu. Na natywnym runtime wspierają pinch/pan/reset, a na web preview pokazują bezpieczny fallback bez crasha.
+- 2026-04-08: Przywrócono galeriowy model obrazów — na stronie obraz jest pokazywany bez dodatkowych podpowiedzi, a po tapnięciu otwiera się pełnoekranowy viewer z wygodnym zoomem. Usunięto też tekstową podpowiedź o przesuwaniu kart.
 
 ## Prioritized backlog
 ### P0

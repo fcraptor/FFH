@@ -488,10 +488,6 @@ export default function CategoryDetailScreen() {
                 <View style={styles.cardContent}>
                   {renderContent(currentContent)}
                 </View>
-                <View style={[styles.swipeHint, { borderTopColor: colors.border }]}>
-                  <Ionicons name="swap-horizontal" size={16} color={colors.textSecondary} />
-                  <Text style={[styles.swipeHintText, { color: colors.textSecondary }]}>Przesuń palcem, aby przejść do kolejnej karty</Text>
-                </View>
               </View>
             )}
           </ScrollView>
@@ -654,19 +650,6 @@ const styles = StyleSheet.create({
   },
   cardContent: {
     flex: 1,
-  },
-  swipeHint: {
-    alignItems: 'center',
-    borderTopWidth: 1,
-    flexDirection: 'row',
-    gap: 6,
-    justifyContent: 'center',
-    marginTop: 16,
-    paddingTop: 12,
-  },
-  swipeHintText: {
-    fontSize: 12,
-    fontWeight: '500',
   },
   contentText: {
     fontSize: 15,
