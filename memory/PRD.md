@@ -25,6 +25,7 @@
 - 2026-04-08: Zsynchronizowano frontend FFH do aktywnego `/app/frontend` z zachowaniem chronionych plików `.env` i `metro.config.js`, doinstalowano brakujące zależności i potwierdzono działanie App Preview pod adresem `https://dev-github-app.preview.emergentagent.com`.
 - 2026-04-08: Usunięto katalog `/app/FFH`, aby uniknąć pracy na dwóch kopiach projektu. Od tego momentu jedynym aktywnym frontendem roboczym jest `/app/frontend`.
 - 2026-04-08: Wdrożono globalne zarządzanie motywem zgodne z ustawieniem telefonu (`useColorScheme`) z zachowaniem ręcznego przełącznika Jasny/Ciemny w `Ustawienia > Wygląd`. Ekran `zarzadzanie-powietrzem` został przepięty z własnej stałej ciemnej palety na wspólny motyw aplikacji.
+- 2026-04-08: Dopracowano UI modułu `zarzadzanie-powietrzem` — strzałka powrotu trafiła do lewego górnego rogu, przyciski strzałki i kosza zyskały czytelne obramowanie w jasnym motywie, a przycisk `Butla 6,8` otrzymał obramowanie spójne z selektorem ciśnienia.
 
 ## Prioritized backlog
 ### P0
