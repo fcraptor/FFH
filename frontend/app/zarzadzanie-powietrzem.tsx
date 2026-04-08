@@ -354,6 +354,37 @@ export default function ZarzadzaniePowietrzem() {
       <StatusBar style={theme === 'dark' ? 'light' : 'dark'} />
 
       <View style={styles.fixedHeader}>
+        <View style={styles.headerTopRow}>
+          <Pressable
+            onPress={() => router.back()}
+            style={({ pressed }) => [
+              styles.headerButton,
+              styles.headerButtonLeft,
+              {
+                backgroundColor: theme === 'dark' ? 'rgba(255,255,255,0.15)' : colors.surface,
+                borderColor: colors.border,
+                opacity: pressed ? 0.7 : 1,
+              },
+            ]}
+          >
+            <Ionicons name="arrow-back" size={24} color={colors.text} />
+          </Pressable>
+
+          <Pressable
+            onPress={handleClearAllData}
+            style={({ pressed }) => [
+              styles.headerButton,
+              {
+                backgroundColor: theme === 'dark' ? 'rgba(255,255,255,0.15)' : colors.surface,
+                borderColor: colors.border,
+                opacity: pressed ? 0.7 : 1,
+              },
+            ]}
+          >
+            <Ionicons name="trash-outline" size={24} color={colors.text} />
+          </Pressable>
+        </View>
+
         <View style={styles.clockRow}>
           <View style={[styles.clockBar, { backgroundColor: colors.clockBar }]}>
             <Text style={styles.clockLabel}>Aktualny czas</Text>
@@ -362,20 +393,6 @@ export default function ZarzadzaniePowietrzem() {
           <View style={[styles.clockBar, { backgroundColor: colors.clockBar }]}>
             <Text style={styles.clockLabel}>Czas AKCJI</Text>
             <Text style={styles.clockText}>{formatClockDuration(Math.floor((now - actionStartTimestamp) / 1000))}</Text>
-          </View>
-          <View style={styles.headerButtons}>
-            <Pressable
-              onPress={handleClearAllData}
-              style={({ pressed }) => [styles.headerButton, { opacity: pressed ? 0.7 : 1 }]}
-            >
-              <Ionicons name="trash-outline" size={24} color="#FFFFFF" />
-            </Pressable>
-            <Pressable
-              onPress={() => router.back()}
-              style={({ pressed }) => [styles.headerButton, { opacity: pressed ? 0.7 : 1 }]}
-            >
-              <Ionicons name="arrow-back" size={24} color="#FFFFFF" />
-            </Pressable>
           </View>
         </View>
       </View>
@@ -497,6 +514,12 @@ const styles = StyleSheet.create({
     paddingHorizontal: 18,
     paddingTop: 8,
   },
+  headerTopRow: {
+    alignItems: 'center',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 12,
+  },
   loadingContainer: {
     alignItems: 'center',
     flex: 1,
@@ -536,18 +559,16 @@ const styles = StyleSheet.create({
     fontWeight: '700',
     letterSpacing: 0.5,
   },
-  headerButtons: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-  },
   headerButton: {
     width: 44,
     height: 44,
     borderRadius: 22,
-    backgroundColor: 'rgba(255,255,255,0.15)',
     alignItems: 'center',
+    borderWidth: 2,
     justifyContent: 'center',
+  },
+  headerButtonLeft: {
+    alignSelf: 'flex-start',
   },
   listSection: {
     flex: 1,

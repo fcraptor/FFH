@@ -223,7 +223,14 @@ export function RotaCard({
           {rota.state === 'ready' ? (
             <Pressable
               onPress={() => onBottlePress(rota)}
-              style={({ pressed }) => [styles.sideBottleButton, { backgroundColor: '#FFFFFF', opacity: pressed ? 0.84 : 1 }]}
+              style={({ pressed }) => [
+                styles.sideBottleButton,
+                {
+                  backgroundColor: colors.input,
+                  borderColor: colors.border,
+                  opacity: pressed ? 0.84 : 1,
+                },
+              ]}
               testID={`bottle-button-${rota.id}`}
             >
               <Text style={styles.bottleText}>{bottleText}</Text>
@@ -466,6 +473,7 @@ const styles = StyleSheet.create({
   sideBottleButton: {
     alignItems: 'center',
     borderRadius: 16,
+    borderWidth: 2,
     height: 38,
     justifyContent: 'center',
     paddingHorizontal: 6,
