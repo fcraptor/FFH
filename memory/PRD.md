@@ -29,6 +29,9 @@
 - 2026-04-08: Zwężono zegary w module `zarzadzanie-powietrzem`, umieszczając je kompaktowo między strzałką powrotu i koszem.
 - 2026-04-08: W `szybki pomocnik` dodano przechodzenie między kartami gestem przesunięcia palcem po ekranie.
 - 2026-04-08: W `Ustawienia > Dane` dodano akcję `Pobierz dane`, która przygotowuje materiały modułu Akcja (`szybki pomocnik` + `procedury`) do działania offline; na platformach natywnych pobiera obrazy i PDF-y do pamięci urządzenia, a na web preview bezpiecznie pomija pobieranie plików lokalnych.
+- 2026-04-08: Doprecyzowano UX `zarzadzanie-powietrzem` — strzałka została w lewym górnym rogu, kosz w prawym górnym rogu, a zegary wyśrodkowano między nimi.
+- 2026-04-08: Rozszerzono gest przesuwania kart w `szybki pomocnik` tak, aby działał z pustego obszaru strony, nie tylko z obszaru obrazu/tekstu.
+- 2026-04-08: Obrazy w `szybki pomocnik` są od razu renderowane na stronie na szerokość ekranu. Na natywnym runtime wspierają pinch/pan/reset, a na web preview pokazują bezpieczny fallback bez crasha.
 
 ## Prioritized backlog
 ### P0
