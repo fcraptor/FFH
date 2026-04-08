@@ -150,7 +150,7 @@ export default function UstawieniaScreen() {
 
           <View style={[styles.divider, { backgroundColor: colors.border }]} />
 
-          <TouchableOpacity style={styles.settingRow} onPress={handleOfflineDownload} disabled={downloadingOffline}>
+          <TouchableOpacity testID="download-offline-button" style={styles.settingRow} onPress={handleOfflineDownload} disabled={downloadingOffline}>
             <View style={styles.settingInfo}>
               <Ionicons name="download" size={22} color={colors.text} />
               <View>

@@ -448,6 +448,7 @@ export default function CategoryDetailScreen() {
             {tabs.map((tab, index) => (
               <TouchableOpacity
                 key={tab.key}
+                testID={`category-tab-${tab.key}`}
                 style={[
                   styles.tab,
                   activeTabIndex === index && { backgroundColor: colors.primary },
@@ -486,7 +487,7 @@ export default function CategoryDetailScreen() {
                 <View style={styles.cardContent}>
                   {renderContent(currentContent)}
                 </View>
-                <View style={[styles.swipeHint, { borderTopColor: colors.border }]}> 
+                <View style={[styles.swipeHint, { borderTopColor: colors.border }]}>
                   <Ionicons name="swap-horizontal" size={16} color={colors.textSecondary} />
                   <Text style={[styles.swipeHintText, { color: colors.textSecondary }]}>Przesuń palcem, aby przejść do kolejnej karty</Text>
                 </View>

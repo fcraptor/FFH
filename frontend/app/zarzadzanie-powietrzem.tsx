@@ -357,6 +357,7 @@ export default function ZarzadzaniePowietrzem() {
         <View style={styles.headerMainRow}>
           <Pressable
             onPress={() => router.back()}
+            testID="air-back-button"
             style={({ pressed }) => [
               styles.headerButton,
               styles.headerButtonLeft,
@@ -371,11 +372,11 @@ export default function ZarzadzaniePowietrzem() {
           </Pressable>
 
           <View style={styles.clockRow}>
-            <View style={[styles.clockBar, { backgroundColor: colors.clockBar }]}> 
+            <View style={[styles.clockBar, { backgroundColor: colors.clockBar }]}>
               <Text style={styles.clockLabel}>Aktualny czas</Text>
               <Text style={styles.clockText}>{formatClock(new Date(now))}</Text>
             </View>
-            <View style={[styles.clockBar, { backgroundColor: colors.clockBar }]}> 
+            <View style={[styles.clockBar, { backgroundColor: colors.clockBar }]}>
               <Text style={styles.clockLabel}>Czas AKCJI</Text>
               <Text style={styles.clockText}>{formatClockDuration(Math.floor((now - actionStartTimestamp) / 1000))}</Text>
             </View>
@@ -383,6 +384,7 @@ export default function ZarzadzaniePowietrzem() {
 
           <Pressable
             onPress={handleClearAllData}
+            testID="air-trash-button"
             style={({ pressed }) => [
               styles.headerButton,
               {
