@@ -21,6 +21,7 @@
 - 2026-04-08: Sklonowano repozytorium `https://github.com/fcraptor/FFH` do `/app/FFH`.
 - 2026-04-08: Zdiagnozowano ekran `frontend/app/strefa-zagrozenia.tsx` jako źródło problemu.
 - 2026-04-08: Dodano `meta name="referrer"` w HTML Leaflet, ustawiono `referrerPolicy` w warstwie OSM, zmieniono URL kafli na `https://tile.openstreetmap.org/{z}/{x}/{y}.png`, dodano `baseUrl` do `WebView`, a także `originWhitelist` i `mixedContentMode`.
+- 2026-04-08: Wykonano test web preview na `http://127.0.0.1:3001/strefa-zagrozenia` — ekran ładuje się bez crasha, ale `react-native-webview` nie obsługuje platformy web, więc w tym trybie nie powstają requesty do OSM; potwierdzono to też raportem testowym `/app/test_reports/iteration_1.json`.
 
 ## Prioritized backlog
 ### P0
@@ -35,3 +36,4 @@
 ## Next tasks list
 - Uruchomić aplikację na Androidzie i sprawdzić requesty w `chrome://inspect`.
 - Zweryfikować zachowanie mapy na Expo Web w DevTools → Network.
+- Jeśli potrzebna będzie pełna walidacja natywna, wykonać test na fizycznym Androidzie lub emulatorze z aktywnym WebView.
