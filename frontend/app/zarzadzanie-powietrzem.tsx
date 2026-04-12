@@ -64,6 +64,7 @@ export default function ZarzadzaniePowietrzem() {
     text: appColors.text,
     secondary: appColors.textSecondary,
     border: theme === 'dark' ? '#4A4A4A' : '#D0D0D0',
+    bottleButtonBackground: theme === 'dark' ? '#FFFFFF' : '#F3F4F6',
     buttonGray: theme === 'dark' ? '#C9CDD3' : '#D3D3D3',
     buttonYellow: '#FFE400',
     buttonRed: '#FF453A',

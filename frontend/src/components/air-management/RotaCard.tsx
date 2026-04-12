@@ -10,6 +10,7 @@ interface ThemeColors {
   text: string;
   secondary: string;
   border: string;
+  bottleButtonBackground: string;
   input: string;
   buttonGray: string;
   buttonYellow: string;
@@ -226,7 +227,7 @@ export function RotaCard({
               style={({ pressed }) => [
                 styles.sideBottleButton,
                 {
-                  backgroundColor: colors.input,
+                  backgroundColor: colors.bottleButtonBackground,
                   borderColor: colors.border,
                   opacity: pressed ? 0.84 : 1,
                 },
