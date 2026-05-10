@@ -703,6 +703,14 @@ export default function StrefaZagrozenia() {
         {/* Action Buttons */}
         <View style={styles.actionButtons}>
           <TouchableOpacity
+            style={[styles.secondaryButton, { borderColor: colors.border }]}
+            onPress={clearAll}
+          >
+            <Ionicons name="trash-outline" size={18} color={colors.text} />
+            <Text style={[styles.secondaryButtonText, { color: colors.text }]}>Wyczyść</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
             style={[styles.primaryButton, { backgroundColor: colors.primary }]}
             onPress={createHazardZone}
             disabled={isLoading}
@@ -711,18 +719,10 @@ export default function StrefaZagrozenia() {
               <ActivityIndicator color="#FFFFFF" />
             ) : (
               <>
-                <Ionicons name="radio-button-on" size={20} color="#FFFFFF" />
+                <Ionicons name="radio-button-on" size={18} color="#FFFFFF" />
                 <Text style={styles.primaryButtonText}>Wyznacz strefę</Text>
               </>
             )}
-          </TouchableOpacity>
-
-          <TouchableOpacity
-            style={[styles.secondaryButton, { borderColor: colors.border }]}
-            onPress={clearAll}
-          >
-            <Ionicons name="trash-outline" size={20} color={colors.text} />
-            <Text style={[styles.secondaryButtonText, { color: colors.text }]}>Wyczyść</Text>
           </TouchableOpacity>
         </View>
           </ScrollView>
@@ -781,79 +781,81 @@ const styles = StyleSheet.create({
     backgroundColor: '#f0f0f0',
   },
   controlPanel: {
+    flex: 1,
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
     marginTop: -16,
     overflow: 'hidden',
   },
   controlPanelScroll: {
-    flexGrow: 0,
+    flex: 1,
   },
   controlPanelContent: {
-    padding: 20,
+    paddingHorizontal: 14,
+    paddingTop: 6,
   },
   panelToggleHandle: {
     alignItems: 'center',
     alignSelf: 'center',
     borderRadius: 999,
     borderWidth: 1,
-    height: 44,
+    height: 18,
     justifyContent: 'center',
-    marginTop: 10,
-    marginBottom: 8,
-    width: 84,
+    marginTop: 8,
+    marginBottom: 4,
+    width: 34,
   },
   panelCollapsedSpacer: {
-    minHeight: 14,
+    minHeight: 6,
   },
   sectionTitle: {
-    fontSize: 16,
+    fontSize: 15,
     fontWeight: '700',
-    marginBottom: 12,
-    marginTop: 8,
+    marginBottom: 8,
+    marginTop: 4,
   },
   modeButtons: {
     flexDirection: 'row',
-    gap: 12,
-    marginBottom: 16,
+    gap: 8,
+    marginBottom: 10,
   },
   modeButton: {
     flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingVertical: 14,
-    paddingHorizontal: 12,
+    paddingVertical: 11,
+    paddingHorizontal: 10,
     borderRadius: 12,
     borderWidth: 2,
-    gap: 8,
+    gap: 6,
   },
   modeButtonText: {
-    fontSize: 13,
+    fontSize: 12,
     fontWeight: '600',
   },
   mapViewButtons: {
     flexDirection: 'row',
-    gap: 12,
-    marginBottom: 16,
+    gap: 8,
+    marginBottom: 10,
   },
   mapViewButton: {
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    paddingVertical: 12,
+    paddingVertical: 10,
     borderRadius: 10,
     borderWidth: 2,
   },
   mapViewButtonText: {
-    fontSize: 14,
+    fontSize: 13,
     fontWeight: '600',
   },
   rangeRow: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginBottom: 12,
-    gap: 10,
+    marginBottom: 10,
+    gap: 8,
   },
   rangeColorDot: {
     width: 16,
@@ -861,36 +863,36 @@ const styles = StyleSheet.create({
     borderRadius: 8,
   },
   rangeLabel: {
-    fontSize: 14,
+    fontSize: 13,
     fontWeight: '600',
-    width: 80,
+    width: 72,
   },
   rangeInput: {
     flex: 1,
-    height: 44,
+    height: 40,
     borderRadius: 10,
     borderWidth: 1,
-    paddingHorizontal: 14,
-    fontSize: 16,
+    paddingHorizontal: 12,
+    fontSize: 15,
   },
   rangeUnit: {
-    fontSize: 14,
+    fontSize: 13,
     width: 20,
   },
   addRangeButton: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingVertical: 14,
+    paddingVertical: 11,
     borderRadius: 12,
     borderWidth: 2,
     borderStyle: 'dashed',
     gap: 8,
-    marginTop: 4,
-    marginBottom: 16,
+    marginTop: 2,
+    marginBottom: 12,
   },
   addRangeText: {
-    fontSize: 14,
+    fontSize: 13,
     fontWeight: '600',
   },
   dataPreview: {
@@ -923,25 +925,27 @@ const styles = StyleSheet.create({
   },
   errorText: {
     color: '#ff0000',
-    fontSize: 12,
-    marginBottom: 8,
+    fontSize: 11,
+    marginBottom: 6,
     marginLeft: 26,
   },
   actionButtons: {
-    gap: 12,
-    marginTop: 8,
+    flexDirection: 'row',
+    gap: 8,
+    marginTop: 6,
   },
   primaryButton: {
+    flex: 1.3,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingVertical: 16,
+    minHeight: 46,
     borderRadius: 14,
-    gap: 10,
+    gap: 8,
   },
   primaryButtonText: {
     color: '#FFFFFF',
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: '700',
   },
   windOverlay: {
@@ -971,16 +975,17 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   secondaryButton: {
+    flex: 0.9,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingVertical: 14,
+    minHeight: 46,
     borderRadius: 14,
     borderWidth: 2,
-    gap: 8,
+    gap: 6,
   },
   secondaryButtonText: {
-    fontSize: 15,
+    fontSize: 14,
     fontWeight: '600',
   },
 });
