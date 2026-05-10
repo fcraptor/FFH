@@ -332,7 +332,7 @@ export default function CategoryDetailScreen() {
   return (
     <SafeAreaView
       style={[styles.container, { backgroundColor: colors.background }]}
-      edges={['left', 'right']}
+      edges={['top', 'left', 'right']}
       {...(!isKpp ? panResponder.panHandlers : {})}
     >
       {/* Header with category info */}

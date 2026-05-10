@@ -32,7 +32,7 @@ export default function PDFViewerScreen() {
   const previewUrl = url ? getPreviewUrl(url) : '';
 
   return (
-    <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]} edges={['left', 'right', 'bottom']}>
+    <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]} edges={['top', 'left', 'right', 'bottom']}>
       <Stack.Screen options={{ title: title || 'Dokument' }} />
       
       {Platform.OS === 'web' || isLocalFile ? (

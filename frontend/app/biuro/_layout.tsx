@@ -20,7 +20,7 @@ export default function BiuroLayout() {
       <Stack.Screen
         name="index"
         options={{
-          title: 'Biuro',
+          headerShown: false,
         }}
       />
       <Stack.Screen

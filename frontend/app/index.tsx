@@ -165,7 +165,7 @@ export default function HomeScreen() {
   // Show error screen if first launch without internet
   if (noDataError) {
     return (
-      <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]} edges={['left', 'right']}>
+      <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]} edges={['top', 'left', 'right']}>
         <View style={styles.errorContainer}>
           <Ionicons name="cloud-offline" size={80} color={colors.textSecondary} />
           <Text style={[styles.errorTitle, { color: colors.text }]}>
@@ -190,7 +190,7 @@ export default function HomeScreen() {
   }
 
   return (
-    <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]} edges={['left', 'right']}>
+    <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]} edges={['top', 'left', 'right']}>
       <SearchBar onSearch={handleSearch} placeholder="Szukaj tytułów..." />
       
       {syncing && (

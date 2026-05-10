@@ -20,7 +20,7 @@ export default function AkcjaLayout() {
       <Stack.Screen
         name="index"
         options={{
-          title: 'Akcja',
+          headerShown: false,
         }}
       />
       <Stack.Screen

@@ -34,7 +34,7 @@ export default function ProceduryScreen() {
   };
 
   return (
-    <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]} edges={['left', 'right']}>
+    <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]} edges={['top', 'left', 'right']}>
       <ScrollView style={styles.scrollView} contentContainerStyle={styles.scrollContent}>
         <Text style={[styles.sectionTitle, { color: colors.text }]}>Procedury</Text>
         <Text style={[styles.sectionSubtitle, { color: colors.textSecondary }]}>

@@ -80,7 +80,7 @@ export default function UstawieniaScreen() {
   };
 
   return (
-    <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]} edges={['left', 'right']}>
+    <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]} edges={['top', 'left', 'right']}>
       <View style={[styles.header, { backgroundColor: colors.primary }]}>
         <Ionicons name="settings" size={28} color="#FFFFFF" />
         <Text style={styles.headerTitle}>Ustawienia</Text>

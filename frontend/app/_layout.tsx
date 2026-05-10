@@ -61,7 +61,7 @@ function TabLayout() {
           name="index"
           options={{
             title: 'Główna',
-            headerTitle: 'FireFighter Helper',
+            headerShown: false,
             tabBarIcon: ({ color, size }) => (
               <Ionicons name="home" size={size} color={color} />
             ),
@@ -93,6 +93,7 @@ function TabLayout() {
           name="ulubione"
           options={{
             title: 'Ulubione',
+            headerShown: false,
             tabBarIcon: ({ color, size }) => (
               <Ionicons name="star" size={size} color={color} />
             ),
@@ -102,6 +103,7 @@ function TabLayout() {
           name="ustawienia"
           options={{
             title: 'Ustawienia',
+            headerShown: false,
             tabBarIcon: ({ color, size }) => (
               <Ionicons name="settings" size={size} color={color} />
             ),

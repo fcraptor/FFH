@@ -38,6 +38,8 @@
 - 2026-05-10: Dodano moduł `Karty ratownicze` zintegrowany z ekranem `Akcja` oraz routingiem `akcja/karty-ratownicze`, z trybami `Model` i `Rejestracja`, helperami URL, walidacją lokalną i clipboard dla ChatGPT.
 - 2026-05-10: Ulepszono przekazywanie danych do `Rescue Code` i `kartyratownicze.pl` — na natywnym runtime przyciski otwierają ekran WebView z próbą automatycznego uzupełnienia formularzy przez injected JavaScript; jeśli automatyczne przekazanie się nie powiedzie, strona i tak się otwiera. Na web preview działa bezpieczny fallback do otwarcia strony zewnętrznej.
 - 2026-05-10: Dodano fallback UX dla `Rescue Code` — jeśli auto‑uzupełnienie nie powiedzie się, użytkownik dostaje czytelny komunikat, że wartość została skopiowana do schowka i można ją wkleić ręcznie.
+- 2026-05-10: Usunięto górne, systemowe nagłówki na ekranach, gdzie dublowały treść widoku (`Główna`, `Akcja`, `Biuro`, `Ulubione`, `Ustawienia`). Zachowano tylko nagłówki wewnętrzne tam, gdzie były częścią layoutu ekranu.
+- 2026-05-10: Ujednolicono `SafeAreaView` na ekranach aplikacji, aby treść i karty zaczynały się poniżej systemowej belki statusu / powiadomień.
 
 ## Prioritized backlog
 ### P0

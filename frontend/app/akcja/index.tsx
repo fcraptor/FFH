@@ -64,7 +64,7 @@ export default function AkcjaScreen() {
   };
 
   return (
-    <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]} edges={['left', 'right']}>
+    <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]} edges={['top', 'left', 'right']}>
       {/* Tab Selector */}
       <View style={[styles.tabSelector, { backgroundColor: colors.surface }]}>
         <TouchableOpacity
