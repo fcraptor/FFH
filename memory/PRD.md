@@ -40,6 +40,7 @@
 - 2026-05-10: Dodano fallback UX dla `Rescue Code` — jeśli auto‑uzupełnienie nie powiedzie się, użytkownik dostaje czytelny komunikat, że wartość została skopiowana do schowka i można ją wkleić ręcznie.
 - 2026-05-10: Usunięto górne, systemowe nagłówki na ekranach, gdzie dublowały treść widoku (`Główna`, `Akcja`, `Biuro`, `Ulubione`, `Ustawienia`). Zachowano tylko nagłówki wewnętrzne tam, gdzie były częścią layoutu ekranu.
 - 2026-05-10: Ujednolicono `SafeAreaView` na ekranach aplikacji, aby treść i karty zaczynały się poniżej systemowej belki statusu / powiadomień.
+- 2026-05-10: Rozbudowano `Strefę zagrożenia` o zwijany panel parametrów oraz overlay danych o wietrze z Open-Meteo (kierunek + prędkość) zależny od lokalizacji użytkownika lub punktu wskazanego na mapie. Dodano debounce, 10-minutowy cache i obsługę błędów. Uchwyt panelu ma poprawiony touch target i `testID`.
 
 ## Prioritized backlog
 ### P0

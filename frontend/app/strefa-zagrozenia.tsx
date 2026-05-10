@@ -520,7 +520,7 @@ export default function StrefaZagrozenia() {
           )}
         />
 
-        <View pointerEvents="none" style={[styles.windOverlay, { backgroundColor: colors.card, borderColor: colors.border }]}> 
+        <View pointerEvents="none" testID="hazard-wind-overlay" style={[styles.windOverlay, { backgroundColor: colors.card, borderColor: colors.border }]}> 
           {windState.loading ? (
             <ActivityIndicator size="small" color={colors.primary} />
           ) : (
@@ -545,6 +545,7 @@ export default function StrefaZagrozenia() {
       <View style={[styles.controlPanel, { backgroundColor: colors.card }]}> 
         <TouchableOpacity
           onPress={() => setIsPanelCollapsed((prev) => !prev)}
+          testID="hazard-panel-toggle"
           style={[styles.panelToggleHandle, { borderColor: colors.border, backgroundColor: colors.card }]}
         >
           <Ionicons
@@ -796,11 +797,11 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     borderRadius: 999,
     borderWidth: 1,
-    height: 28,
+    height: 44,
     justifyContent: 'center',
     marginTop: 10,
     marginBottom: 8,
-    width: 72,
+    width: 84,
   },
   panelCollapsedSpacer: {
     minHeight: 14,
