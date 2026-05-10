@@ -1,4 +1,4 @@
-import React, { useState, useRef, useCallback, useMemo } from 'react';
+import React, { useState, useRef, useCallback, useMemo, useEffect } from 'react';
 import {
   View,
   Text,
@@ -17,6 +17,7 @@ import * as Location from 'expo-location';
 import { useTheme } from '../src/contexts/ThemeContext';
 
 const { height: SCREEN_HEIGHT } = Dimensions.get('window');
+const WIND_CACHE_DURATION_MS = 10 * 60 * 1000;
 
 interface RangeItem {
   id: number;
@@ -30,11 +31,34 @@ interface SelectedPoint {
   lng: number;
 }
 
+interface WindState {
+  directionDegrees: number | null;
+  directionLabel: string;
+  error: string;
+  loading: boolean;
+  speedKmh: number | null;
+}
+
 type SelectionMode = 'geolocation' | 'map-point';
 type MapView = 'osm' | 'satellite';
 
 const MAP_BASE_URL = 'https://firefighter-helper.local';
 const MAP_REFERRER_POLICY = 'strict-origin-when-cross-origin';
+
+const getWindDirectionCardinal = (degrees: number): string => {
+  const normalized = ((degrees % 360) + 360) % 360;
+
+  if (normalized >= 337.5 || normalized < 22.5) return 'N';
+  if (normalized < 67.5) return 'NE';
+  if (normalized < 112.5) return 'E';
+  if (normalized < 157.5) return 'SE';
+  if (normalized < 202.5) return 'S';
+  if (normalized < 247.5) return 'SW';
+  if (normalized < 292.5) return 'W';
+  return 'NW';
+};
+
+const buildWindCacheKey = (lat: number, lng: number): string => `${lat.toFixed(3)}:${lng.toFixed(3)}`;
 
 export default function StrefaZagrozenia() {
   const { colors } = useTheme();
@@ -53,7 +77,17 @@ export default function StrefaZagrozenia() {
   ]);
   const [errors, setErrors] = useState<{ [key: string]: string }>({});
   const [isLoading, setIsLoading] = useState(false);
+  const [isPanelCollapsed, setIsPanelCollapsed] = useState(false);
   const [, setMapReady] = useState(false);
+  const [windState, setWindState] = useState<WindState>({
+    directionDegrees: null,
+    directionLabel: '—',
+    error: '',
+    loading: false,
+    speedKmh: null,
+  });
+  const windCacheRef = useRef<Map<string, { timestamp: number; value: Omit<WindState, 'loading' | 'error'> }>>(new Map());
+  const windDebounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Leaflet HTML content
   const leafletHTML = useMemo(() => `
@@ -209,6 +243,116 @@ export default function StrefaZagrozenia() {
     }
   }, [mode]);
 
+  const fetchWindData = useCallback(async (lat: number, lng: number) => {
+    const cacheKey = buildWindCacheKey(lat, lng);
+    const cached = windCacheRef.current.get(cacheKey);
+
+    if (cached && Date.now() - cached.timestamp < WIND_CACHE_DURATION_MS) {
+      setWindState({ ...cached.value, error: '', loading: false });
+      return;
+    }
+
+    setWindState((prev) => ({ ...prev, error: '', loading: true }));
+
+    try {
+      const response = await fetch(
+        `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}&current_weather=true`
+      );
+
+      if (!response.ok) {
+        throw new Error('WIND_REQUEST_FAILED');
+      }
+
+      const payload = await response.json();
+      const currentWeather = payload?.current_weather;
+
+      if (
+        !currentWeather ||
+        typeof currentWeather.windspeed !== 'number' ||
+        typeof currentWeather.winddirection !== 'number'
+      ) {
+        throw new Error('WIND_DATA_UNAVAILABLE');
+      }
+
+      const nextValue = {
+        directionDegrees: currentWeather.winddirection,
+        directionLabel: getWindDirectionCardinal(currentWeather.winddirection),
+        speedKmh: Math.round(currentWeather.windspeed),
+      };
+
+      windCacheRef.current.set(cacheKey, {
+        timestamp: Date.now(),
+        value: nextValue,
+      });
+
+      setWindState({ ...nextValue, error: '', loading: false });
+    } catch {
+      setWindState({
+        directionDegrees: null,
+        directionLabel: '—',
+        error: 'Brak danych o wietrze',
+        loading: false,
+        speedKmh: null,
+      });
+    }
+  }, []);
+
+  const scheduleWindFetch = useCallback((lat: number, lng: number) => {
+    if (windDebounceRef.current) {
+      clearTimeout(windDebounceRef.current);
+    }
+
+    windDebounceRef.current = setTimeout(() => {
+      fetchWindData(lat, lng);
+    }, 500);
+  }, [fetchWindData]);
+
+  const updateWindFromCurrentLocation = useCallback(async () => {
+    try {
+      const { status } = await Location.requestForegroundPermissionsAsync();
+      if (status !== 'granted') {
+        setWindState({
+          directionDegrees: null,
+          directionLabel: '—',
+          error: 'Brak dostępu do lokalizacji',
+          loading: false,
+          speedKmh: null,
+        });
+        return;
+      }
+
+      const location = await Location.getCurrentPositionAsync({
+        accuracy: Location.Accuracy.Balanced,
+      });
+
+      scheduleWindFetch(location.coords.latitude, location.coords.longitude);
+    } catch {
+      setWindState({
+        directionDegrees: null,
+        directionLabel: '—',
+        error: 'Brak internetu lub danych',
+        loading: false,
+        speedKmh: null,
+      });
+    }
+  }, [scheduleWindFetch]);
+
+  useEffect(() => {
+    if (mode === 'geolocation') {
+      updateWindFromCurrentLocation();
+    } else if (mode === 'map-point' && selectedPoint) {
+      scheduleWindFetch(selectedPoint.lat, selectedPoint.lng);
+    }
+  }, [mode, scheduleWindFetch, selectedPoint, updateWindFromCurrentLocation]);
+
+  useEffect(() => {
+    return () => {
+      if (windDebounceRef.current) {
+        clearTimeout(windDebounceRef.current);
+      }
+    };
+  }, []);
+
   // Switch map layer
   const switchMapLayer = (layer: MapView) => {
     setMapView(layer);
@@ -299,6 +443,7 @@ export default function StrefaZagrozenia() {
         return;
       }
       setSelectedPoint(centerPoint);
+      scheduleWindFetch(centerPoint.lat, centerPoint.lng);
     }
 
     if (!centerPoint) {
@@ -357,7 +502,7 @@ export default function StrefaZagrozenia() {
       </View>
 
       {/* Map */}
-      <View style={styles.mapContainer}>
+      <View style={[styles.mapContainer, isPanelCollapsed ? styles.mapContainerCollapsed : styles.mapContainerExpanded]}>
         <WebView
           ref={webViewRef}
           source={{ html: leafletHTML, baseUrl: MAP_BASE_URL }}
@@ -374,14 +519,47 @@ export default function StrefaZagrozenia() {
             </View>
           )}
         />
+
+        <View pointerEvents="none" style={[styles.windOverlay, { backgroundColor: colors.card, borderColor: colors.border }]}> 
+          {windState.loading ? (
+            <ActivityIndicator size="small" color={colors.primary} />
+          ) : (
+            <>
+              <Ionicons
+                name="arrow-up"
+                size={18}
+                color={colors.primary}
+                style={{ transform: [{ rotate: `${windState.directionDegrees ?? 0}deg` }] }}
+              />
+              <Text style={[styles.windSpeed, { color: colors.text }]}>
+                {windState.speedKmh !== null ? `${windState.speedKmh} km/h` : '—'}
+              </Text>
+              <Text style={[styles.windDirection, { color: colors.textSecondary }]}>{windState.directionLabel}</Text>
+              {windState.error ? <Text style={[styles.windError, { color: colors.error }]}>{windState.error}</Text> : null}
+            </>
+          )}
+        </View>
       </View>
 
       {/* Control Panel */}
-      <ScrollView 
-        style={[styles.controlPanel, { backgroundColor: colors.card }]}
-        contentContainerStyle={[styles.controlPanelContent, { paddingBottom: 20 + insets.bottom }]}
-        showsVerticalScrollIndicator={false}
-      >
+      <View style={[styles.controlPanel, { backgroundColor: colors.card }]}> 
+        <TouchableOpacity
+          onPress={() => setIsPanelCollapsed((prev) => !prev)}
+          style={[styles.panelToggleHandle, { borderColor: colors.border, backgroundColor: colors.card }]}
+        >
+          <Ionicons
+            name={isPanelCollapsed ? 'chevron-up' : 'chevron-down'}
+            size={18}
+            color={colors.textSecondary}
+          />
+        </TouchableOpacity>
+
+        {!isPanelCollapsed ? (
+          <ScrollView 
+            style={styles.controlPanelScroll}
+            contentContainerStyle={[styles.controlPanelContent, { paddingBottom: 20 + insets.bottom }]}
+            showsVerticalScrollIndicator={false}
+          >
         {/* Mode Selection */}
         <Text style={[styles.sectionTitle, { color: colors.text }]}>Wybór środka strefy</Text>
         <View style={styles.modeButtons}>
@@ -546,7 +724,11 @@ export default function StrefaZagrozenia() {
             <Text style={[styles.secondaryButtonText, { color: colors.text }]}>Wyczyść</Text>
           </TouchableOpacity>
         </View>
-      </ScrollView>
+          </ScrollView>
+        ) : (
+          <View style={[styles.panelCollapsedSpacer, { paddingBottom: 8 + insets.bottom }]} />
+        )}
+      </View>
     </SafeAreaView>
   );
 }
@@ -578,8 +760,15 @@ const styles = StyleSheet.create({
     width: 40,
   },
   mapContainer: {
+    position: 'relative',
+  },
+  mapContainerExpanded: {
     height: SCREEN_HEIGHT * 0.4,
     minHeight: 250,
+  },
+  mapContainerCollapsed: {
+    flex: 1,
+    minHeight: 260,
   },
   map: {
     flex: 1,
@@ -591,13 +780,30 @@ const styles = StyleSheet.create({
     backgroundColor: '#f0f0f0',
   },
   controlPanel: {
-    flex: 1,
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
     marginTop: -16,
+    overflow: 'hidden',
+  },
+  controlPanelScroll: {
+    flexGrow: 0,
   },
   controlPanelContent: {
     padding: 20,
+  },
+  panelToggleHandle: {
+    alignItems: 'center',
+    alignSelf: 'center',
+    borderRadius: 999,
+    borderWidth: 1,
+    height: 28,
+    justifyContent: 'center',
+    marginTop: 10,
+    marginBottom: 8,
+    width: 72,
+  },
+  panelCollapsedSpacer: {
+    minHeight: 14,
   },
   sectionTitle: {
     fontSize: 16,
@@ -736,6 +942,32 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 16,
     fontWeight: '700',
+  },
+  windOverlay: {
+    alignItems: 'center',
+    borderRadius: 14,
+    borderWidth: 1,
+    minWidth: 96,
+    paddingHorizontal: 10,
+    paddingVertical: 8,
+    position: 'absolute',
+    right: 12,
+    top: 12,
+  },
+  windSpeed: {
+    fontSize: 12,
+    fontWeight: '700',
+    marginTop: 4,
+  },
+  windDirection: {
+    fontSize: 11,
+    fontWeight: '600',
+    marginTop: 2,
+  },
+  windError: {
+    fontSize: 10,
+    marginTop: 4,
+    textAlign: 'center',
   },
   secondaryButton: {
     flexDirection: 'row',
