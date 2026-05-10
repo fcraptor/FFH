@@ -542,7 +542,13 @@ export default function StrefaZagrozenia() {
       </View>
 
       {/* Control Panel */}
-      <View style={[styles.controlPanel, { backgroundColor: colors.card }]}> 
+      <View
+        style={[
+          styles.controlPanel,
+          isPanelCollapsed ? styles.controlPanelCollapsed : styles.controlPanelExpanded,
+          { backgroundColor: colors.card },
+        ]}
+      > 
         <TouchableOpacity
           onPress={() => setIsPanelCollapsed((prev) => !prev)}
           testID="hazard-panel-toggle"
@@ -781,14 +787,19 @@ const styles = StyleSheet.create({
     backgroundColor: '#f0f0f0',
   },
   controlPanel: {
-    flex: 1,
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
     marginTop: -16,
     overflow: 'hidden',
   },
+  controlPanelExpanded: {
+    maxHeight: SCREEN_HEIGHT * 0.48,
+  },
+  controlPanelCollapsed: {
+    maxHeight: 40,
+  },
   controlPanelScroll: {
-    flex: 1,
+    maxHeight: SCREEN_HEIGHT * 0.44,
   },
   controlPanelContent: {
     paddingHorizontal: 14,
@@ -806,7 +817,7 @@ const styles = StyleSheet.create({
     width: 34,
   },
   panelCollapsedSpacer: {
-    minHeight: 6,
+    minHeight: 8,
   },
   sectionTitle: {
     fontSize: 15,
