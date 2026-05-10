@@ -59,6 +59,10 @@ export default function AkcjaScreen() {
     } as any);
   };
 
+  const handleRescueCardsPress = () => {
+    router.push('/akcja/karty-ratownicze' as any);
+  };
+
   return (
     <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]} edges={['left', 'right']}>
       {/* Tab Selector */}
@@ -110,6 +114,22 @@ export default function AkcjaScreen() {
       <ScrollView style={styles.scrollView} contentContainerStyle={styles.scrollContent}>
         {activeTab === 'pomocnik' ? (
           <>
+            <TouchableOpacity
+              style={[styles.rescueCardsButton, { backgroundColor: colors.card, borderColor: colors.border }]}
+              onPress={handleRescueCardsPress}
+              activeOpacity={0.85}
+              testID="open-rescue-cards-button"
+            >
+              <View style={[styles.rescueCardsIcon, { backgroundColor: colors.primary }]}>
+                <Ionicons name="car-sport" size={24} color="#FFFFFF" />
+              </View>
+              <View style={styles.rescueCardsContent}>
+                <Text style={[styles.rescueCardsTitle, { color: colors.text }]}>Karty ratownicze</Text>
+                <Text style={[styles.rescueCardsSubtitle, { color: colors.textSecondary }]}>Wyszukaj kartę po modelu lub rejestracji</Text>
+              </View>
+              <Ionicons name="chevron-forward" size={24} color={colors.textSecondary} />
+            </TouchableOpacity>
+
             <Text style={[styles.sectionTitle, { color: colors.text }]}>Szybki pomocnik</Text>
             <Text style={[styles.sectionSubtitle, { color: colors.textSecondary }]}>
               Wybierz kategorię aby zobaczyć materiały
@@ -200,6 +220,35 @@ const styles = StyleSheet.create({
     fontSize: 14,
     paddingHorizontal: 16,
     marginBottom: 16,
+  },
+  rescueCardsButton: {
+    alignItems: 'center',
+    borderRadius: 16,
+    borderWidth: 1,
+    flexDirection: 'row',
+    gap: 14,
+    marginHorizontal: 16,
+    marginBottom: 16,
+    padding: 16,
+  },
+  rescueCardsIcon: {
+    alignItems: 'center',
+    borderRadius: 14,
+    height: 52,
+    justifyContent: 'center',
+    width: 52,
+  },
+  rescueCardsContent: {
+    flex: 1,
+  },
+  rescueCardsTitle: {
+    fontSize: 17,
+    fontWeight: '800',
+    marginBottom: 2,
+  },
+  rescueCardsSubtitle: {
+    fontSize: 13,
+    lineHeight: 18,
   },
   categoriesGrid: {
     flexDirection: 'row',

@@ -37,6 +37,12 @@ export default function AkcjaLayout() {
         }}
       />
       <Stack.Screen
+        name="karty-ratownicze"
+        options={{
+          title: 'Karty ratownicze',
+        }}
+      />
+      <Stack.Screen
         name="pdf-viewer"
         options={{
           title: 'Dokument',
