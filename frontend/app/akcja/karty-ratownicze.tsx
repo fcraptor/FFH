@@ -11,6 +11,7 @@ import {
   TextInput,
   View,
 } from 'react-native';
+import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import * as Clipboard from 'expo-clipboard';
 
@@ -26,6 +27,7 @@ type RescueSearchMode = 'model' | 'registration';
 
 export default function KartyRatowniczeScreen() {
   const { colors } = useTheme();
+  const router = useRouter();
   const [mode, setMode] = useState<RescueSearchMode>('model');
   const [query, setQuery] = useState('');
   const [error, setError] = useState('');
@@ -84,14 +86,36 @@ export default function KartyRatowniczeScreen() {
     const trimmed = validate();
     if (!trimmed) return;
 
-    await openExternalUrl(buildRescueCodeUrl(trimmed));
+    try {
+      await Clipboard.setStringAsync(trimmed);
+    } catch {
+      // Ignore clipboard errors for fallback convenience.
+    }
+
+    if (Platform.OS === 'web') {
+      await openExternalUrl(buildRescueCodeUrl(trimmed));
+      return;
+    }
+
+    router.push({ pathname: '/akcja/ratownicze-webview', params: { target: 'rescue-code', query: trimmed } } as any);
   };
 
   const handleRegistrationSearch = async () => {
     const trimmed = validate();
     if (!trimmed) return;
 
-    await openExternalUrl(buildKartyRatowniczeUrl(trimmed));
+    try {
+      await Clipboard.setStringAsync(trimmed);
+    } catch {
+      // Ignore clipboard errors for fallback convenience.
+    }
+
+    if (Platform.OS === 'web') {
+      await openExternalUrl(buildKartyRatowniczeUrl(trimmed));
+      return;
+    }
+
+    router.push({ pathname: '/akcja/ratownicze-webview', params: { target: 'karty-ratownicze', query: trimmed } } as any);
   };
 
   return (

@@ -43,6 +43,12 @@ export default function AkcjaLayout() {
         }}
       />
       <Stack.Screen
+        name="ratownicze-webview"
+        options={{
+          title: 'Wyszukiwanie',
+        }}
+      />
+      <Stack.Screen
         name="pdf-viewer"
         options={{
           title: 'Dokument',
