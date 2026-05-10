@@ -109,6 +109,7 @@ export default function KartyRatowniczeScreen() {
           <View style={[styles.segmentedControl, { backgroundColor: colors.surface, borderColor: colors.border }]}> 
             <Pressable
               onPress={() => handleModeChange('model')}
+              testID="rescue-mode-model"
               style={[
                 styles.segmentButton,
                 mode === 'model' && { backgroundColor: colors.primary },
@@ -119,6 +120,7 @@ export default function KartyRatowniczeScreen() {
 
             <Pressable
               onPress={() => handleModeChange('registration')}
+              testID="rescue-mode-registration"
               style={[
                 styles.segmentButton,
                 mode === 'registration' && { backgroundColor: colors.primary },
