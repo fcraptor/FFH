@@ -41,6 +41,15 @@ export const buildRescueCodeInjectionScript = (vehicleQuery: string): string => 
     (function() {
       const query = ${query};
       if (!query) return true;
+      let hasPostedStatus = false;
+
+      const postStatus = (status) => {
+        if (hasPostedStatus) return;
+        hasPostedStatus = true;
+        if (window.ReactNativeWebView && typeof window.ReactNativeWebView.postMessage === 'function') {
+          window.ReactNativeWebView.postMessage(JSON.stringify({ type: 'prefill-status', target: 'rescue-code', status }));
+        }
+      };
 
       const isVisible = (element) => {
         if (!element) return false;
@@ -70,6 +79,7 @@ export const buildRescueCodeInjectionScript = (vehicleQuery: string): string => 
           searchButton.click();
         }
 
+        postStatus('success');
         return true;
       };
 
@@ -79,6 +89,9 @@ export const buildRescueCodeInjectionScript = (vehicleQuery: string): string => 
         attempts += 1;
         if (fillSearch() || attempts >= maxAttempts) {
           clearInterval(timer);
+          if (attempts >= maxAttempts) {
+            postStatus('failed');
+          }
         }
       }, 700);
 
@@ -95,6 +108,15 @@ export const buildKartyRatowniczeInjectionScript = (registration: string): strin
     (function() {
       const registration = ${query};
       if (!registration) return true;
+      let hasPostedStatus = false;
+
+      const postStatus = (status) => {
+        if (hasPostedStatus) return;
+        hasPostedStatus = true;
+        if (window.ReactNativeWebView && typeof window.ReactNativeWebView.postMessage === 'function') {
+          window.ReactNativeWebView.postMessage(JSON.stringify({ type: 'prefill-status', target: 'karty-ratownicze', status }));
+        }
+      };
 
       const isVisible = (element) => {
         if (!element) return false;
@@ -127,6 +149,7 @@ export const buildKartyRatowniczeInjectionScript = (registration: string): strin
           form.submit();
         }
 
+        postStatus('success');
         return true;
       };
 
@@ -136,6 +159,9 @@ export const buildKartyRatowniczeInjectionScript = (registration: string): strin
         attempts += 1;
         if (fillSearch() || attempts >= maxAttempts) {
           clearInterval(timer);
+          if (attempts >= maxAttempts) {
+            postStatus('failed');
+          }
         }
       }, 500);
 

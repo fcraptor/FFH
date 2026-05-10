@@ -37,6 +37,7 @@
 - 2026-04-08: Naprawiono wyświetlanie obrazów w `KPP` zarówno na liście kart, jak i w pełnym podglądzie modala. Zamiast zagnieżdżonego viewer’a w modalu KPP obraz jest renderowany bezpośrednio, dzięki czemu jest od razu widoczny.
 - 2026-05-10: Dodano moduł `Karty ratownicze` zintegrowany z ekranem `Akcja` oraz routingiem `akcja/karty-ratownicze`, z trybami `Model` i `Rejestracja`, helperami URL, walidacją lokalną i clipboard dla ChatGPT.
 - 2026-05-10: Ulepszono przekazywanie danych do `Rescue Code` i `kartyratownicze.pl` — na natywnym runtime przyciski otwierają ekran WebView z próbą automatycznego uzupełnienia formularzy przez injected JavaScript; jeśli automatyczne przekazanie się nie powiedzie, strona i tak się otwiera. Na web preview działa bezpieczny fallback do otwarcia strony zewnętrznej.
+- 2026-05-10: Dodano fallback UX dla `Rescue Code` — jeśli auto‑uzupełnienie nie powiedzie się, użytkownik dostaje czytelny komunikat, że wartość została skopiowana do schowka i można ją wkleić ręcznie.
 
 ## Prioritized backlog
 ### P0
