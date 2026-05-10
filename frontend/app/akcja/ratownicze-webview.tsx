@@ -53,7 +53,7 @@ export default function RatowniczeWebViewScreen() {
           <Text style={[styles.fallbackText, { color: colors.textSecondary }]}> 
             Otworzę stronę i przekażę tekst tam, gdzie jest to możliwe. Jeśli serwis nie przyjmie danych automatycznie, strona nadal się otworzy.
           </Text>
-          <Pressable onPress={openInBrowser} style={[styles.openButton, { backgroundColor: colors.primary }]}>
+          <Pressable testID="open-external-search-button" onPress={openInBrowser} style={[styles.openButton, { backgroundColor: colors.primary }]}>
             <Text style={styles.openButtonText}>Otwórz stronę</Text>
           </Pressable>
         </View>
