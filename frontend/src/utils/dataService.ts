@@ -2,7 +2,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import axios from 'axios';
 import * as FileSystem from 'expo-file-system/legacy';
 import { Platform } from 'react-native';
-import { SzybkiPomocnikData, ContentItem, CategoryMetaData, SubItem, ImageItem } from '../types';
+import { SzybkiPomocnikData, ContentItem, CategoryMetaData, SubItem, ImageItem, CalculatorConfigRecord, CalculatorFieldRecord } from '../types';
 
 // Google Sheets configuration - direct access without backend
 const GOOGLE_SHEET_ID = '1hy7Mfdwf8QxF59XT64eSp0EgctMTy7hO9oXoYUyRXZA';
@@ -11,6 +11,8 @@ const CACHE_KEYS = {
   SZYBKI_POMOCNIK: '@firefighter_szybki_pomocnik',
   PROCEDURY: '@firefighter_procedury',
   BIURO: '@firefighter_biuro',
+  CALCULATORS: '@firefighter_calculators',
+  CALCULATOR_FIELDS: '@firefighter_calculator_fields',
   CATEGORIES: '@firefighter_categories',
   LAST_SYNC: '@firefighter_last_sync',
   HAS_INITIAL_DATA: '@firefighter_has_initial_data',
@@ -457,6 +459,11 @@ const parseSzybkiPomocnikCSV = (csvText: string): SzybkiPomocnikData => {
         type: 'pdf_link',
         url: pdfUrl,
       } as ContentItem;
+    } else if (typ === 'kalkulator' || typ === 'calculator') {
+      result[kategoriaKey][klucz] = {
+        type: 'calculator',
+        calculator_id: tresc,
+      } as ContentItem;
     } else {
       // Text type - check if entry exists
       if (result[kategoriaKey][klucz]) {
@@ -516,6 +523,24 @@ const parseProceduryCSV = (csvText: string): any[] => {
       ikona: row['ikona']?.trim() || 'document-text', // Default icon
     };
   }).filter(item => item.tytul && item.pdf_link);
+};
+
+const parseCalculatorConfigCSV = (csvText: string): CalculatorConfigRecord[] => {
+  const rows = parseCSV(csvText);
+
+  return rows
+    .filter((row) => row.calculator_id?.trim())
+    .filter((row) => (row.status?.trim().toLowerCase() || 'active') !== 'hidden')
+    .map((row) => ({ ...row })) as CalculatorConfigRecord[];
+};
+
+const parseCalculatorFieldsCSV = (csvText: string): CalculatorFieldRecord[] => {
+  const rows = parseCSV(csvText);
+
+  return rows
+    .filter((row) => row.field_id?.trim() && row.calculator_id?.trim())
+    .filter((row) => (row.status?.trim().toLowerCase() || 'active') !== 'hidden')
+    .map((row) => ({ ...row })) as CalculatorFieldRecord[];
 };
 
 // Parse biuro CSV data
@@ -674,6 +699,60 @@ export const fetchBiuro = async (forceRefresh = false): Promise<any | null> => {
   }
 };
 
+export const fetchCalculators = async (forceRefresh = false): Promise<CalculatorConfigRecord[]> => {
+  try {
+    if (!forceRefresh) {
+      const cached = await AsyncStorage.getItem(CACHE_KEYS.CALCULATORS);
+      if (cached) {
+        return JSON.parse(cached);
+      }
+    }
+
+    const csvText = await fetchFromGoogleSheets('calculators');
+    const data = parseCalculatorConfigCSV(csvText);
+    await AsyncStorage.setItem(CACHE_KEYS.CALCULATORS, JSON.stringify(data));
+    return data;
+  } catch (error) {
+    console.error('Error fetching calculators:', error);
+
+    try {
+      const cached = await AsyncStorage.getItem(CACHE_KEYS.CALCULATORS);
+      if (cached) {
+        return JSON.parse(cached);
+      }
+    } catch {}
+
+    return [];
+  }
+};
+
+export const fetchCalculatorFields = async (forceRefresh = false): Promise<CalculatorFieldRecord[]> => {
+  try {
+    if (!forceRefresh) {
+      const cached = await AsyncStorage.getItem(CACHE_KEYS.CALCULATOR_FIELDS);
+      if (cached) {
+        return JSON.parse(cached);
+      }
+    }
+
+    const csvText = await fetchFromGoogleSheets('calculator_fields');
+    const data = parseCalculatorFieldsCSV(csvText);
+    await AsyncStorage.setItem(CACHE_KEYS.CALCULATOR_FIELDS, JSON.stringify(data));
+    return data;
+  } catch (error) {
+    console.error('Error fetching calculator fields:', error);
+
+    try {
+      const cached = await AsyncStorage.getItem(CACHE_KEYS.CALCULATOR_FIELDS);
+      if (cached) {
+        return JSON.parse(cached);
+      }
+    } catch {}
+
+    return [];
+  }
+};
+
 // Category metadata interface
 export interface CategoryMeta {
   key: string;
@@ -736,6 +815,8 @@ export const syncAllData = async (): Promise<boolean> => {
       fetchSzybkiPomocnik(true),
       fetchProcedury(true),
       fetchBiuro(true),
+      fetchCalculators(true),
+      fetchCalculatorFields(true),
     ]);
     return true;
   } catch (error) {
@@ -749,6 +830,8 @@ export const downloadAkcjaDataForOffline = async (): Promise<{ success: boolean;
     const [szybkiPomocnikData, proceduryData] = await Promise.all([
       fetchSzybkiPomocnik(true),
       fetchProcedury(true),
+      fetchCalculators(true),
+      fetchCalculatorFields(true),
     ]);
 
     if (!szybkiPomocnikData || !proceduryData) {
@@ -819,6 +902,8 @@ export const clearCache = async (): Promise<void> => {
     CACHE_KEYS.SZYBKI_POMOCNIK,
     CACHE_KEYS.PROCEDURY,
     CACHE_KEYS.BIURO,
+    CACHE_KEYS.CALCULATORS,
+    CACHE_KEYS.CALCULATOR_FIELDS,
     CACHE_KEYS.CATEGORIES,
     CACHE_KEYS.LAST_SYNC,
     CACHE_KEYS.HAS_INITIAL_DATA,

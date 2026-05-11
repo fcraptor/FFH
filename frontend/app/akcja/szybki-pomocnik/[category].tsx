@@ -19,6 +19,7 @@ import { useUsage } from '../../../src/contexts/UsageContext';
 import { fetchSzybkiPomocnik, getFullImageUrl } from '../../../src/utils/dataService';
 import { getCategoryIcon, getCategoryColor } from '../../../src/utils/categoryConfig';
 import { SzybkiPomocnikData, ContentItem, CategoryMetaData, SubItem } from '../../../src/types';
+import { DynamicCalculatorScreen } from '../../../src/components/calculators/DynamicCalculatorScreen';
 import { ZoomableImage } from '../../../src/components/ZoomableImage';
 import { MarkdownText } from '../../../src/components/MarkdownText';
 
@@ -206,6 +207,15 @@ export default function CategoryDetailScreen() {
         <Text style={[styles.contentText, { color: colors.textSecondary }]}>
           Brak treści
         </Text>
+      );
+    }
+
+    if (content.type === 'calculator') {
+      return (
+        <DynamicCalculatorScreen
+          calculatorId={content.calculator_id}
+          colors={colors}
+        />
       );
     }
 
