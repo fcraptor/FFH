@@ -1,0 +1,5346 @@
+{
+  "generatedFrom": "hydrants.sqlite",
+  "count": 380,
+  "items": [
+    {
+      "teryt": "0661",
+      "displayName": "powiat Biała Podlaska",
+      "powiatName": "Biała Podlaska",
+      "normalizedName": "powiat biala podlaska",
+      "slug": "biala-podlaska",
+      "fileNameGeoJSON": "0661_biala-podlaska.geojson",
+      "fileNameSQLite": "0661_biala-podlaska.sqlite",
+      "hydrantsCount": 131,
+      "aliases": [
+        "biala podlaska",
+        "biala-podlaska",
+        "powiat biala podlaska"
+      ]
+    },
+    {
+      "teryt": "2061",
+      "displayName": "powiat Białystok",
+      "powiatName": "Białystok",
+      "normalizedName": "powiat bialystok",
+      "slug": "bialystok",
+      "fileNameGeoJSON": "2061_bialystok.geojson",
+      "fileNameSQLite": "2061_bialystok.sqlite",
+      "hydrantsCount": 1018,
+      "aliases": [
+        "bialystok",
+        "powiat bialystok"
+      ]
+    },
+    {
+      "teryt": "2461",
+      "displayName": "powiat Bielsko-Biała",
+      "powiatName": "Bielsko-Biała",
+      "normalizedName": "powiat bielsko-biala",
+      "slug": "bielsko-biala",
+      "fileNameGeoJSON": "2461_bielsko-biala.geojson",
+      "fileNameSQLite": "2461_bielsko-biala.sqlite",
+      "hydrantsCount": 1346,
+      "aliases": [
+        "bielsko biala",
+        "bielsko-biala",
+        "powiat bielsko-biala"
+      ]
+    },
+    {
+      "teryt": "0461",
+      "displayName": "powiat Bydgoszcz",
+      "powiatName": "Bydgoszcz",
+      "normalizedName": "powiat bydgoszcz",
+      "slug": "bydgoszcz",
+      "fileNameGeoJSON": "0461_bydgoszcz.geojson",
+      "fileNameSQLite": "0461_bydgoszcz.sqlite",
+      "hydrantsCount": 1848,
+      "aliases": [
+        "bydgoszcz",
+        "powiat bydgoszcz"
+      ]
+    },
+    {
+      "teryt": "2462",
+      "displayName": "powiat Bytom",
+      "powiatName": "Bytom",
+      "normalizedName": "powiat bytom",
+      "slug": "bytom",
+      "fileNameGeoJSON": "2462_bytom.geojson",
+      "fileNameSQLite": "2462_bytom.sqlite",
+      "hydrantsCount": 178,
+      "aliases": [
+        "bytom",
+        "powiat bytom"
+      ]
+    },
+    {
+      "teryt": "0662",
+      "displayName": "powiat Chełm",
+      "powiatName": "Chełm",
+      "normalizedName": "powiat chelm",
+      "slug": "chelm",
+      "fileNameGeoJSON": "0662_chelm.geojson",
+      "fileNameSQLite": "0662_chelm.sqlite",
+      "hydrantsCount": 905,
+      "aliases": [
+        "chelm",
+        "powiat chelm"
+      ]
+    },
+    {
+      "teryt": "2463",
+      "displayName": "powiat Chorzów",
+      "powiatName": "Chorzów",
+      "normalizedName": "powiat chorzow",
+      "slug": "chorzow",
+      "fileNameGeoJSON": "2463_chorzow.geojson",
+      "fileNameSQLite": "2463_chorzow.sqlite",
+      "hydrantsCount": 513,
+      "aliases": [
+        "chorzow",
+        "powiat chorzow"
+      ]
+    },
+    {
+      "teryt": "2464",
+      "displayName": "powiat Częstochowa",
+      "powiatName": "Częstochowa",
+      "normalizedName": "powiat czestochowa",
+      "slug": "czestochowa",
+      "fileNameGeoJSON": "2464_czestochowa.geojson",
+      "fileNameSQLite": "2464_czestochowa.sqlite",
+      "hydrantsCount": 670,
+      "aliases": [
+        "czestochowa",
+        "powiat czestochowa"
+      ]
+    },
+    {
+      "teryt": "2465",
+      "displayName": "powiat Dąbrowa Górnicza",
+      "powiatName": "Dąbrowa Górnicza",
+      "normalizedName": "powiat dabrowa gornicza",
+      "slug": "dabrowa-gornicza",
+      "fileNameGeoJSON": "2465_dabrowa-gornicza.geojson",
+      "fileNameSQLite": "2465_dabrowa-gornicza.sqlite",
+      "hydrantsCount": 94,
+      "aliases": [
+        "dabrowa gornicza",
+        "dabrowa-gornicza",
+        "powiat dabrowa gornicza"
+      ]
+    },
+    {
+      "teryt": "2861",
+      "displayName": "powiat Elbląg",
+      "powiatName": "Elbląg",
+      "normalizedName": "powiat elblag",
+      "slug": "elblag",
+      "fileNameGeoJSON": "2861_elblag.geojson",
+      "fileNameSQLite": "2861_elblag.sqlite",
+      "hydrantsCount": 588,
+      "aliases": [
+        "elblag",
+        "powiat elblag"
+      ]
+    },
+    {
+      "teryt": "2261",
+      "displayName": "powiat Gdańsk",
+      "powiatName": "Gdańsk",
+      "normalizedName": "powiat gdansk",
+      "slug": "gdansk",
+      "fileNameGeoJSON": "2261_gdansk.geojson",
+      "fileNameSQLite": "2261_gdansk.sqlite",
+      "hydrantsCount": 2812,
+      "aliases": [
+        "gdansk",
+        "powiat gdansk"
+      ]
+    },
+    {
+      "teryt": "2262",
+      "displayName": "powiat Gdynia",
+      "powiatName": "Gdynia",
+      "normalizedName": "powiat gdynia",
+      "slug": "gdynia",
+      "fileNameGeoJSON": "2262_gdynia.geojson",
+      "fileNameSQLite": "2262_gdynia.sqlite",
+      "hydrantsCount": 1631,
+      "aliases": [
+        "gdynia",
+        "powiat gdynia"
+      ]
+    },
+    {
+      "teryt": "2466",
+      "displayName": "powiat Gliwice",
+      "powiatName": "Gliwice",
+      "normalizedName": "powiat gliwice",
+      "slug": "gliwice",
+      "fileNameGeoJSON": "2466_gliwice.geojson",
+      "fileNameSQLite": "2466_gliwice.sqlite",
+      "hydrantsCount": 4409,
+      "aliases": [
+        "gliwice",
+        "powiat gliwice"
+      ]
+    },
+    {
+      "teryt": "0861",
+      "displayName": "powiat Gorzów Wielkopolski",
+      "powiatName": "Gorzów Wielkopolski",
+      "normalizedName": "powiat gorzow wielkopolski",
+      "slug": "gorzow-wielkopolski",
+      "fileNameGeoJSON": "0861_gorzow-wielkopolski.geojson",
+      "fileNameSQLite": "0861_gorzow-wielkopolski.sqlite",
+      "hydrantsCount": 233,
+      "aliases": [
+        "gorzow wielkopolski",
+        "gorzow-wielkopolski",
+        "powiat gorzow wielkopolski"
+      ]
+    },
+    {
+      "teryt": "0462",
+      "displayName": "powiat Grudziądz",
+      "powiatName": "Grudziądz",
+      "normalizedName": "powiat grudziadz",
+      "slug": "grudziadz",
+      "fileNameGeoJSON": "0462_grudziadz.geojson",
+      "fileNameSQLite": "0462_grudziadz.sqlite",
+      "hydrantsCount": 1844,
+      "aliases": [
+        "grudziadz",
+        "powiat grudziadz"
+      ]
+    },
+    {
+      "teryt": "2467",
+      "displayName": "powiat Jastrzębie-Zdrój",
+      "powiatName": "Jastrzębie-Zdrój",
+      "normalizedName": "powiat jastrzebie-zdroj",
+      "slug": "jastrzebie-zdroj",
+      "fileNameGeoJSON": "2467_jastrzebie-zdroj.geojson",
+      "fileNameSQLite": "2467_jastrzebie-zdroj.sqlite",
+      "hydrantsCount": 114,
+      "aliases": [
+        "jastrzebie zdroj",
+        "jastrzebie-zdroj",
+        "powiat jastrzebie-zdroj"
+      ]
+    },
+    {
+      "teryt": "2468",
+      "displayName": "powiat Jaworzno",
+      "powiatName": "Jaworzno",
+      "normalizedName": "powiat jaworzno",
+      "slug": "jaworzno",
+      "fileNameGeoJSON": "2468_jaworzno.geojson",
+      "fileNameSQLite": "2468_jaworzno.sqlite",
+      "hydrantsCount": 1744,
+      "aliases": [
+        "jaworzno",
+        "powiat jaworzno"
+      ]
+    },
+    {
+      "teryt": "0261",
+      "displayName": "powiat Jelenia Góra",
+      "powiatName": "Jelenia Góra",
+      "normalizedName": "powiat jelenia gora",
+      "slug": "jelenia-gora",
+      "fileNameGeoJSON": "0261_jelenia-gora.geojson",
+      "fileNameSQLite": "0261_jelenia-gora.sqlite",
+      "hydrantsCount": 96,
+      "aliases": [
+        "jelenia gora",
+        "jelenia-gora",
+        "powiat jelenia gora"
+      ]
+    },
+    {
+      "teryt": "3061",
+      "displayName": "powiat Kalisz",
+      "powiatName": "Kalisz",
+      "normalizedName": "powiat kalisz",
+      "slug": "kalisz",
+      "fileNameGeoJSON": "3061_kalisz.geojson",
+      "fileNameSQLite": "3061_kalisz.sqlite",
+      "hydrantsCount": 297,
+      "aliases": [
+        "kalisz",
+        "powiat kalisz"
+      ]
+    },
+    {
+      "teryt": "2469",
+      "displayName": "powiat Katowice",
+      "powiatName": "Katowice",
+      "normalizedName": "powiat katowice",
+      "slug": "katowice",
+      "fileNameGeoJSON": "2469_katowice.geojson",
+      "fileNameSQLite": "2469_katowice.sqlite",
+      "hydrantsCount": 2373,
+      "aliases": [
+        "katowice",
+        "powiat katowice"
+      ]
+    },
+    {
+      "teryt": "2661",
+      "displayName": "powiat Kielce",
+      "powiatName": "Kielce",
+      "normalizedName": "powiat kielce",
+      "slug": "kielce",
+      "fileNameGeoJSON": "2661_kielce.geojson",
+      "fileNameSQLite": "2661_kielce.sqlite",
+      "hydrantsCount": 2867,
+      "aliases": [
+        "kielce",
+        "powiat kielce"
+      ]
+    },
+    {
+      "teryt": "3062",
+      "displayName": "powiat Konin",
+      "powiatName": "Konin",
+      "normalizedName": "powiat konin",
+      "slug": "konin",
+      "fileNameGeoJSON": "3062_konin.geojson",
+      "fileNameSQLite": "3062_konin.sqlite",
+      "hydrantsCount": 217,
+      "aliases": [
+        "konin",
+        "powiat konin"
+      ]
+    },
+    {
+      "teryt": "3261",
+      "displayName": "powiat Koszalin",
+      "powiatName": "Koszalin",
+      "normalizedName": "powiat koszalin",
+      "slug": "koszalin",
+      "fileNameGeoJSON": "3261_koszalin.geojson",
+      "fileNameSQLite": "3261_koszalin.sqlite",
+      "hydrantsCount": 134,
+      "aliases": [
+        "koszalin",
+        "powiat koszalin"
+      ]
+    },
+    {
+      "teryt": "1261",
+      "displayName": "powiat Kraków",
+      "powiatName": "Kraków",
+      "normalizedName": "powiat krakow",
+      "slug": "krakow",
+      "fileNameGeoJSON": "1261_krakow.geojson",
+      "fileNameSQLite": "1261_krakow.sqlite",
+      "hydrantsCount": 2407,
+      "aliases": [
+        "krakow",
+        "powiat krakow"
+      ]
+    },
+    {
+      "teryt": "1861",
+      "displayName": "powiat Krosno",
+      "powiatName": "Krosno",
+      "normalizedName": "powiat krosno",
+      "slug": "krosno",
+      "fileNameGeoJSON": "1861_krosno.geojson",
+      "fileNameSQLite": "1861_krosno.sqlite",
+      "hydrantsCount": 664,
+      "aliases": [
+        "krosno",
+        "powiat krosno"
+      ]
+    },
+    {
+      "teryt": "0262",
+      "displayName": "powiat Legnica",
+      "powiatName": "Legnica",
+      "normalizedName": "powiat legnica",
+      "slug": "legnica",
+      "fileNameGeoJSON": "0262_legnica.geojson",
+      "fileNameSQLite": "0262_legnica.sqlite",
+      "hydrantsCount": 32,
+      "aliases": [
+        "legnica",
+        "powiat legnica"
+      ]
+    },
+    {
+      "teryt": "3063",
+      "displayName": "powiat Leszno",
+      "powiatName": "Leszno",
+      "normalizedName": "powiat leszno",
+      "slug": "leszno",
+      "fileNameGeoJSON": "3063_leszno.geojson",
+      "fileNameSQLite": "3063_leszno.sqlite",
+      "hydrantsCount": 71,
+      "aliases": [
+        "leszno",
+        "powiat leszno"
+      ]
+    },
+    {
+      "teryt": "0663",
+      "displayName": "powiat Lublin",
+      "powiatName": "Lublin",
+      "normalizedName": "powiat lublin",
+      "slug": "lublin",
+      "fileNameGeoJSON": "0663_lublin.geojson",
+      "fileNameSQLite": "0663_lublin.sqlite",
+      "hydrantsCount": 4121,
+      "aliases": [
+        "lublin",
+        "powiat lublin"
+      ]
+    },
+    {
+      "teryt": "2470",
+      "displayName": "powiat Mysłowice",
+      "powiatName": "Mysłowice",
+      "normalizedName": "powiat myslowice",
+      "slug": "myslowice",
+      "fileNameGeoJSON": "2470_myslowice.geojson",
+      "fileNameSQLite": "2470_myslowice.sqlite",
+      "hydrantsCount": 562,
+      "aliases": [
+        "myslowice",
+        "powiat myslowice"
+      ]
+    },
+    {
+      "teryt": "1262",
+      "displayName": "powiat Nowy Sącz",
+      "powiatName": "Nowy Sącz",
+      "normalizedName": "powiat nowy sacz",
+      "slug": "nowy-sacz",
+      "fileNameGeoJSON": "1262_nowy-sacz.geojson",
+      "fileNameSQLite": "1262_nowy-sacz.sqlite",
+      "hydrantsCount": 1641,
+      "aliases": [
+        "nowy sacz",
+        "nowy-sacz",
+        "powiat nowy sacz"
+      ]
+    },
+    {
+      "teryt": "2862",
+      "displayName": "powiat Olsztyn",
+      "powiatName": "Olsztyn",
+      "normalizedName": "powiat olsztyn",
+      "slug": "olsztyn",
+      "fileNameGeoJSON": "2862_olsztyn.geojson",
+      "fileNameSQLite": "2862_olsztyn.sqlite",
+      "hydrantsCount": 552,
+      "aliases": [
+        "olsztyn",
+        "powiat olsztyn"
+      ]
+    },
+    {
+      "teryt": "1661",
+      "displayName": "powiat Opole",
+      "powiatName": "Opole",
+      "normalizedName": "powiat opole",
+      "slug": "opole",
+      "fileNameGeoJSON": "1661_opole.geojson",
+      "fileNameSQLite": "1661_opole.sqlite",
+      "hydrantsCount": 1452,
+      "aliases": [
+        "opole",
+        "powiat opole"
+      ]
+    },
+    {
+      "teryt": "1461",
+      "displayName": "powiat Ostrołęka",
+      "powiatName": "Ostrołęka",
+      "normalizedName": "powiat ostroleka",
+      "slug": "ostroleka",
+      "fileNameGeoJSON": "1461_ostroleka.geojson",
+      "fileNameSQLite": "1461_ostroleka.sqlite",
+      "hydrantsCount": 136,
+      "aliases": [
+        "ostroleka",
+        "powiat ostroleka"
+      ]
+    },
+    {
+      "teryt": "2471",
+      "displayName": "powiat Piekary Śląskie",
+      "powiatName": "Piekary Śląskie",
+      "normalizedName": "powiat piekary slaskie",
+      "slug": "piekary-slaskie",
+      "fileNameGeoJSON": "2471_piekary-slaskie.geojson",
+      "fileNameSQLite": "2471_piekary-slaskie.sqlite",
+      "hydrantsCount": 649,
+      "aliases": [
+        "piekary slaskie",
+        "piekary-slaskie",
+        "powiat piekary slaskie"
+      ]
+    },
+    {
+      "teryt": "1062",
+      "displayName": "powiat Piotrków Trybunalski",
+      "powiatName": "Piotrków Trybunalski",
+      "normalizedName": "powiat piotrkow trybunalski",
+      "slug": "piotrkow-trybunalski",
+      "fileNameGeoJSON": "1062_piotrkow-trybunalski.geojson",
+      "fileNameSQLite": "1062_piotrkow-trybunalski.sqlite",
+      "hydrantsCount": 911,
+      "aliases": [
+        "piotrkow trybunalski",
+        "piotrkow-trybunalski",
+        "powiat piotrkow trybunalski"
+      ]
+    },
+    {
+      "teryt": "3064",
+      "displayName": "powiat Poznań",
+      "powiatName": "Poznań",
+      "normalizedName": "powiat poznan",
+      "slug": "poznan",
+      "fileNameGeoJSON": "3064_poznan.geojson",
+      "fileNameSQLite": "3064_poznan.sqlite",
+      "hydrantsCount": 8224,
+      "aliases": [
+        "powiat poznan",
+        "poznan"
+      ]
+    },
+    {
+      "teryt": "1862",
+      "displayName": "powiat Przemyśl",
+      "powiatName": "Przemyśl",
+      "normalizedName": "powiat przemysl",
+      "slug": "przemysl",
+      "fileNameGeoJSON": "1862_przemysl.geojson",
+      "fileNameSQLite": "1862_przemysl.sqlite",
+      "hydrantsCount": 154,
+      "aliases": [
+        "powiat przemysl",
+        "przemysl"
+      ]
+    },
+    {
+      "teryt": "1462",
+      "displayName": "powiat Płock",
+      "powiatName": "Płock",
+      "normalizedName": "powiat plock",
+      "slug": "plock",
+      "fileNameGeoJSON": "1462_plock.geojson",
+      "fileNameSQLite": "1462_plock.sqlite",
+      "hydrantsCount": 2126,
+      "aliases": [
+        "plock",
+        "powiat plock"
+      ]
+    },
+    {
+      "teryt": "1463",
+      "displayName": "powiat Radom",
+      "powiatName": "Radom",
+      "normalizedName": "powiat radom",
+      "slug": "radom",
+      "fileNameGeoJSON": "1463_radom.geojson",
+      "fileNameSQLite": "1463_radom.sqlite",
+      "hydrantsCount": 484,
+      "aliases": [
+        "powiat radom",
+        "radom"
+      ]
+    },
+    {
+      "teryt": "2472",
+      "displayName": "powiat Ruda Śląska",
+      "powiatName": "Ruda Śląska",
+      "normalizedName": "powiat ruda slaska",
+      "slug": "ruda-slaska",
+      "fileNameGeoJSON": "2472_ruda-slaska.geojson",
+      "fileNameSQLite": "2472_ruda-slaska.sqlite",
+      "hydrantsCount": 285,
+      "aliases": [
+        "powiat ruda slaska",
+        "ruda slaska",
+        "ruda-slaska"
+      ]
+    },
+    {
+      "teryt": "2473",
+      "displayName": "powiat Rybnik",
+      "powiatName": "Rybnik",
+      "normalizedName": "powiat rybnik",
+      "slug": "rybnik",
+      "fileNameGeoJSON": "2473_rybnik.geojson",
+      "fileNameSQLite": "2473_rybnik.sqlite",
+      "hydrantsCount": 4944,
+      "aliases": [
+        "powiat rybnik",
+        "rybnik"
+      ]
+    },
+    {
+      "teryt": "1863",
+      "displayName": "powiat Rzeszów",
+      "powiatName": "Rzeszów",
+      "normalizedName": "powiat rzeszow",
+      "slug": "rzeszow",
+      "fileNameGeoJSON": "1863_rzeszow.geojson",
+      "fileNameSQLite": "1863_rzeszow.sqlite",
+      "hydrantsCount": 1645,
+      "aliases": [
+        "powiat rzeszow",
+        "rzeszow"
+      ]
+    },
+    {
+      "teryt": "1464",
+      "displayName": "powiat Siedlce",
+      "powiatName": "Siedlce",
+      "normalizedName": "powiat siedlce",
+      "slug": "siedlce",
+      "fileNameGeoJSON": "1464_siedlce.geojson",
+      "fileNameSQLite": "1464_siedlce.sqlite",
+      "hydrantsCount": 728,
+      "aliases": [
+        "powiat siedlce",
+        "siedlce"
+      ]
+    },
+    {
+      "teryt": "2474",
+      "displayName": "powiat Siemianowice Śląskie",
+      "powiatName": "Siemianowice Śląskie",
+      "normalizedName": "powiat siemianowice slaskie",
+      "slug": "siemianowice-slaskie",
+      "fileNameGeoJSON": "2474_siemianowice-slaskie.geojson",
+      "fileNameSQLite": "2474_siemianowice-slaskie.sqlite",
+      "hydrantsCount": 295,
+      "aliases": [
+        "powiat siemianowice slaskie",
+        "siemianowice slaskie",
+        "siemianowice-slaskie"
+      ]
+    },
+    {
+      "teryt": "1063",
+      "displayName": "powiat Skierniewice",
+      "powiatName": "Skierniewice",
+      "normalizedName": "powiat skierniewice",
+      "slug": "skierniewice",
+      "fileNameGeoJSON": "1063_skierniewice.geojson",
+      "fileNameSQLite": "1063_skierniewice.sqlite",
+      "hydrantsCount": 47,
+      "aliases": [
+        "powiat skierniewice",
+        "skierniewice"
+      ]
+    },
+    {
+      "teryt": "2264",
+      "displayName": "powiat Sopot",
+      "powiatName": "Sopot",
+      "normalizedName": "powiat sopot",
+      "slug": "sopot",
+      "fileNameGeoJSON": "2264_sopot.geojson",
+      "fileNameSQLite": "2264_sopot.sqlite",
+      "hydrantsCount": 225,
+      "aliases": [
+        "powiat sopot",
+        "sopot"
+      ]
+    },
+    {
+      "teryt": "2475",
+      "displayName": "powiat Sosnowiec",
+      "powiatName": "Sosnowiec",
+      "normalizedName": "powiat sosnowiec",
+      "slug": "sosnowiec",
+      "fileNameGeoJSON": "2475_sosnowiec.geojson",
+      "fileNameSQLite": "2475_sosnowiec.sqlite",
+      "hydrantsCount": 528,
+      "aliases": [
+        "powiat sosnowiec",
+        "sosnowiec"
+      ]
+    },
+    {
+      "teryt": "2063",
+      "displayName": "powiat Suwałki",
+      "powiatName": "Suwałki",
+      "normalizedName": "powiat suwalki",
+      "slug": "suwalki",
+      "fileNameGeoJSON": "2063_suwalki.geojson",
+      "fileNameSQLite": "2063_suwalki.sqlite",
+      "hydrantsCount": 1244,
+      "aliases": [
+        "powiat suwalki",
+        "suwalki"
+      ]
+    },
+    {
+      "teryt": "3262",
+      "displayName": "powiat Szczecin",
+      "powiatName": "Szczecin",
+      "normalizedName": "powiat szczecin",
+      "slug": "szczecin",
+      "fileNameGeoJSON": "3262_szczecin.geojson",
+      "fileNameSQLite": "3262_szczecin.sqlite",
+      "hydrantsCount": 1168,
+      "aliases": [
+        "powiat szczecin",
+        "szczecin"
+      ]
+    },
+    {
+      "teryt": "2263",
+      "displayName": "powiat Słupsk",
+      "powiatName": "Słupsk",
+      "normalizedName": "powiat slupsk",
+      "slug": "slupsk",
+      "fileNameGeoJSON": "2263_slupsk.geojson",
+      "fileNameSQLite": "2263_slupsk.sqlite",
+      "hydrantsCount": 109,
+      "aliases": [
+        "powiat slupsk",
+        "slupsk"
+      ]
+    },
+    {
+      "teryt": "1864",
+      "displayName": "powiat Tarnobrzeg",
+      "powiatName": "Tarnobrzeg",
+      "normalizedName": "powiat tarnobrzeg",
+      "slug": "tarnobrzeg",
+      "fileNameGeoJSON": "1864_tarnobrzeg.geojson",
+      "fileNameSQLite": "1864_tarnobrzeg.sqlite",
+      "hydrantsCount": 673,
+      "aliases": [
+        "powiat tarnobrzeg",
+        "tarnobrzeg"
+      ]
+    },
+    {
+      "teryt": "1263",
+      "displayName": "powiat Tarnów",
+      "powiatName": "Tarnów",
+      "normalizedName": "powiat tarnow",
+      "slug": "tarnow",
+      "fileNameGeoJSON": "1263_tarnow.geojson",
+      "fileNameSQLite": "1263_tarnow.sqlite",
+      "hydrantsCount": 1586,
+      "aliases": [
+        "powiat tarnow",
+        "tarnow"
+      ]
+    },
+    {
+      "teryt": "0463",
+      "displayName": "powiat Toruń",
+      "powiatName": "Toruń",
+      "normalizedName": "powiat torun",
+      "slug": "torun",
+      "fileNameGeoJSON": "0463_torun.geojson",
+      "fileNameSQLite": "0463_torun.sqlite",
+      "hydrantsCount": 95,
+      "aliases": [
+        "powiat torun",
+        "torun"
+      ]
+    },
+    {
+      "teryt": "2477",
+      "displayName": "powiat Tychy",
+      "powiatName": "Tychy",
+      "normalizedName": "powiat tychy",
+      "slug": "tychy",
+      "fileNameGeoJSON": "2477_tychy.geojson",
+      "fileNameSQLite": "2477_tychy.sqlite",
+      "hydrantsCount": 866,
+      "aliases": [
+        "powiat tychy",
+        "tychy"
+      ]
+    },
+    {
+      "teryt": "1465",
+      "displayName": "powiat Warszawa",
+      "powiatName": "Warszawa",
+      "normalizedName": "powiat warszawa",
+      "slug": "warszawa",
+      "fileNameGeoJSON": "1465_warszawa.geojson",
+      "fileNameSQLite": "1465_warszawa.sqlite",
+      "hydrantsCount": 7219,
+      "aliases": [
+        "powiat warszawa",
+        "warszawa"
+      ]
+    },
+    {
+      "teryt": "0265",
+      "displayName": "powiat Wałbrzych",
+      "powiatName": "Wałbrzych",
+      "normalizedName": "powiat walbrzych",
+      "slug": "walbrzych",
+      "fileNameGeoJSON": "0265_walbrzych.geojson",
+      "fileNameSQLite": "0265_walbrzych.sqlite",
+      "hydrantsCount": 33,
+      "aliases": [
+        "powiat walbrzych",
+        "walbrzych"
+      ]
+    },
+    {
+      "teryt": "0264",
+      "displayName": "powiat Wrocław",
+      "powiatName": "Wrocław",
+      "normalizedName": "powiat wroclaw",
+      "slug": "wroclaw",
+      "fileNameGeoJSON": "0264_wroclaw.geojson",
+      "fileNameSQLite": "0264_wroclaw.sqlite",
+      "hydrantsCount": 3334,
+      "aliases": [
+        "powiat wroclaw",
+        "wroclaw"
+      ]
+    },
+    {
+      "teryt": "0464",
+      "displayName": "powiat Włocławek",
+      "powiatName": "Włocławek",
+      "normalizedName": "powiat wloclawek",
+      "slug": "wloclawek",
+      "fileNameGeoJSON": "0464_wloclawek.geojson",
+      "fileNameSQLite": "0464_wloclawek.sqlite",
+      "hydrantsCount": 141,
+      "aliases": [
+        "powiat wloclawek",
+        "wloclawek"
+      ]
+    },
+    {
+      "teryt": "2478",
+      "displayName": "powiat Zabrze",
+      "powiatName": "Zabrze",
+      "normalizedName": "powiat zabrze",
+      "slug": "zabrze",
+      "fileNameGeoJSON": "2478_zabrze.geojson",
+      "fileNameSQLite": "2478_zabrze.sqlite",
+      "hydrantsCount": 226,
+      "aliases": [
+        "powiat zabrze",
+        "zabrze"
+      ]
+    },
+    {
+      "teryt": "0664",
+      "displayName": "powiat Zamość",
+      "powiatName": "Zamość",
+      "normalizedName": "powiat zamosc",
+      "slug": "zamosc",
+      "fileNameGeoJSON": "0664_zamosc.geojson",
+      "fileNameSQLite": "0664_zamosc.sqlite",
+      "hydrantsCount": 486,
+      "aliases": [
+        "powiat zamosc",
+        "zamosc"
+      ]
+    },
+    {
+      "teryt": "0862",
+      "displayName": "powiat Zielona Góra",
+      "powiatName": "Zielona Góra",
+      "normalizedName": "powiat zielona gora",
+      "slug": "zielona-gora",
+      "fileNameGeoJSON": "0862_zielona-gora.geojson",
+      "fileNameSQLite": "0862_zielona-gora.sqlite",
+      "hydrantsCount": 1465,
+      "aliases": [
+        "powiat zielona gora",
+        "zielona gora",
+        "zielona-gora"
+      ]
+    },
+    {
+      "teryt": "0401",
+      "displayName": "powiat aleksandrowski",
+      "powiatName": "aleksandrowski",
+      "normalizedName": "powiat aleksandrowski",
+      "slug": "aleksandrowski",
+      "fileNameGeoJSON": "0401_aleksandrowski.geojson",
+      "fileNameSQLite": "0401_aleksandrowski.sqlite",
+      "hydrantsCount": 281,
+      "aliases": [
+        "aleksandrowski",
+        "powiat aleksandrowski"
+      ]
+    },
+    {
+      "teryt": "2001",
+      "displayName": "powiat augustowski",
+      "powiatName": "augustowski",
+      "normalizedName": "powiat augustowski",
+      "slug": "augustowski",
+      "fileNameGeoJSON": "2001_augustowski.geojson",
+      "fileNameSQLite": "2001_augustowski.sqlite",
+      "hydrantsCount": 1138,
+      "aliases": [
+        "augustowski",
+        "powiat augustowski"
+      ]
+    },
+    {
+      "teryt": "2801",
+      "displayName": "powiat bartoszycki",
+      "powiatName": "bartoszycki",
+      "normalizedName": "powiat bartoszycki",
+      "slug": "bartoszycki",
+      "fileNameGeoJSON": "2801_bartoszycki.geojson",
+      "fileNameSQLite": "2801_bartoszycki.sqlite",
+      "hydrantsCount": 713,
+      "aliases": [
+        "bartoszycki",
+        "powiat bartoszycki"
+      ]
+    },
+    {
+      "teryt": "1001",
+      "displayName": "powiat bełchatowski",
+      "powiatName": "bełchatowski",
+      "normalizedName": "powiat belchatowski",
+      "slug": "belchatowski",
+      "fileNameGeoJSON": "1001_belchatowski.geojson",
+      "fileNameSQLite": "1001_belchatowski.sqlite",
+      "hydrantsCount": 211,
+      "aliases": [
+        "belchatowski",
+        "powiat belchatowski"
+      ]
+    },
+    {
+      "teryt": "0601",
+      "displayName": "powiat bialski",
+      "powiatName": "bialski",
+      "normalizedName": "powiat bialski",
+      "slug": "bialski",
+      "fileNameGeoJSON": "0601_bialski.geojson",
+      "fileNameSQLite": "0601_bialski.sqlite",
+      "hydrantsCount": 1130,
+      "aliases": [
+        "bialski",
+        "powiat bialski"
+      ]
+    },
+    {
+      "teryt": "1401",
+      "displayName": "powiat białobrzeski",
+      "powiatName": "białobrzeski",
+      "normalizedName": "powiat bialobrzeski",
+      "slug": "bialobrzeski",
+      "fileNameGeoJSON": "1401_bialobrzeski.geojson",
+      "fileNameSQLite": "1401_bialobrzeski.sqlite",
+      "hydrantsCount": 1954,
+      "aliases": [
+        "bialobrzeski",
+        "powiat bialobrzeski"
+      ]
+    },
+    {
+      "teryt": "3201",
+      "displayName": "powiat białogardzki",
+      "powiatName": "białogardzki",
+      "normalizedName": "powiat bialogardzki",
+      "slug": "bialogardzki",
+      "fileNameGeoJSON": "3201_bialogardzki.geojson",
+      "fileNameSQLite": "3201_bialogardzki.sqlite",
+      "hydrantsCount": 269,
+      "aliases": [
+        "bialogardzki",
+        "powiat bialogardzki"
+      ]
+    },
+    {
+      "teryt": "2002",
+      "displayName": "powiat białostocki",
+      "powiatName": "białostocki",
+      "normalizedName": "powiat bialostocki",
+      "slug": "bialostocki",
+      "fileNameGeoJSON": "2002_bialostocki.geojson",
+      "fileNameSQLite": "2002_bialostocki.sqlite",
+      "hydrantsCount": 383,
+      "aliases": [
+        "bialostocki",
+        "powiat bialostocki"
+      ]
+    },
+    {
+      "teryt": "2003",
+      "displayName": "powiat bielski",
+      "powiatName": "bielski",
+      "normalizedName": "powiat bielski",
+      "slug": "bielski",
+      "fileNameGeoJSON": "2003_bielski.geojson",
+      "fileNameSQLite": "2003_bielski.sqlite",
+      "hydrantsCount": 414,
+      "aliases": [
+        "bielski",
+        "powiat bielski"
+      ]
+    },
+    {
+      "teryt": "2402",
+      "displayName": "powiat bielski",
+      "powiatName": "bielski",
+      "normalizedName": "powiat bielski",
+      "slug": "bielski",
+      "fileNameGeoJSON": "2402_bielski.geojson",
+      "fileNameSQLite": "2402_bielski.sqlite",
+      "hydrantsCount": 1142,
+      "aliases": [
+        "bielski",
+        "powiat bielski"
+      ]
+    },
+    {
+      "teryt": "2414",
+      "displayName": "powiat bieruńsko-lędziński",
+      "powiatName": "bieruńsko-lędziński",
+      "normalizedName": "powiat bierunsko-ledzinski",
+      "slug": "bierunsko-ledzinski",
+      "fileNameGeoJSON": "2414_bierunsko-ledzinski.geojson",
+      "fileNameSQLite": "2414_bierunsko-ledzinski.sqlite",
+      "hydrantsCount": 260,
+      "aliases": [
+        "bierunsko ledzinski",
+        "bierunsko-ledzinski",
+        "powiat bierunsko-ledzinski"
+      ]
+    },
+    {
+      "teryt": "1801",
+      "displayName": "powiat bieszczadzki",
+      "powiatName": "bieszczadzki",
+      "normalizedName": "powiat bieszczadzki",
+      "slug": "bieszczadzki",
+      "fileNameGeoJSON": "1801_bieszczadzki.geojson",
+      "fileNameSQLite": "1801_bieszczadzki.sqlite",
+      "hydrantsCount": 470,
+      "aliases": [
+        "bieszczadzki",
+        "powiat bieszczadzki"
+      ]
+    },
+    {
+      "teryt": "0602",
+      "displayName": "powiat biłgorajski",
+      "powiatName": "biłgorajski",
+      "normalizedName": "powiat bilgorajski",
+      "slug": "bilgorajski",
+      "fileNameGeoJSON": "0602_bilgorajski.geojson",
+      "fileNameSQLite": "0602_bilgorajski.sqlite",
+      "hydrantsCount": 515,
+      "aliases": [
+        "bilgorajski",
+        "powiat bilgorajski"
+      ]
+    },
+    {
+      "teryt": "1201",
+      "displayName": "powiat bocheński",
+      "powiatName": "bocheński",
+      "normalizedName": "powiat bochenski",
+      "slug": "bochenski",
+      "fileNameGeoJSON": "1201_bochenski.geojson",
+      "fileNameSQLite": "1201_bochenski.sqlite",
+      "hydrantsCount": 2547,
+      "aliases": [
+        "bochenski",
+        "powiat bochenski"
+      ]
+    },
+    {
+      "teryt": "0201",
+      "displayName": "powiat bolesławiecki",
+      "powiatName": "bolesławiecki",
+      "normalizedName": "powiat boleslawiecki",
+      "slug": "boleslawiecki",
+      "fileNameGeoJSON": "0201_boleslawiecki.geojson",
+      "fileNameSQLite": "0201_boleslawiecki.sqlite",
+      "hydrantsCount": 1722,
+      "aliases": [
+        "boleslawiecki",
+        "powiat boleslawiecki"
+      ]
+    },
+    {
+      "teryt": "2802",
+      "displayName": "powiat braniewski",
+      "powiatName": "braniewski",
+      "normalizedName": "powiat braniewski",
+      "slug": "braniewski",
+      "fileNameGeoJSON": "2802_braniewski.geojson",
+      "fileNameSQLite": "2802_braniewski.sqlite",
+      "hydrantsCount": 271,
+      "aliases": [
+        "braniewski",
+        "powiat braniewski"
+      ]
+    },
+    {
+      "teryt": "0402",
+      "displayName": "powiat brodnicki",
+      "powiatName": "brodnicki",
+      "normalizedName": "powiat brodnicki",
+      "slug": "brodnicki",
+      "fileNameGeoJSON": "0402_brodnicki.geojson",
+      "fileNameSQLite": "0402_brodnicki.sqlite",
+      "hydrantsCount": 697,
+      "aliases": [
+        "brodnicki",
+        "powiat brodnicki"
+      ]
+    },
+    {
+      "teryt": "1202",
+      "displayName": "powiat brzeski",
+      "powiatName": "brzeski",
+      "normalizedName": "powiat brzeski",
+      "slug": "brzeski",
+      "fileNameGeoJSON": "1202_brzeski.geojson",
+      "fileNameSQLite": "1202_brzeski.sqlite",
+      "hydrantsCount": 1889,
+      "aliases": [
+        "brzeski",
+        "powiat brzeski"
+      ]
+    },
+    {
+      "teryt": "1601",
+      "displayName": "powiat brzeski",
+      "powiatName": "brzeski",
+      "normalizedName": "powiat brzeski",
+      "slug": "brzeski",
+      "fileNameGeoJSON": "1601_brzeski.geojson",
+      "fileNameSQLite": "1601_brzeski.sqlite",
+      "hydrantsCount": 557,
+      "aliases": [
+        "brzeski",
+        "powiat brzeski"
+      ]
+    },
+    {
+      "teryt": "1021",
+      "displayName": "powiat brzeziński",
+      "powiatName": "brzeziński",
+      "normalizedName": "powiat brzezinski",
+      "slug": "brzezinski",
+      "fileNameGeoJSON": "1021_brzezinski.geojson",
+      "fileNameSQLite": "1021_brzezinski.sqlite",
+      "hydrantsCount": 299,
+      "aliases": [
+        "brzezinski",
+        "powiat brzezinski"
+      ]
+    },
+    {
+      "teryt": "1802",
+      "displayName": "powiat brzozowski",
+      "powiatName": "brzozowski",
+      "normalizedName": "powiat brzozowski",
+      "slug": "brzozowski",
+      "fileNameGeoJSON": "1802_brzozowski.geojson",
+      "fileNameSQLite": "1802_brzozowski.sqlite",
+      "hydrantsCount": 149,
+      "aliases": [
+        "brzozowski",
+        "powiat brzozowski"
+      ]
+    },
+    {
+      "teryt": "2601",
+      "displayName": "powiat buski",
+      "powiatName": "buski",
+      "normalizedName": "powiat buski",
+      "slug": "buski",
+      "fileNameGeoJSON": "2601_buski.geojson",
+      "fileNameSQLite": "2601_buski.sqlite",
+      "hydrantsCount": 2949,
+      "aliases": [
+        "buski",
+        "powiat buski"
+      ]
+    },
+    {
+      "teryt": "0403",
+      "displayName": "powiat bydgoski",
+      "powiatName": "bydgoski",
+      "normalizedName": "powiat bydgoski",
+      "slug": "bydgoski",
+      "fileNameGeoJSON": "0403_bydgoski.geojson",
+      "fileNameSQLite": "0403_bydgoski.sqlite",
+      "hydrantsCount": 2980,
+      "aliases": [
+        "bydgoski",
+        "powiat bydgoski"
+      ]
+    },
+    {
+      "teryt": "2201",
+      "displayName": "powiat bytowski",
+      "powiatName": "bytowski",
+      "normalizedName": "powiat bytowski",
+      "slug": "bytowski",
+      "fileNameGeoJSON": "2201_bytowski.geojson",
+      "fileNameSQLite": "2201_bytowski.sqlite",
+      "hydrantsCount": 1489,
+      "aliases": [
+        "bytowski",
+        "powiat bytowski"
+      ]
+    },
+    {
+      "teryt": "2401",
+      "displayName": "powiat będziński",
+      "powiatName": "będziński",
+      "normalizedName": "powiat bedzinski",
+      "slug": "bedzinski",
+      "fileNameGeoJSON": "2401_bedzinski.geojson",
+      "fileNameSQLite": "2401_bedzinski.sqlite",
+      "hydrantsCount": 6313,
+      "aliases": [
+        "bedzinski",
+        "powiat bedzinski"
+      ]
+    },
+    {
+      "teryt": "0404",
+      "displayName": "powiat chełmiński",
+      "powiatName": "chełmiński",
+      "normalizedName": "powiat chelminski",
+      "slug": "chelminski",
+      "fileNameGeoJSON": "0404_chelminski.geojson",
+      "fileNameSQLite": "0404_chelminski.sqlite",
+      "hydrantsCount": 620,
+      "aliases": [
+        "chelminski",
+        "powiat chelminski"
+      ]
+    },
+    {
+      "teryt": "0603",
+      "displayName": "powiat chełmski",
+      "powiatName": "chełmski",
+      "normalizedName": "powiat chelmski",
+      "slug": "chelmski",
+      "fileNameGeoJSON": "0603_chelmski.geojson",
+      "fileNameSQLite": "0603_chelmski.sqlite",
+      "hydrantsCount": 229,
+      "aliases": [
+        "chelmski",
+        "powiat chelmski"
+      ]
+    },
+    {
+      "teryt": "3001",
+      "displayName": "powiat chodzieski",
+      "powiatName": "chodzieski",
+      "normalizedName": "powiat chodzieski",
+      "slug": "chodzieski",
+      "fileNameGeoJSON": "3001_chodzieski.geojson",
+      "fileNameSQLite": "3001_chodzieski.sqlite",
+      "hydrantsCount": 742,
+      "aliases": [
+        "chodzieski",
+        "powiat chodzieski"
+      ]
+    },
+    {
+      "teryt": "2202",
+      "displayName": "powiat chojnicki",
+      "powiatName": "chojnicki",
+      "normalizedName": "powiat chojnicki",
+      "slug": "chojnicki",
+      "fileNameGeoJSON": "2202_chojnicki.geojson",
+      "fileNameSQLite": "2202_chojnicki.sqlite",
+      "hydrantsCount": 1392,
+      "aliases": [
+        "chojnicki",
+        "powiat chojnicki"
+      ]
+    },
+    {
+      "teryt": "3202",
+      "displayName": "powiat choszczeński",
+      "powiatName": "choszczeński",
+      "normalizedName": "powiat choszczenski",
+      "slug": "choszczenski",
+      "fileNameGeoJSON": "3202_choszczenski.geojson",
+      "fileNameSQLite": "3202_choszczenski.sqlite",
+      "hydrantsCount": 1507,
+      "aliases": [
+        "choszczenski",
+        "powiat choszczenski"
+      ]
+    },
+    {
+      "teryt": "1203",
+      "displayName": "powiat chrzanowski",
+      "powiatName": "chrzanowski",
+      "normalizedName": "powiat chrzanowski",
+      "slug": "chrzanowski",
+      "fileNameGeoJSON": "1203_chrzanowski.geojson",
+      "fileNameSQLite": "1203_chrzanowski.sqlite",
+      "hydrantsCount": 335,
+      "aliases": [
+        "chrzanowski",
+        "powiat chrzanowski"
+      ]
+    },
+    {
+      "teryt": "1402",
+      "displayName": "powiat ciechanowski",
+      "powiatName": "ciechanowski",
+      "normalizedName": "powiat ciechanowski",
+      "slug": "ciechanowski",
+      "fileNameGeoJSON": "1402_ciechanowski.geojson",
+      "fileNameSQLite": "1402_ciechanowski.sqlite",
+      "hydrantsCount": 1488,
+      "aliases": [
+        "ciechanowski",
+        "powiat ciechanowski"
+      ]
+    },
+    {
+      "teryt": "2403",
+      "displayName": "powiat cieszyński",
+      "powiatName": "cieszyński",
+      "normalizedName": "powiat cieszynski",
+      "slug": "cieszynski",
+      "fileNameGeoJSON": "2403_cieszynski.geojson",
+      "fileNameSQLite": "2403_cieszynski.sqlite",
+      "hydrantsCount": 2892,
+      "aliases": [
+        "cieszynski",
+        "powiat cieszynski"
+      ]
+    },
+    {
+      "teryt": "3002",
+      "displayName": "powiat czarnkowsko-trzcianecki",
+      "powiatName": "czarnkowsko-trzcianecki",
+      "normalizedName": "powiat czarnkowsko-trzcianecki",
+      "slug": "czarnkowsko-trzcianecki",
+      "fileNameGeoJSON": "3002_czarnkowsko-trzcianecki.geojson",
+      "fileNameSQLite": "3002_czarnkowsko-trzcianecki.sqlite",
+      "hydrantsCount": 273,
+      "aliases": [
+        "czarnkowsko trzcianecki",
+        "czarnkowsko-trzcianecki",
+        "powiat czarnkowsko-trzcianecki"
+      ]
+    },
+    {
+      "teryt": "2404",
+      "displayName": "powiat częstochowski",
+      "powiatName": "częstochowski",
+      "normalizedName": "powiat czestochowski",
+      "slug": "czestochowski",
+      "fileNameGeoJSON": "2404_czestochowski.geojson",
+      "fileNameSQLite": "2404_czestochowski.sqlite",
+      "hydrantsCount": 1021,
+      "aliases": [
+        "czestochowski",
+        "powiat czestochowski"
+      ]
+    },
+    {
+      "teryt": "2203",
+      "displayName": "powiat człuchowski",
+      "powiatName": "człuchowski",
+      "normalizedName": "powiat czluchowski",
+      "slug": "czluchowski",
+      "fileNameGeoJSON": "2203_czluchowski.geojson",
+      "fileNameSQLite": "2203_czluchowski.sqlite",
+      "hydrantsCount": 318,
+      "aliases": [
+        "czluchowski",
+        "powiat czluchowski"
+      ]
+    },
+    {
+      "teryt": "3203",
+      "displayName": "powiat drawski",
+      "powiatName": "drawski",
+      "normalizedName": "powiat drawski",
+      "slug": "drawski",
+      "fileNameGeoJSON": "3203_drawski.geojson",
+      "fileNameSQLite": "3203_drawski.sqlite",
+      "hydrantsCount": 1464,
+      "aliases": [
+        "drawski",
+        "powiat drawski"
+      ]
+    },
+    {
+      "teryt": "2803",
+      "displayName": "powiat działdowski",
+      "powiatName": "działdowski",
+      "normalizedName": "powiat dzialdowski",
+      "slug": "dzialdowski",
+      "fileNameGeoJSON": "2803_dzialdowski.geojson",
+      "fileNameSQLite": "2803_dzialdowski.sqlite",
+      "hydrantsCount": 366,
+      "aliases": [
+        "dzialdowski",
+        "powiat dzialdowski"
+      ]
+    },
+    {
+      "teryt": "0202",
+      "displayName": "powiat dzierżoniowski",
+      "powiatName": "dzierżoniowski",
+      "normalizedName": "powiat dzierzoniowski",
+      "slug": "dzierzoniowski",
+      "fileNameGeoJSON": "0202_dzierzoniowski.geojson",
+      "fileNameSQLite": "0202_dzierzoniowski.sqlite",
+      "hydrantsCount": 35,
+      "aliases": [
+        "dzierzoniowski",
+        "powiat dzierzoniowski"
+      ]
+    },
+    {
+      "teryt": "1204",
+      "displayName": "powiat dąbrowski",
+      "powiatName": "dąbrowski",
+      "normalizedName": "powiat dabrowski",
+      "slug": "dabrowski",
+      "fileNameGeoJSON": "1204_dabrowski.geojson",
+      "fileNameSQLite": "1204_dabrowski.sqlite",
+      "hydrantsCount": 172,
+      "aliases": [
+        "dabrowski",
+        "powiat dabrowski"
+      ]
+    },
+    {
+      "teryt": "1803",
+      "displayName": "powiat dębicki",
+      "powiatName": "dębicki",
+      "normalizedName": "powiat debicki",
+      "slug": "debicki",
+      "fileNameGeoJSON": "1803_debicki.geojson",
+      "fileNameSQLite": "1803_debicki.sqlite",
+      "hydrantsCount": 292,
+      "aliases": [
+        "debicki",
+        "powiat debicki"
+      ]
+    },
+    {
+      "teryt": "2804",
+      "displayName": "powiat elbląski",
+      "powiatName": "elbląski",
+      "normalizedName": "powiat elblaski",
+      "slug": "elblaski",
+      "fileNameGeoJSON": "2804_elblaski.geojson",
+      "fileNameSQLite": "2804_elblaski.sqlite",
+      "hydrantsCount": 158,
+      "aliases": [
+        "elblaski",
+        "powiat elblaski"
+      ]
+    },
+    {
+      "teryt": "2805",
+      "displayName": "powiat ełcki",
+      "powiatName": "ełcki",
+      "normalizedName": "powiat elcki",
+      "slug": "elcki",
+      "fileNameGeoJSON": "2805_elcki.geojson",
+      "fileNameSQLite": "2805_elcki.sqlite",
+      "hydrantsCount": 1018,
+      "aliases": [
+        "elcki",
+        "powiat elcki"
+      ]
+    },
+    {
+      "teryt": "1403",
+      "displayName": "powiat garwoliński",
+      "powiatName": "garwoliński",
+      "normalizedName": "powiat garwolinski",
+      "slug": "garwolinski",
+      "fileNameGeoJSON": "1403_garwolinski.geojson",
+      "fileNameSQLite": "1403_garwolinski.sqlite",
+      "hydrantsCount": 687,
+      "aliases": [
+        "garwolinski",
+        "powiat garwolinski"
+      ]
+    },
+    {
+      "teryt": "2204",
+      "displayName": "powiat gdański",
+      "powiatName": "gdański",
+      "normalizedName": "powiat gdanski",
+      "slug": "gdanski",
+      "fileNameGeoJSON": "2204_gdanski.geojson",
+      "fileNameSQLite": "2204_gdanski.sqlite",
+      "hydrantsCount": 1999,
+      "aliases": [
+        "gdanski",
+        "powiat gdanski"
+      ]
+    },
+    {
+      "teryt": "2806",
+      "displayName": "powiat giżycki",
+      "powiatName": "giżycki",
+      "normalizedName": "powiat gizycki",
+      "slug": "gizycki",
+      "fileNameGeoJSON": "2806_gizycki.geojson",
+      "fileNameSQLite": "2806_gizycki.sqlite",
+      "hydrantsCount": 116,
+      "aliases": [
+        "gizycki",
+        "powiat gizycki"
+      ]
+    },
+    {
+      "teryt": "2405",
+      "displayName": "powiat gliwicki",
+      "powiatName": "gliwicki",
+      "normalizedName": "powiat gliwicki",
+      "slug": "gliwicki",
+      "fileNameGeoJSON": "2405_gliwicki.geojson",
+      "fileNameSQLite": "2405_gliwicki.sqlite",
+      "hydrantsCount": 1087,
+      "aliases": [
+        "gliwicki",
+        "powiat gliwicki"
+      ]
+    },
+    {
+      "teryt": "3003",
+      "displayName": "powiat gnieźnieński",
+      "powiatName": "gnieźnieński",
+      "normalizedName": "powiat gnieznienski",
+      "slug": "gnieznienski",
+      "fileNameGeoJSON": "3003_gnieznienski.geojson",
+      "fileNameSQLite": "3003_gnieznienski.sqlite",
+      "hydrantsCount": 457,
+      "aliases": [
+        "gnieznienski",
+        "powiat gnieznienski"
+      ]
+    },
+    {
+      "teryt": "3204",
+      "displayName": "powiat goleniowski",
+      "powiatName": "goleniowski",
+      "normalizedName": "powiat goleniowski",
+      "slug": "goleniowski",
+      "fileNameGeoJSON": "3204_goleniowski.geojson",
+      "fileNameSQLite": "3204_goleniowski.sqlite",
+      "hydrantsCount": 1935,
+      "aliases": [
+        "goleniowski",
+        "powiat goleniowski"
+      ]
+    },
+    {
+      "teryt": "0405",
+      "displayName": "powiat golubsko-dobrzyński",
+      "powiatName": "golubsko-dobrzyński",
+      "normalizedName": "powiat golubsko-dobrzynski",
+      "slug": "golubsko-dobrzynski",
+      "fileNameGeoJSON": "0405_golubsko-dobrzynski.geojson",
+      "fileNameSQLite": "0405_golubsko-dobrzynski.sqlite",
+      "hydrantsCount": 991,
+      "aliases": [
+        "golubsko dobrzynski",
+        "golubsko-dobrzynski",
+        "powiat golubsko-dobrzynski"
+      ]
+    },
+    {
+      "teryt": "1205",
+      "displayName": "powiat gorlicki",
+      "powiatName": "gorlicki",
+      "normalizedName": "powiat gorlicki",
+      "slug": "gorlicki",
+      "fileNameGeoJSON": "1205_gorlicki.geojson",
+      "fileNameSQLite": "1205_gorlicki.sqlite",
+      "hydrantsCount": 209,
+      "aliases": [
+        "gorlicki",
+        "powiat gorlicki"
+      ]
+    },
+    {
+      "teryt": "0801",
+      "displayName": "powiat gorzowski",
+      "powiatName": "gorzowski",
+      "normalizedName": "powiat gorzowski",
+      "slug": "gorzowski",
+      "fileNameGeoJSON": "0801_gorzowski.geojson",
+      "fileNameSQLite": "0801_gorzowski.sqlite",
+      "hydrantsCount": 905,
+      "aliases": [
+        "gorzowski",
+        "powiat gorzowski"
+      ]
+    },
+    {
+      "teryt": "1404",
+      "displayName": "powiat gostyniński",
+      "powiatName": "gostyniński",
+      "normalizedName": "powiat gostyninski",
+      "slug": "gostyninski",
+      "fileNameGeoJSON": "1404_gostyninski.geojson",
+      "fileNameSQLite": "1404_gostyninski.sqlite",
+      "hydrantsCount": 521,
+      "aliases": [
+        "gostyninski",
+        "powiat gostyninski"
+      ]
+    },
+    {
+      "teryt": "3004",
+      "displayName": "powiat gostyński",
+      "powiatName": "gostyński",
+      "normalizedName": "powiat gostynski",
+      "slug": "gostynski",
+      "fileNameGeoJSON": "3004_gostynski.geojson",
+      "fileNameSQLite": "3004_gostynski.sqlite",
+      "hydrantsCount": 713,
+      "aliases": [
+        "gostynski",
+        "powiat gostynski"
+      ]
+    },
+    {
+      "teryt": "2818",
+      "displayName": "powiat gołdapski",
+      "powiatName": "gołdapski",
+      "normalizedName": "powiat goldapski",
+      "slug": "goldapski",
+      "fileNameGeoJSON": "2818_goldapski.geojson",
+      "fileNameSQLite": "2818_goldapski.sqlite",
+      "hydrantsCount": 864,
+      "aliases": [
+        "goldapski",
+        "powiat goldapski"
+      ]
+    },
+    {
+      "teryt": "2004",
+      "displayName": "powiat grajewski",
+      "powiatName": "grajewski",
+      "normalizedName": "powiat grajewski",
+      "slug": "grajewski",
+      "fileNameGeoJSON": "2004_grajewski.geojson",
+      "fileNameSQLite": "2004_grajewski.sqlite",
+      "hydrantsCount": 659,
+      "aliases": [
+        "grajewski",
+        "powiat grajewski"
+      ]
+    },
+    {
+      "teryt": "1405",
+      "displayName": "powiat grodziski",
+      "powiatName": "grodziski",
+      "normalizedName": "powiat grodziski",
+      "slug": "grodziski",
+      "fileNameGeoJSON": "1405_grodziski.geojson",
+      "fileNameSQLite": "1405_grodziski.sqlite",
+      "hydrantsCount": 4144,
+      "aliases": [
+        "grodziski",
+        "powiat grodziski"
+      ]
+    },
+    {
+      "teryt": "3005",
+      "displayName": "powiat grodziski",
+      "powiatName": "grodziski",
+      "normalizedName": "powiat grodziski",
+      "slug": "grodziski",
+      "fileNameGeoJSON": "3005_grodziski.geojson",
+      "fileNameSQLite": "3005_grodziski.sqlite",
+      "hydrantsCount": 7,
+      "aliases": [
+        "grodziski",
+        "powiat grodziski"
+      ]
+    },
+    {
+      "teryt": "0406",
+      "displayName": "powiat grudziądzki",
+      "powiatName": "grudziądzki",
+      "normalizedName": "powiat grudziadzki",
+      "slug": "grudziadzki",
+      "fileNameGeoJSON": "0406_grudziadzki.geojson",
+      "fileNameSQLite": "0406_grudziadzki.sqlite",
+      "hydrantsCount": 98,
+      "aliases": [
+        "grudziadzki",
+        "powiat grudziadzki"
+      ]
+    },
+    {
+      "teryt": "3205",
+      "displayName": "powiat gryficki",
+      "powiatName": "gryficki",
+      "normalizedName": "powiat gryficki",
+      "slug": "gryficki",
+      "fileNameGeoJSON": "3205_gryficki.geojson",
+      "fileNameSQLite": "3205_gryficki.sqlite",
+      "hydrantsCount": 1298,
+      "aliases": [
+        "gryficki",
+        "powiat gryficki"
+      ]
+    },
+    {
+      "teryt": "3206",
+      "displayName": "powiat gryfiński",
+      "powiatName": "gryfiński",
+      "normalizedName": "powiat gryfinski",
+      "slug": "gryfinski",
+      "fileNameGeoJSON": "3206_gryfinski.geojson",
+      "fileNameSQLite": "3206_gryfinski.sqlite",
+      "hydrantsCount": 566,
+      "aliases": [
+        "gryfinski",
+        "powiat gryfinski"
+      ]
+    },
+    {
+      "teryt": "1406",
+      "displayName": "powiat grójecki",
+      "powiatName": "grójecki",
+      "normalizedName": "powiat grojecki",
+      "slug": "grojecki",
+      "fileNameGeoJSON": "1406_grojecki.geojson",
+      "fileNameSQLite": "1406_grojecki.sqlite",
+      "hydrantsCount": 3125,
+      "aliases": [
+        "grojecki",
+        "powiat grojecki"
+      ]
+    },
+    {
+      "teryt": "0204",
+      "displayName": "powiat górowski",
+      "powiatName": "górowski",
+      "normalizedName": "powiat gorowski",
+      "slug": "gorowski",
+      "fileNameGeoJSON": "0204_gorowski.geojson",
+      "fileNameSQLite": "0204_gorowski.sqlite",
+      "hydrantsCount": 417,
+      "aliases": [
+        "gorowski",
+        "powiat gorowski"
+      ]
+    },
+    {
+      "teryt": "0203",
+      "displayName": "powiat głogowski",
+      "powiatName": "głogowski",
+      "normalizedName": "powiat glogowski",
+      "slug": "glogowski",
+      "fileNameGeoJSON": "0203_glogowski.geojson",
+      "fileNameSQLite": "0203_glogowski.sqlite",
+      "hydrantsCount": 712,
+      "aliases": [
+        "glogowski",
+        "powiat glogowski"
+      ]
+    },
+    {
+      "teryt": "1602",
+      "displayName": "powiat głubczycki",
+      "powiatName": "głubczycki",
+      "normalizedName": "powiat glubczycki",
+      "slug": "glubczycki",
+      "fileNameGeoJSON": "1602_glubczycki.geojson",
+      "fileNameSQLite": "1602_glubczycki.sqlite",
+      "hydrantsCount": 77,
+      "aliases": [
+        "glubczycki",
+        "powiat glubczycki"
+      ]
+    },
+    {
+      "teryt": "2005",
+      "displayName": "powiat hajnowski",
+      "powiatName": "hajnowski",
+      "normalizedName": "powiat hajnowski",
+      "slug": "hajnowski",
+      "fileNameGeoJSON": "2005_hajnowski.geojson",
+      "fileNameSQLite": "2005_hajnowski.sqlite",
+      "hydrantsCount": 562,
+      "aliases": [
+        "hajnowski",
+        "powiat hajnowski"
+      ]
+    },
+    {
+      "teryt": "0604",
+      "displayName": "powiat hrubieszowski",
+      "powiatName": "hrubieszowski",
+      "normalizedName": "powiat hrubieszowski",
+      "slug": "hrubieszowski",
+      "fileNameGeoJSON": "0604_hrubieszowski.geojson",
+      "fileNameSQLite": "0604_hrubieszowski.sqlite",
+      "hydrantsCount": 288,
+      "aliases": [
+        "hrubieszowski",
+        "powiat hrubieszowski"
+      ]
+    },
+    {
+      "teryt": "0407",
+      "displayName": "powiat inowrocławski",
+      "powiatName": "inowrocławski",
+      "normalizedName": "powiat inowroclawski",
+      "slug": "inowroclawski",
+      "fileNameGeoJSON": "0407_inowroclawski.geojson",
+      "fileNameSQLite": "0407_inowroclawski.sqlite",
+      "hydrantsCount": 955,
+      "aliases": [
+        "inowroclawski",
+        "powiat inowroclawski"
+      ]
+    },
+    {
+      "teryt": "2807",
+      "displayName": "powiat iławski",
+      "powiatName": "iławski",
+      "normalizedName": "powiat ilawski",
+      "slug": "ilawski",
+      "fileNameGeoJSON": "2807_ilawski.geojson",
+      "fileNameSQLite": "2807_ilawski.sqlite",
+      "hydrantsCount": 272,
+      "aliases": [
+        "ilawski",
+        "powiat ilawski"
+      ]
+    },
+    {
+      "teryt": "0605",
+      "displayName": "powiat janowski",
+      "powiatName": "janowski",
+      "normalizedName": "powiat janowski",
+      "slug": "janowski",
+      "fileNameGeoJSON": "0605_janowski.geojson",
+      "fileNameSQLite": "0605_janowski.sqlite",
+      "hydrantsCount": 128,
+      "aliases": [
+        "janowski",
+        "powiat janowski"
+      ]
+    },
+    {
+      "teryt": "3006",
+      "displayName": "powiat jarociński",
+      "powiatName": "jarociński",
+      "normalizedName": "powiat jarocinski",
+      "slug": "jarocinski",
+      "fileNameGeoJSON": "3006_jarocinski.geojson",
+      "fileNameSQLite": "3006_jarocinski.sqlite",
+      "hydrantsCount": 1045,
+      "aliases": [
+        "jarocinski",
+        "powiat jarocinski"
+      ]
+    },
+    {
+      "teryt": "1804",
+      "displayName": "powiat jarosławski",
+      "powiatName": "jarosławski",
+      "normalizedName": "powiat jaroslawski",
+      "slug": "jaroslawski",
+      "fileNameGeoJSON": "1804_jaroslawski.geojson",
+      "fileNameSQLite": "1804_jaroslawski.sqlite",
+      "hydrantsCount": 3208,
+      "aliases": [
+        "jaroslawski",
+        "powiat jaroslawski"
+      ]
+    },
+    {
+      "teryt": "1805",
+      "displayName": "powiat jasielski",
+      "powiatName": "jasielski",
+      "normalizedName": "powiat jasielski",
+      "slug": "jasielski",
+      "fileNameGeoJSON": "1805_jasielski.geojson",
+      "fileNameSQLite": "1805_jasielski.sqlite",
+      "hydrantsCount": 788,
+      "aliases": [
+        "jasielski",
+        "powiat jasielski"
+      ]
+    },
+    {
+      "teryt": "0205",
+      "displayName": "powiat jaworski",
+      "powiatName": "jaworski",
+      "normalizedName": "powiat jaworski",
+      "slug": "jaworski",
+      "fileNameGeoJSON": "0205_jaworski.geojson",
+      "fileNameSQLite": "0205_jaworski.sqlite",
+      "hydrantsCount": 1006,
+      "aliases": [
+        "jaworski",
+        "powiat jaworski"
+      ]
+    },
+    {
+      "teryt": "0206",
+      "displayName": "powiat jeleniogórski",
+      "powiatName": "jeleniogórski",
+      "normalizedName": "powiat jeleniogorski",
+      "slug": "jeleniogorski",
+      "fileNameGeoJSON": "0206_jeleniogorski.geojson",
+      "fileNameSQLite": "0206_jeleniogorski.sqlite",
+      "hydrantsCount": 236,
+      "aliases": [
+        "jeleniogorski",
+        "powiat jeleniogorski"
+      ]
+    },
+    {
+      "teryt": "2602",
+      "displayName": "powiat jędrzejowski",
+      "powiatName": "jędrzejowski",
+      "normalizedName": "powiat jedrzejowski",
+      "slug": "jedrzejowski",
+      "fileNameGeoJSON": "2602_jedrzejowski.geojson",
+      "fileNameSQLite": "2602_jedrzejowski.sqlite",
+      "hydrantsCount": 3259,
+      "aliases": [
+        "jedrzejowski",
+        "powiat jedrzejowski"
+      ]
+    },
+    {
+      "teryt": "3007",
+      "displayName": "powiat kaliski",
+      "powiatName": "kaliski",
+      "normalizedName": "powiat kaliski",
+      "slug": "kaliski",
+      "fileNameGeoJSON": "3007_kaliski.geojson",
+      "fileNameSQLite": "3007_kaliski.sqlite",
+      "hydrantsCount": 526,
+      "aliases": [
+        "kaliski",
+        "powiat kaliski"
+      ]
+    },
+    {
+      "teryt": "0207",
+      "displayName": "powiat kamiennogórski",
+      "powiatName": "kamiennogórski",
+      "normalizedName": "powiat kamiennogorski",
+      "slug": "kamiennogorski",
+      "fileNameGeoJSON": "0207_kamiennogorski.geojson",
+      "fileNameSQLite": "0207_kamiennogorski.sqlite",
+      "hydrantsCount": 354,
+      "aliases": [
+        "kamiennogorski",
+        "powiat kamiennogorski"
+      ]
+    },
+    {
+      "teryt": "3207",
+      "displayName": "powiat kamieński",
+      "powiatName": "kamieński",
+      "normalizedName": "powiat kamienski",
+      "slug": "kamienski",
+      "fileNameGeoJSON": "3207_kamienski.geojson",
+      "fileNameSQLite": "3207_kamienski.sqlite",
+      "hydrantsCount": 418,
+      "aliases": [
+        "kamienski",
+        "powiat kamienski"
+      ]
+    },
+    {
+      "teryt": "2205",
+      "displayName": "powiat kartuski",
+      "powiatName": "kartuski",
+      "normalizedName": "powiat kartuski",
+      "slug": "kartuski",
+      "fileNameGeoJSON": "2205_kartuski.geojson",
+      "fileNameSQLite": "2205_kartuski.sqlite",
+      "hydrantsCount": 1811,
+      "aliases": [
+        "kartuski",
+        "powiat kartuski"
+      ]
+    },
+    {
+      "teryt": "2603",
+      "displayName": "powiat kazimierski",
+      "powiatName": "kazimierski",
+      "normalizedName": "powiat kazimierski",
+      "slug": "kazimierski",
+      "fileNameGeoJSON": "2603_kazimierski.geojson",
+      "fileNameSQLite": "2603_kazimierski.sqlite",
+      "hydrantsCount": 2209,
+      "aliases": [
+        "kazimierski",
+        "powiat kazimierski"
+      ]
+    },
+    {
+      "teryt": "2604",
+      "displayName": "powiat kielecki",
+      "powiatName": "kielecki",
+      "normalizedName": "powiat kielecki",
+      "slug": "kielecki",
+      "fileNameGeoJSON": "2604_kielecki.geojson",
+      "fileNameSQLite": "2604_kielecki.sqlite",
+      "hydrantsCount": 7687,
+      "aliases": [
+        "kielecki",
+        "powiat kielecki"
+      ]
+    },
+    {
+      "teryt": "1604",
+      "displayName": "powiat kluczborski",
+      "powiatName": "kluczborski",
+      "normalizedName": "powiat kluczborski",
+      "slug": "kluczborski",
+      "fileNameGeoJSON": "1604_kluczborski.geojson",
+      "fileNameSQLite": "1604_kluczborski.sqlite",
+      "hydrantsCount": 794,
+      "aliases": [
+        "kluczborski",
+        "powiat kluczborski"
+      ]
+    },
+    {
+      "teryt": "1806",
+      "displayName": "powiat kolbuszowski",
+      "powiatName": "kolbuszowski",
+      "normalizedName": "powiat kolbuszowski",
+      "slug": "kolbuszowski",
+      "fileNameGeoJSON": "1806_kolbuszowski.geojson",
+      "fileNameSQLite": "1806_kolbuszowski.sqlite",
+      "hydrantsCount": 293,
+      "aliases": [
+        "kolbuszowski",
+        "powiat kolbuszowski"
+      ]
+    },
+    {
+      "teryt": "2006",
+      "displayName": "powiat kolneński",
+      "powiatName": "kolneński",
+      "normalizedName": "powiat kolnenski",
+      "slug": "kolnenski",
+      "fileNameGeoJSON": "2006_kolnenski.geojson",
+      "fileNameSQLite": "2006_kolnenski.sqlite",
+      "hydrantsCount": 1989,
+      "aliases": [
+        "kolnenski",
+        "powiat kolnenski"
+      ]
+    },
+    {
+      "teryt": "3009",
+      "displayName": "powiat kolski",
+      "powiatName": "kolski",
+      "normalizedName": "powiat kolski",
+      "slug": "kolski",
+      "fileNameGeoJSON": "3009_kolski.geojson",
+      "fileNameSQLite": "3009_kolski.sqlite",
+      "hydrantsCount": 943,
+      "aliases": [
+        "kolski",
+        "powiat kolski"
+      ]
+    },
+    {
+      "teryt": "2605",
+      "displayName": "powiat konecki",
+      "powiatName": "konecki",
+      "normalizedName": "powiat konecki",
+      "slug": "konecki",
+      "fileNameGeoJSON": "2605_konecki.geojson",
+      "fileNameSQLite": "2605_konecki.sqlite",
+      "hydrantsCount": 1698,
+      "aliases": [
+        "konecki",
+        "powiat konecki"
+      ]
+    },
+    {
+      "teryt": "3010",
+      "displayName": "powiat koniński",
+      "powiatName": "koniński",
+      "normalizedName": "powiat koninski",
+      "slug": "koninski",
+      "fileNameGeoJSON": "3010_koninski.geojson",
+      "fileNameSQLite": "3010_koninski.sqlite",
+      "hydrantsCount": 256,
+      "aliases": [
+        "koninski",
+        "powiat koninski"
+      ]
+    },
+    {
+      "teryt": "3209",
+      "displayName": "powiat koszaliński",
+      "powiatName": "koszaliński",
+      "normalizedName": "powiat koszalinski",
+      "slug": "koszalinski",
+      "fileNameGeoJSON": "3209_koszalinski.geojson",
+      "fileNameSQLite": "3209_koszalinski.sqlite",
+      "hydrantsCount": 442,
+      "aliases": [
+        "koszalinski",
+        "powiat koszalinski"
+      ]
+    },
+    {
+      "teryt": "1407",
+      "displayName": "powiat kozienicki",
+      "powiatName": "kozienicki",
+      "normalizedName": "powiat kozienicki",
+      "slug": "kozienicki",
+      "fileNameGeoJSON": "1407_kozienicki.geojson",
+      "fileNameSQLite": "1407_kozienicki.sqlite",
+      "hydrantsCount": 52,
+      "aliases": [
+        "kozienicki",
+        "powiat kozienicki"
+      ]
+    },
+    {
+      "teryt": "3208",
+      "displayName": "powiat kołobrzeski",
+      "powiatName": "kołobrzeski",
+      "normalizedName": "powiat kolobrzeski",
+      "slug": "kolobrzeski",
+      "fileNameGeoJSON": "3208_kolobrzeski.geojson",
+      "fileNameSQLite": "3208_kolobrzeski.sqlite",
+      "hydrantsCount": 973,
+      "aliases": [
+        "kolobrzeski",
+        "powiat kolobrzeski"
+      ]
+    },
+    {
+      "teryt": "3011",
+      "displayName": "powiat kościański",
+      "powiatName": "kościański",
+      "normalizedName": "powiat koscianski",
+      "slug": "koscianski",
+      "fileNameGeoJSON": "3011_koscianski.geojson",
+      "fileNameSQLite": "3011_koscianski.sqlite",
+      "hydrantsCount": 31,
+      "aliases": [
+        "koscianski",
+        "powiat koscianski"
+      ]
+    },
+    {
+      "teryt": "2206",
+      "displayName": "powiat kościerski",
+      "powiatName": "kościerski",
+      "normalizedName": "powiat koscierski",
+      "slug": "koscierski",
+      "fileNameGeoJSON": "2206_koscierski.geojson",
+      "fileNameSQLite": "2206_koscierski.sqlite",
+      "hydrantsCount": 931,
+      "aliases": [
+        "koscierski",
+        "powiat koscierski"
+      ]
+    },
+    {
+      "teryt": "1206",
+      "displayName": "powiat krakowski",
+      "powiatName": "krakowski",
+      "normalizedName": "powiat krakowski",
+      "slug": "krakowski",
+      "fileNameGeoJSON": "1206_krakowski.geojson",
+      "fileNameSQLite": "1206_krakowski.sqlite",
+      "hydrantsCount": 1246,
+      "aliases": [
+        "krakowski",
+        "powiat krakowski"
+      ]
+    },
+    {
+      "teryt": "1605",
+      "displayName": "powiat krapkowicki",
+      "powiatName": "krapkowicki",
+      "normalizedName": "powiat krapkowicki",
+      "slug": "krapkowicki",
+      "fileNameGeoJSON": "1605_krapkowicki.geojson",
+      "fileNameSQLite": "1605_krapkowicki.sqlite",
+      "hydrantsCount": 542,
+      "aliases": [
+        "krapkowicki",
+        "powiat krapkowicki"
+      ]
+    },
+    {
+      "teryt": "0606",
+      "displayName": "powiat krasnostawski",
+      "powiatName": "krasnostawski",
+      "normalizedName": "powiat krasnostawski",
+      "slug": "krasnostawski",
+      "fileNameGeoJSON": "0606_krasnostawski.geojson",
+      "fileNameSQLite": "0606_krasnostawski.sqlite",
+      "hydrantsCount": 4127,
+      "aliases": [
+        "krasnostawski",
+        "powiat krasnostawski"
+      ]
+    },
+    {
+      "teryt": "0607",
+      "displayName": "powiat kraśnicki",
+      "powiatName": "kraśnicki",
+      "normalizedName": "powiat krasnicki",
+      "slug": "krasnicki",
+      "fileNameGeoJSON": "0607_krasnicki.geojson",
+      "fileNameSQLite": "0607_krasnicki.sqlite",
+      "hydrantsCount": 76,
+      "aliases": [
+        "krasnicki",
+        "powiat krasnicki"
+      ]
+    },
+    {
+      "teryt": "3012",
+      "displayName": "powiat krotoszyński",
+      "powiatName": "krotoszyński",
+      "normalizedName": "powiat krotoszynski",
+      "slug": "krotoszynski",
+      "fileNameGeoJSON": "3012_krotoszynski.geojson",
+      "fileNameSQLite": "3012_krotoszynski.sqlite",
+      "hydrantsCount": 2022,
+      "aliases": [
+        "krotoszynski",
+        "powiat krotoszynski"
+      ]
+    },
+    {
+      "teryt": "0802",
+      "displayName": "powiat krośnieński",
+      "powiatName": "krośnieński",
+      "normalizedName": "powiat krosnienski",
+      "slug": "krosnienski",
+      "fileNameGeoJSON": "0802_krosnienski.geojson",
+      "fileNameSQLite": "0802_krosnienski.sqlite",
+      "hydrantsCount": 918,
+      "aliases": [
+        "krosnienski",
+        "powiat krosnienski"
+      ]
+    },
+    {
+      "teryt": "1807",
+      "displayName": "powiat krośnieński",
+      "powiatName": "krośnieński",
+      "normalizedName": "powiat krosnienski",
+      "slug": "krosnienski",
+      "fileNameGeoJSON": "1807_krosnienski.geojson",
+      "fileNameSQLite": "1807_krosnienski.sqlite",
+      "hydrantsCount": 1584,
+      "aliases": [
+        "krosnienski",
+        "powiat krosnienski"
+      ]
+    },
+    {
+      "teryt": "1002",
+      "displayName": "powiat kutnowski",
+      "powiatName": "kutnowski",
+      "normalizedName": "powiat kutnowski",
+      "slug": "kutnowski",
+      "fileNameGeoJSON": "1002_kutnowski.geojson",
+      "fileNameSQLite": "1002_kutnowski.sqlite",
+      "hydrantsCount": 63,
+      "aliases": [
+        "kutnowski",
+        "powiat kutnowski"
+      ]
+    },
+    {
+      "teryt": "2207",
+      "displayName": "powiat kwidzyński",
+      "powiatName": "kwidzyński",
+      "normalizedName": "powiat kwidzynski",
+      "slug": "kwidzynski",
+      "fileNameGeoJSON": "2207_kwidzynski.geojson",
+      "fileNameSQLite": "2207_kwidzynski.sqlite",
+      "hydrantsCount": 1497,
+      "aliases": [
+        "kwidzynski",
+        "powiat kwidzynski"
+      ]
+    },
+    {
+      "teryt": "1603",
+      "displayName": "powiat kędzierzyńsko-kozielski",
+      "powiatName": "kędzierzyńsko-kozielski",
+      "normalizedName": "powiat kedzierzynsko-kozielski",
+      "slug": "kedzierzynsko-kozielski",
+      "fileNameGeoJSON": "1603_kedzierzynsko-kozielski.geojson",
+      "fileNameSQLite": "1603_kedzierzynsko-kozielski.sqlite",
+      "hydrantsCount": 647,
+      "aliases": [
+        "kedzierzynsko kozielski",
+        "kedzierzynsko-kozielski",
+        "powiat kedzierzynsko-kozielski"
+      ]
+    },
+    {
+      "teryt": "3008",
+      "displayName": "powiat kępiński",
+      "powiatName": "kępiński",
+      "normalizedName": "powiat kepinski",
+      "slug": "kepinski",
+      "fileNameGeoJSON": "3008_kepinski.geojson",
+      "fileNameSQLite": "3008_kepinski.sqlite",
+      "hydrantsCount": 759,
+      "aliases": [
+        "kepinski",
+        "powiat kepinski"
+      ]
+    },
+    {
+      "teryt": "2808",
+      "displayName": "powiat kętrzyński",
+      "powiatName": "kętrzyński",
+      "normalizedName": "powiat ketrzynski",
+      "slug": "ketrzynski",
+      "fileNameGeoJSON": "2808_ketrzynski.geojson",
+      "fileNameSQLite": "2808_ketrzynski.sqlite",
+      "hydrantsCount": 313,
+      "aliases": [
+        "ketrzynski",
+        "powiat ketrzynski"
+      ]
+    },
+    {
+      "teryt": "2406",
+      "displayName": "powiat kłobucki",
+      "powiatName": "kłobucki",
+      "normalizedName": "powiat klobucki",
+      "slug": "klobucki",
+      "fileNameGeoJSON": "2406_klobucki.geojson",
+      "fileNameSQLite": "2406_klobucki.sqlite",
+      "hydrantsCount": 1078,
+      "aliases": [
+        "klobucki",
+        "powiat klobucki"
+      ]
+    },
+    {
+      "teryt": "0208",
+      "displayName": "powiat kłodzki",
+      "powiatName": "kłodzki",
+      "normalizedName": "powiat klodzki",
+      "slug": "klodzki",
+      "fileNameGeoJSON": "0208_klodzki.geojson",
+      "fileNameSQLite": "0208_klodzki.sqlite",
+      "hydrantsCount": 1239,
+      "aliases": [
+        "klodzki",
+        "powiat klodzki"
+      ]
+    },
+    {
+      "teryt": "1408",
+      "displayName": "powiat legionowski",
+      "powiatName": "legionowski",
+      "normalizedName": "powiat legionowski",
+      "slug": "legionowski",
+      "fileNameGeoJSON": "1408_legionowski.geojson",
+      "fileNameSQLite": "1408_legionowski.sqlite",
+      "hydrantsCount": 996,
+      "aliases": [
+        "legionowski",
+        "powiat legionowski"
+      ]
+    },
+    {
+      "teryt": "0209",
+      "displayName": "powiat legnicki",
+      "powiatName": "legnicki",
+      "normalizedName": "powiat legnicki",
+      "slug": "legnicki",
+      "fileNameGeoJSON": "0209_legnicki.geojson",
+      "fileNameSQLite": "0209_legnicki.sqlite",
+      "hydrantsCount": 303,
+      "aliases": [
+        "legnicki",
+        "powiat legnicki"
+      ]
+    },
+    {
+      "teryt": "1821",
+      "displayName": "powiat leski",
+      "powiatName": "leski",
+      "normalizedName": "powiat leski",
+      "slug": "leski",
+      "fileNameGeoJSON": "1821_leski.geojson",
+      "fileNameSQLite": "1821_leski.sqlite",
+      "hydrantsCount": 184,
+      "aliases": [
+        "leski",
+        "powiat leski"
+      ]
+    },
+    {
+      "teryt": "3013",
+      "displayName": "powiat leszczyński",
+      "powiatName": "leszczyński",
+      "normalizedName": "powiat leszczynski",
+      "slug": "leszczynski",
+      "fileNameGeoJSON": "3013_leszczynski.geojson",
+      "fileNameSQLite": "3013_leszczynski.sqlite",
+      "hydrantsCount": 474,
+      "aliases": [
+        "leszczynski",
+        "powiat leszczynski"
+      ]
+    },
+    {
+      "teryt": "1808",
+      "displayName": "powiat leżajski",
+      "powiatName": "leżajski",
+      "normalizedName": "powiat lezajski",
+      "slug": "lezajski",
+      "fileNameGeoJSON": "1808_lezajski.geojson",
+      "fileNameSQLite": "1808_lezajski.sqlite",
+      "hydrantsCount": 618,
+      "aliases": [
+        "lezajski",
+        "powiat lezajski"
+      ]
+    },
+    {
+      "teryt": "2809",
+      "displayName": "powiat lidzbarski",
+      "powiatName": "lidzbarski",
+      "normalizedName": "powiat lidzbarski",
+      "slug": "lidzbarski",
+      "fileNameGeoJSON": "2809_lidzbarski.geojson",
+      "fileNameSQLite": "2809_lidzbarski.sqlite",
+      "hydrantsCount": 524,
+      "aliases": [
+        "lidzbarski",
+        "powiat lidzbarski"
+      ]
+    },
+    {
+      "teryt": "1207",
+      "displayName": "powiat limanowski",
+      "powiatName": "limanowski",
+      "normalizedName": "powiat limanowski",
+      "slug": "limanowski",
+      "fileNameGeoJSON": "1207_limanowski.geojson",
+      "fileNameSQLite": "1207_limanowski.sqlite",
+      "hydrantsCount": 98,
+      "aliases": [
+        "limanowski",
+        "powiat limanowski"
+      ]
+    },
+    {
+      "teryt": "0408",
+      "displayName": "powiat lipnowski",
+      "powiatName": "lipnowski",
+      "normalizedName": "powiat lipnowski",
+      "slug": "lipnowski",
+      "fileNameGeoJSON": "0408_lipnowski.geojson",
+      "fileNameSQLite": "0408_lipnowski.sqlite",
+      "hydrantsCount": 89,
+      "aliases": [
+        "lipnowski",
+        "powiat lipnowski"
+      ]
+    },
+    {
+      "teryt": "1409",
+      "displayName": "powiat lipski",
+      "powiatName": "lipski",
+      "normalizedName": "powiat lipski",
+      "slug": "lipski",
+      "fileNameGeoJSON": "1409_lipski.geojson",
+      "fileNameSQLite": "1409_lipski.sqlite",
+      "hydrantsCount": 697,
+      "aliases": [
+        "lipski",
+        "powiat lipski"
+      ]
+    },
+    {
+      "teryt": "1809",
+      "displayName": "powiat lubaczowski",
+      "powiatName": "lubaczowski",
+      "normalizedName": "powiat lubaczowski",
+      "slug": "lubaczowski",
+      "fileNameGeoJSON": "1809_lubaczowski.geojson",
+      "fileNameSQLite": "1809_lubaczowski.sqlite",
+      "hydrantsCount": 629,
+      "aliases": [
+        "lubaczowski",
+        "powiat lubaczowski"
+      ]
+    },
+    {
+      "teryt": "0608",
+      "displayName": "powiat lubartowski",
+      "powiatName": "lubartowski",
+      "normalizedName": "powiat lubartowski",
+      "slug": "lubartowski",
+      "fileNameGeoJSON": "0608_lubartowski.geojson",
+      "fileNameSQLite": "0608_lubartowski.sqlite",
+      "hydrantsCount": 1408,
+      "aliases": [
+        "lubartowski",
+        "powiat lubartowski"
+      ]
+    },
+    {
+      "teryt": "0210",
+      "displayName": "powiat lubański",
+      "powiatName": "lubański",
+      "normalizedName": "powiat lubanski",
+      "slug": "lubanski",
+      "fileNameGeoJSON": "0210_lubanski.geojson",
+      "fileNameSQLite": "0210_lubanski.sqlite",
+      "hydrantsCount": 282,
+      "aliases": [
+        "lubanski",
+        "powiat lubanski"
+      ]
+    },
+    {
+      "teryt": "0609",
+      "displayName": "powiat lubelski",
+      "powiatName": "lubelski",
+      "normalizedName": "powiat lubelski",
+      "slug": "lubelski",
+      "fileNameGeoJSON": "0609_lubelski.geojson",
+      "fileNameSQLite": "0609_lubelski.sqlite",
+      "hydrantsCount": 1945,
+      "aliases": [
+        "lubelski",
+        "powiat lubelski"
+      ]
+    },
+    {
+      "teryt": "0211",
+      "displayName": "powiat lubiński",
+      "powiatName": "lubiński",
+      "normalizedName": "powiat lubinski",
+      "slug": "lubinski",
+      "fileNameGeoJSON": "0211_lubinski.geojson",
+      "fileNameSQLite": "0211_lubinski.sqlite",
+      "hydrantsCount": 509,
+      "aliases": [
+        "lubinski",
+        "powiat lubinski"
+      ]
+    },
+    {
+      "teryt": "2407",
+      "displayName": "powiat lubliniecki",
+      "powiatName": "lubliniecki",
+      "normalizedName": "powiat lubliniecki",
+      "slug": "lubliniecki",
+      "fileNameGeoJSON": "2407_lubliniecki.geojson",
+      "fileNameSQLite": "2407_lubliniecki.sqlite",
+      "hydrantsCount": 1368,
+      "aliases": [
+        "lubliniecki",
+        "powiat lubliniecki"
+      ]
+    },
+    {
+      "teryt": "0212",
+      "displayName": "powiat lwówecki",
+      "powiatName": "lwówecki",
+      "normalizedName": "powiat lwowecki",
+      "slug": "lwowecki",
+      "fileNameGeoJSON": "0212_lwowecki.geojson",
+      "fileNameSQLite": "0212_lwowecki.sqlite",
+      "hydrantsCount": 1127,
+      "aliases": [
+        "lwowecki",
+        "powiat lwowecki"
+      ]
+    },
+    {
+      "teryt": "2208",
+      "displayName": "powiat lęborski",
+      "powiatName": "lęborski",
+      "normalizedName": "powiat leborski",
+      "slug": "leborski",
+      "fileNameGeoJSON": "2208_leborski.geojson",
+      "fileNameSQLite": "2208_leborski.sqlite",
+      "hydrantsCount": 547,
+      "aliases": [
+        "leborski",
+        "powiat leborski"
+      ]
+    },
+    {
+      "teryt": "1411",
+      "displayName": "powiat makowski",
+      "powiatName": "makowski",
+      "normalizedName": "powiat makowski",
+      "slug": "makowski",
+      "fileNameGeoJSON": "1411_makowski.geojson",
+      "fileNameSQLite": "1411_makowski.sqlite",
+      "hydrantsCount": 15,
+      "aliases": [
+        "makowski",
+        "powiat makowski"
+      ]
+    },
+    {
+      "teryt": "2209",
+      "displayName": "powiat malborski",
+      "powiatName": "malborski",
+      "normalizedName": "powiat malborski",
+      "slug": "malborski",
+      "fileNameGeoJSON": "2209_malborski.geojson",
+      "fileNameSQLite": "2209_malborski.sqlite",
+      "hydrantsCount": 720,
+      "aliases": [
+        "malborski",
+        "powiat malborski"
+      ]
+    },
+    {
+      "teryt": "1208",
+      "displayName": "powiat miechowski",
+      "powiatName": "miechowski",
+      "normalizedName": "powiat miechowski",
+      "slug": "miechowski",
+      "fileNameGeoJSON": "1208_miechowski.geojson",
+      "fileNameSQLite": "1208_miechowski.sqlite",
+      "hydrantsCount": 255,
+      "aliases": [
+        "miechowski",
+        "powiat miechowski"
+      ]
+    },
+    {
+      "teryt": "1811",
+      "displayName": "powiat mielecki",
+      "powiatName": "mielecki",
+      "normalizedName": "powiat mielecki",
+      "slug": "mielecki",
+      "fileNameGeoJSON": "1811_mielecki.geojson",
+      "fileNameSQLite": "1811_mielecki.sqlite",
+      "hydrantsCount": 544,
+      "aliases": [
+        "mielecki",
+        "powiat mielecki"
+      ]
+    },
+    {
+      "teryt": "2408",
+      "displayName": "powiat mikołowski",
+      "powiatName": "mikołowski",
+      "normalizedName": "powiat mikolowski",
+      "slug": "mikolowski",
+      "fileNameGeoJSON": "2408_mikolowski.geojson",
+      "fileNameSQLite": "2408_mikolowski.sqlite",
+      "hydrantsCount": 2360,
+      "aliases": [
+        "mikolowski",
+        "powiat mikolowski"
+      ]
+    },
+    {
+      "teryt": "0213",
+      "displayName": "powiat milicki",
+      "powiatName": "milicki",
+      "normalizedName": "powiat milicki",
+      "slug": "milicki",
+      "fileNameGeoJSON": "0213_milicki.geojson",
+      "fileNameSQLite": "0213_milicki.sqlite",
+      "hydrantsCount": 172,
+      "aliases": [
+        "milicki",
+        "powiat milicki"
+      ]
+    },
+    {
+      "teryt": "3014",
+      "displayName": "powiat międzychodzki",
+      "powiatName": "międzychodzki",
+      "normalizedName": "powiat miedzychodzki",
+      "slug": "miedzychodzki",
+      "fileNameGeoJSON": "3014_miedzychodzki.geojson",
+      "fileNameSQLite": "3014_miedzychodzki.sqlite",
+      "hydrantsCount": 293,
+      "aliases": [
+        "miedzychodzki",
+        "powiat miedzychodzki"
+      ]
+    },
+    {
+      "teryt": "0803",
+      "displayName": "powiat międzyrzecki",
+      "powiatName": "międzyrzecki",
+      "normalizedName": "powiat miedzyrzecki",
+      "slug": "miedzyrzecki",
+      "fileNameGeoJSON": "0803_miedzyrzecki.geojson",
+      "fileNameSQLite": "0803_miedzyrzecki.sqlite",
+      "hydrantsCount": 765,
+      "aliases": [
+        "miedzyrzecki",
+        "powiat miedzyrzecki"
+      ]
+    },
+    {
+      "teryt": "1412",
+      "displayName": "powiat miński",
+      "powiatName": "miński",
+      "normalizedName": "powiat minski",
+      "slug": "minski",
+      "fileNameGeoJSON": "1412_minski.geojson",
+      "fileNameSQLite": "1412_minski.sqlite",
+      "hydrantsCount": 5349,
+      "aliases": [
+        "minski",
+        "powiat minski"
+      ]
+    },
+    {
+      "teryt": "0409",
+      "displayName": "powiat mogileński",
+      "powiatName": "mogileński",
+      "normalizedName": "powiat mogilenski",
+      "slug": "mogilenski",
+      "fileNameGeoJSON": "0409_mogilenski.geojson",
+      "fileNameSQLite": "0409_mogilenski.sqlite",
+      "hydrantsCount": 365,
+      "aliases": [
+        "mogilenski",
+        "powiat mogilenski"
+      ]
+    },
+    {
+      "teryt": "2008",
+      "displayName": "powiat moniecki",
+      "powiatName": "moniecki",
+      "normalizedName": "powiat moniecki",
+      "slug": "moniecki",
+      "fileNameGeoJSON": "2008_moniecki.geojson",
+      "fileNameSQLite": "2008_moniecki.sqlite",
+      "hydrantsCount": 919,
+      "aliases": [
+        "moniecki",
+        "powiat moniecki"
+      ]
+    },
+    {
+      "teryt": "2810",
+      "displayName": "powiat mrągowski",
+      "powiatName": "mrągowski",
+      "normalizedName": "powiat mragowski",
+      "slug": "mragowski",
+      "fileNameGeoJSON": "2810_mragowski.geojson",
+      "fileNameSQLite": "2810_mragowski.sqlite",
+      "hydrantsCount": 518,
+      "aliases": [
+        "mragowski",
+        "powiat mragowski"
+      ]
+    },
+    {
+      "teryt": "2409",
+      "displayName": "powiat myszkowski",
+      "powiatName": "myszkowski",
+      "normalizedName": "powiat myszkowski",
+      "slug": "myszkowski",
+      "fileNameGeoJSON": "2409_myszkowski.geojson",
+      "fileNameSQLite": "2409_myszkowski.sqlite",
+      "hydrantsCount": 1168,
+      "aliases": [
+        "myszkowski",
+        "powiat myszkowski"
+      ]
+    },
+    {
+      "teryt": "1209",
+      "displayName": "powiat myślenicki",
+      "powiatName": "myślenicki",
+      "normalizedName": "powiat myslenicki",
+      "slug": "myslenicki",
+      "fileNameGeoJSON": "1209_myslenicki.geojson",
+      "fileNameSQLite": "1209_myslenicki.sqlite",
+      "hydrantsCount": 2005,
+      "aliases": [
+        "myslenicki",
+        "powiat myslenicki"
+      ]
+    },
+    {
+      "teryt": "3210",
+      "displayName": "powiat myśliborski",
+      "powiatName": "myśliborski",
+      "normalizedName": "powiat mysliborski",
+      "slug": "mysliborski",
+      "fileNameGeoJSON": "3210_mysliborski.geojson",
+      "fileNameSQLite": "3210_mysliborski.sqlite",
+      "hydrantsCount": 1116,
+      "aliases": [
+        "mysliborski",
+        "powiat mysliborski"
+      ]
+    },
+    {
+      "teryt": "1413",
+      "displayName": "powiat mławski",
+      "powiatName": "mławski",
+      "normalizedName": "powiat mlawski",
+      "slug": "mlawski",
+      "fileNameGeoJSON": "1413_mlawski.geojson",
+      "fileNameSQLite": "1413_mlawski.sqlite",
+      "hydrantsCount": 334,
+      "aliases": [
+        "mlawski",
+        "powiat mlawski"
+      ]
+    },
+    {
+      "teryt": "0410",
+      "displayName": "powiat nakielski",
+      "powiatName": "nakielski",
+      "normalizedName": "powiat nakielski",
+      "slug": "nakielski",
+      "fileNameGeoJSON": "0410_nakielski.geojson",
+      "fileNameSQLite": "0410_nakielski.sqlite",
+      "hydrantsCount": 382,
+      "aliases": [
+        "nakielski",
+        "powiat nakielski"
+      ]
+    },
+    {
+      "teryt": "1606",
+      "displayName": "powiat namysłowski",
+      "powiatName": "namysłowski",
+      "normalizedName": "powiat namyslowski",
+      "slug": "namyslowski",
+      "fileNameGeoJSON": "1606_namyslowski.geojson",
+      "fileNameSQLite": "1606_namyslowski.sqlite",
+      "hydrantsCount": 837,
+      "aliases": [
+        "namyslowski",
+        "powiat namyslowski"
+      ]
+    },
+    {
+      "teryt": "2811",
+      "displayName": "powiat nidzicki",
+      "powiatName": "nidzicki",
+      "normalizedName": "powiat nidzicki",
+      "slug": "nidzicki",
+      "fileNameGeoJSON": "2811_nidzicki.geojson",
+      "fileNameSQLite": "2811_nidzicki.sqlite",
+      "hydrantsCount": 272,
+      "aliases": [
+        "nidzicki",
+        "powiat nidzicki"
+      ]
+    },
+    {
+      "teryt": "1812",
+      "displayName": "powiat niżański",
+      "powiatName": "niżański",
+      "normalizedName": "powiat nizanski",
+      "slug": "nizanski",
+      "fileNameGeoJSON": "1812_nizanski.geojson",
+      "fileNameSQLite": "1812_nizanski.sqlite",
+      "hydrantsCount": 1753,
+      "aliases": [
+        "nizanski",
+        "powiat nizanski"
+      ]
+    },
+    {
+      "teryt": "1414",
+      "displayName": "powiat nowodworski",
+      "powiatName": "nowodworski",
+      "normalizedName": "powiat nowodworski",
+      "slug": "nowodworski",
+      "fileNameGeoJSON": "1414_nowodworski.geojson",
+      "fileNameSQLite": "1414_nowodworski.sqlite",
+      "hydrantsCount": 196,
+      "aliases": [
+        "nowodworski",
+        "powiat nowodworski"
+      ]
+    },
+    {
+      "teryt": "2210",
+      "displayName": "powiat nowodworski",
+      "powiatName": "nowodworski",
+      "normalizedName": "powiat nowodworski",
+      "slug": "nowodworski",
+      "fileNameGeoJSON": "2210_nowodworski.geojson",
+      "fileNameSQLite": "2210_nowodworski.sqlite",
+      "hydrantsCount": 182,
+      "aliases": [
+        "nowodworski",
+        "powiat nowodworski"
+      ]
+    },
+    {
+      "teryt": "2812",
+      "displayName": "powiat nowomiejski",
+      "powiatName": "nowomiejski",
+      "normalizedName": "powiat nowomiejski",
+      "slug": "nowomiejski",
+      "fileNameGeoJSON": "2812_nowomiejski.geojson",
+      "fileNameSQLite": "2812_nowomiejski.sqlite",
+      "hydrantsCount": 341,
+      "aliases": [
+        "nowomiejski",
+        "powiat nowomiejski"
+      ]
+    },
+    {
+      "teryt": "0804",
+      "displayName": "powiat nowosolski",
+      "powiatName": "nowosolski",
+      "normalizedName": "powiat nowosolski",
+      "slug": "nowosolski",
+      "fileNameGeoJSON": "0804_nowosolski.geojson",
+      "fileNameSQLite": "0804_nowosolski.sqlite",
+      "hydrantsCount": 2367,
+      "aliases": [
+        "nowosolski",
+        "powiat nowosolski"
+      ]
+    },
+    {
+      "teryt": "1210",
+      "displayName": "powiat nowosądecki",
+      "powiatName": "nowosądecki",
+      "normalizedName": "powiat nowosadecki",
+      "slug": "nowosadecki",
+      "fileNameGeoJSON": "1210_nowosadecki.geojson",
+      "fileNameSQLite": "1210_nowosadecki.sqlite",
+      "hydrantsCount": 2557,
+      "aliases": [
+        "nowosadecki",
+        "powiat nowosadecki"
+      ]
+    },
+    {
+      "teryt": "1211",
+      "displayName": "powiat nowotarski",
+      "powiatName": "nowotarski",
+      "normalizedName": "powiat nowotarski",
+      "slug": "nowotarski",
+      "fileNameGeoJSON": "1211_nowotarski.geojson",
+      "fileNameSQLite": "1211_nowotarski.sqlite",
+      "hydrantsCount": 823,
+      "aliases": [
+        "nowotarski",
+        "powiat nowotarski"
+      ]
+    },
+    {
+      "teryt": "3015",
+      "displayName": "powiat nowotomyski",
+      "powiatName": "nowotomyski",
+      "normalizedName": "powiat nowotomyski",
+      "slug": "nowotomyski",
+      "fileNameGeoJSON": "3015_nowotomyski.geojson",
+      "fileNameSQLite": "3015_nowotomyski.sqlite",
+      "hydrantsCount": 946,
+      "aliases": [
+        "nowotomyski",
+        "powiat nowotomyski"
+      ]
+    },
+    {
+      "teryt": "1607",
+      "displayName": "powiat nyski",
+      "powiatName": "nyski",
+      "normalizedName": "powiat nyski",
+      "slug": "nyski",
+      "fileNameGeoJSON": "1607_nyski.geojson",
+      "fileNameSQLite": "1607_nyski.sqlite",
+      "hydrantsCount": 291,
+      "aliases": [
+        "nyski",
+        "powiat nyski"
+      ]
+    },
+    {
+      "teryt": "3016",
+      "displayName": "powiat obornicki",
+      "powiatName": "obornicki",
+      "normalizedName": "powiat obornicki",
+      "slug": "obornicki",
+      "fileNameGeoJSON": "3016_obornicki.geojson",
+      "fileNameSQLite": "3016_obornicki.sqlite",
+      "hydrantsCount": 1471,
+      "aliases": [
+        "obornicki",
+        "powiat obornicki"
+      ]
+    },
+    {
+      "teryt": "2813",
+      "displayName": "powiat olecki",
+      "powiatName": "olecki",
+      "normalizedName": "powiat olecki",
+      "slug": "olecki",
+      "fileNameGeoJSON": "2813_olecki.geojson",
+      "fileNameSQLite": "2813_olecki.sqlite",
+      "hydrantsCount": 589,
+      "aliases": [
+        "olecki",
+        "powiat olecki"
+      ]
+    },
+    {
+      "teryt": "1608",
+      "displayName": "powiat oleski",
+      "powiatName": "oleski",
+      "normalizedName": "powiat oleski",
+      "slug": "oleski",
+      "fileNameGeoJSON": "1608_oleski.geojson",
+      "fileNameSQLite": "1608_oleski.sqlite",
+      "hydrantsCount": 466,
+      "aliases": [
+        "oleski",
+        "powiat oleski"
+      ]
+    },
+    {
+      "teryt": "0214",
+      "displayName": "powiat oleśnicki",
+      "powiatName": "oleśnicki",
+      "normalizedName": "powiat olesnicki",
+      "slug": "olesnicki",
+      "fileNameGeoJSON": "0214_olesnicki.geojson",
+      "fileNameSQLite": "0214_olesnicki.sqlite",
+      "hydrantsCount": 623,
+      "aliases": [
+        "olesnicki",
+        "powiat olesnicki"
+      ]
+    },
+    {
+      "teryt": "1212",
+      "displayName": "powiat olkuski",
+      "powiatName": "olkuski",
+      "normalizedName": "powiat olkuski",
+      "slug": "olkuski",
+      "fileNameGeoJSON": "1212_olkuski.geojson",
+      "fileNameSQLite": "1212_olkuski.sqlite",
+      "hydrantsCount": 625,
+      "aliases": [
+        "olkuski",
+        "powiat olkuski"
+      ]
+    },
+    {
+      "teryt": "2814",
+      "displayName": "powiat olsztyński",
+      "powiatName": "olsztyński",
+      "normalizedName": "powiat olsztynski",
+      "slug": "olsztynski",
+      "fileNameGeoJSON": "2814_olsztynski.geojson",
+      "fileNameSQLite": "2814_olsztynski.sqlite",
+      "hydrantsCount": 472,
+      "aliases": [
+        "olsztynski",
+        "powiat olsztynski"
+      ]
+    },
+    {
+      "teryt": "2606",
+      "displayName": "powiat opatowski",
+      "powiatName": "opatowski",
+      "normalizedName": "powiat opatowski",
+      "slug": "opatowski",
+      "fileNameGeoJSON": "2606_opatowski.geojson",
+      "fileNameSQLite": "2606_opatowski.sqlite",
+      "hydrantsCount": 2440,
+      "aliases": [
+        "opatowski",
+        "powiat opatowski"
+      ]
+    },
+    {
+      "teryt": "1007",
+      "displayName": "powiat opoczyński",
+      "powiatName": "opoczyński",
+      "normalizedName": "powiat opoczynski",
+      "slug": "opoczynski",
+      "fileNameGeoJSON": "1007_opoczynski.geojson",
+      "fileNameSQLite": "1007_opoczynski.sqlite",
+      "hydrantsCount": 331,
+      "aliases": [
+        "opoczynski",
+        "powiat opoczynski"
+      ]
+    },
+    {
+      "teryt": "0612",
+      "displayName": "powiat opolski",
+      "powiatName": "opolski",
+      "normalizedName": "powiat opolski",
+      "slug": "opolski",
+      "fileNameGeoJSON": "0612_opolski.geojson",
+      "fileNameSQLite": "0612_opolski.sqlite",
+      "hydrantsCount": 908,
+      "aliases": [
+        "opolski",
+        "powiat opolski"
+      ]
+    },
+    {
+      "teryt": "1609",
+      "displayName": "powiat opolski",
+      "powiatName": "opolski",
+      "normalizedName": "powiat opolski",
+      "slug": "opolski",
+      "fileNameGeoJSON": "1609_opolski.geojson",
+      "fileNameSQLite": "1609_opolski.sqlite",
+      "hydrantsCount": 1026,
+      "aliases": [
+        "opolski",
+        "powiat opolski"
+      ]
+    },
+    {
+      "teryt": "2607",
+      "displayName": "powiat ostrowiecki",
+      "powiatName": "ostrowiecki",
+      "normalizedName": "powiat ostrowiecki",
+      "slug": "ostrowiecki",
+      "fileNameGeoJSON": "2607_ostrowiecki.geojson",
+      "fileNameSQLite": "2607_ostrowiecki.sqlite",
+      "hydrantsCount": 2221,
+      "aliases": [
+        "ostrowiecki",
+        "powiat ostrowiecki"
+      ]
+    },
+    {
+      "teryt": "1416",
+      "displayName": "powiat ostrowski",
+      "powiatName": "ostrowski",
+      "normalizedName": "powiat ostrowski",
+      "slug": "ostrowski",
+      "fileNameGeoJSON": "1416_ostrowski.geojson",
+      "fileNameSQLite": "1416_ostrowski.sqlite",
+      "hydrantsCount": 636,
+      "aliases": [
+        "ostrowski",
+        "powiat ostrowski"
+      ]
+    },
+    {
+      "teryt": "3017",
+      "displayName": "powiat ostrowski",
+      "powiatName": "ostrowski",
+      "normalizedName": "powiat ostrowski",
+      "slug": "ostrowski",
+      "fileNameGeoJSON": "3017_ostrowski.geojson",
+      "fileNameSQLite": "3017_ostrowski.sqlite",
+      "hydrantsCount": 2520,
+      "aliases": [
+        "ostrowski",
+        "powiat ostrowski"
+      ]
+    },
+    {
+      "teryt": "1415",
+      "displayName": "powiat ostrołęcki",
+      "powiatName": "ostrołęcki",
+      "normalizedName": "powiat ostrolecki",
+      "slug": "ostrolecki",
+      "fileNameGeoJSON": "1415_ostrolecki.geojson",
+      "fileNameSQLite": "1415_ostrolecki.sqlite",
+      "hydrantsCount": 260,
+      "aliases": [
+        "ostrolecki",
+        "powiat ostrolecki"
+      ]
+    },
+    {
+      "teryt": "3018",
+      "displayName": "powiat ostrzeszowski",
+      "powiatName": "ostrzeszowski",
+      "normalizedName": "powiat ostrzeszowski",
+      "slug": "ostrzeszowski",
+      "fileNameGeoJSON": "3018_ostrzeszowski.geojson",
+      "fileNameSQLite": "3018_ostrzeszowski.sqlite",
+      "hydrantsCount": 570,
+      "aliases": [
+        "ostrzeszowski",
+        "powiat ostrzeszowski"
+      ]
+    },
+    {
+      "teryt": "2815",
+      "displayName": "powiat ostródzki",
+      "powiatName": "ostródzki",
+      "normalizedName": "powiat ostrodzki",
+      "slug": "ostrodzki",
+      "fileNameGeoJSON": "2815_ostrodzki.geojson",
+      "fileNameSQLite": "2815_ostrodzki.sqlite",
+      "hydrantsCount": 239,
+      "aliases": [
+        "ostrodzki",
+        "powiat ostrodzki"
+      ]
+    },
+    {
+      "teryt": "1417",
+      "displayName": "powiat otwocki",
+      "powiatName": "otwocki",
+      "normalizedName": "powiat otwocki",
+      "slug": "otwocki",
+      "fileNameGeoJSON": "1417_otwocki.geojson",
+      "fileNameSQLite": "1417_otwocki.sqlite",
+      "hydrantsCount": 1363,
+      "aliases": [
+        "otwocki",
+        "powiat otwocki"
+      ]
+    },
+    {
+      "teryt": "0215",
+      "displayName": "powiat oławski",
+      "powiatName": "oławski",
+      "normalizedName": "powiat olawski",
+      "slug": "olawski",
+      "fileNameGeoJSON": "0215_olawski.geojson",
+      "fileNameSQLite": "0215_olawski.sqlite",
+      "hydrantsCount": 49,
+      "aliases": [
+        "olawski",
+        "powiat olawski"
+      ]
+    },
+    {
+      "teryt": "1213",
+      "displayName": "powiat oświęcimski",
+      "powiatName": "oświęcimski",
+      "normalizedName": "powiat oswiecimski",
+      "slug": "oswiecimski",
+      "fileNameGeoJSON": "1213_oswiecimski.geojson",
+      "fileNameSQLite": "1213_oswiecimski.sqlite",
+      "hydrantsCount": 1442,
+      "aliases": [
+        "oswiecimski",
+        "powiat oswiecimski"
+      ]
+    },
+    {
+      "teryt": "1008",
+      "displayName": "powiat pabianicki",
+      "powiatName": "pabianicki",
+      "normalizedName": "powiat pabianicki",
+      "slug": "pabianicki",
+      "fileNameGeoJSON": "1008_pabianicki.geojson",
+      "fileNameSQLite": "1008_pabianicki.sqlite",
+      "hydrantsCount": 199,
+      "aliases": [
+        "pabianicki",
+        "powiat pabianicki"
+      ]
+    },
+    {
+      "teryt": "1009",
+      "displayName": "powiat pajęczański",
+      "powiatName": "pajęczański",
+      "normalizedName": "powiat pajeczanski",
+      "slug": "pajeczanski",
+      "fileNameGeoJSON": "1009_pajeczanski.geojson",
+      "fileNameSQLite": "1009_pajeczanski.sqlite",
+      "hydrantsCount": 625,
+      "aliases": [
+        "pajeczanski",
+        "powiat pajeczanski"
+      ]
+    },
+    {
+      "teryt": "0613",
+      "displayName": "powiat parczewski",
+      "powiatName": "parczewski",
+      "normalizedName": "powiat parczewski",
+      "slug": "parczewski",
+      "fileNameGeoJSON": "0613_parczewski.geojson",
+      "fileNameSQLite": "0613_parczewski.sqlite",
+      "hydrantsCount": 88,
+      "aliases": [
+        "parczewski",
+        "powiat parczewski"
+      ]
+    },
+    {
+      "teryt": "1418",
+      "displayName": "powiat piaseczyński",
+      "powiatName": "piaseczyński",
+      "normalizedName": "powiat piaseczynski",
+      "slug": "piaseczynski",
+      "fileNameGeoJSON": "1418_piaseczynski.geojson",
+      "fileNameSQLite": "1418_piaseczynski.sqlite",
+      "hydrantsCount": 3490,
+      "aliases": [
+        "piaseczynski",
+        "powiat piaseczynski"
+      ]
+    },
+    {
+      "teryt": "3019",
+      "displayName": "powiat pilski",
+      "powiatName": "pilski",
+      "normalizedName": "powiat pilski",
+      "slug": "pilski",
+      "fileNameGeoJSON": "3019_pilski.geojson",
+      "fileNameSQLite": "3019_pilski.sqlite",
+      "hydrantsCount": 649,
+      "aliases": [
+        "pilski",
+        "powiat pilski"
+      ]
+    },
+    {
+      "teryt": "1010",
+      "displayName": "powiat piotrkowski",
+      "powiatName": "piotrkowski",
+      "normalizedName": "powiat piotrkowski",
+      "slug": "piotrkowski",
+      "fileNameGeoJSON": "1010_piotrkowski.geojson",
+      "fileNameSQLite": "1010_piotrkowski.sqlite",
+      "hydrantsCount": 253,
+      "aliases": [
+        "piotrkowski",
+        "powiat piotrkowski"
+      ]
+    },
+    {
+      "teryt": "2816",
+      "displayName": "powiat piski",
+      "powiatName": "piski",
+      "normalizedName": "powiat piski",
+      "slug": "piski",
+      "fileNameGeoJSON": "2816_piski.geojson",
+      "fileNameSQLite": "2816_piski.sqlite",
+      "hydrantsCount": 1188,
+      "aliases": [
+        "piski",
+        "powiat piski"
+      ]
+    },
+    {
+      "teryt": "2608",
+      "displayName": "powiat pińczowski",
+      "powiatName": "pińczowski",
+      "normalizedName": "powiat pinczowski",
+      "slug": "pinczowski",
+      "fileNameGeoJSON": "2608_pinczowski.geojson",
+      "fileNameSQLite": "2608_pinczowski.sqlite",
+      "hydrantsCount": 1610,
+      "aliases": [
+        "pinczowski",
+        "powiat pinczowski"
+      ]
+    },
+    {
+      "teryt": "3020",
+      "displayName": "powiat pleszewski",
+      "powiatName": "pleszewski",
+      "normalizedName": "powiat pleszewski",
+      "slug": "pleszewski",
+      "fileNameGeoJSON": "3020_pleszewski.geojson",
+      "fileNameSQLite": "3020_pleszewski.sqlite",
+      "hydrantsCount": 1854,
+      "aliases": [
+        "pleszewski",
+        "powiat pleszewski"
+      ]
+    },
+    {
+      "teryt": "1011",
+      "displayName": "powiat poddębicki",
+      "powiatName": "poddębicki",
+      "normalizedName": "powiat poddebicki",
+      "slug": "poddebicki",
+      "fileNameGeoJSON": "1011_poddebicki.geojson",
+      "fileNameSQLite": "1011_poddebicki.sqlite",
+      "hydrantsCount": 504,
+      "aliases": [
+        "poddebicki",
+        "powiat poddebicki"
+      ]
+    },
+    {
+      "teryt": "3211",
+      "displayName": "powiat policki",
+      "powiatName": "policki",
+      "normalizedName": "powiat policki",
+      "slug": "policki",
+      "fileNameGeoJSON": "3211_policki.geojson",
+      "fileNameSQLite": "3211_policki.sqlite",
+      "hydrantsCount": 2074,
+      "aliases": [
+        "policki",
+        "powiat policki"
+      ]
+    },
+    {
+      "teryt": "0216",
+      "displayName": "powiat polkowicki",
+      "powiatName": "polkowicki",
+      "normalizedName": "powiat polkowicki",
+      "slug": "polkowicki",
+      "fileNameGeoJSON": "0216_polkowicki.geojson",
+      "fileNameSQLite": "0216_polkowicki.sqlite",
+      "hydrantsCount": 171,
+      "aliases": [
+        "polkowicki",
+        "powiat polkowicki"
+      ]
+    },
+    {
+      "teryt": "3021",
+      "displayName": "powiat poznański",
+      "powiatName": "poznański",
+      "normalizedName": "powiat poznanski",
+      "slug": "poznanski",
+      "fileNameGeoJSON": "3021_poznanski.geojson",
+      "fileNameSQLite": "3021_poznanski.sqlite",
+      "hydrantsCount": 3121,
+      "aliases": [
+        "powiat poznanski",
+        "poznanski"
+      ]
+    },
+    {
+      "teryt": "1214",
+      "displayName": "powiat proszowicki",
+      "powiatName": "proszowicki",
+      "normalizedName": "powiat proszowicki",
+      "slug": "proszowicki",
+      "fileNameGeoJSON": "1214_proszowicki.geojson",
+      "fileNameSQLite": "1214_proszowicki.sqlite",
+      "hydrantsCount": 394,
+      "aliases": [
+        "powiat proszowicki",
+        "proszowicki"
+      ]
+    },
+    {
+      "teryt": "1610",
+      "displayName": "powiat prudnicki",
+      "powiatName": "prudnicki",
+      "normalizedName": "powiat prudnicki",
+      "slug": "prudnicki",
+      "fileNameGeoJSON": "1610_prudnicki.geojson",
+      "fileNameSQLite": "1610_prudnicki.sqlite",
+      "hydrantsCount": 1275,
+      "aliases": [
+        "powiat prudnicki",
+        "prudnicki"
+      ]
+    },
+    {
+      "teryt": "1421",
+      "displayName": "powiat pruszkowski",
+      "powiatName": "pruszkowski",
+      "normalizedName": "powiat pruszkowski",
+      "slug": "pruszkowski",
+      "fileNameGeoJSON": "1421_pruszkowski.geojson",
+      "fileNameSQLite": "1421_pruszkowski.sqlite",
+      "hydrantsCount": 1216,
+      "aliases": [
+        "powiat pruszkowski",
+        "pruszkowski"
+      ]
+    },
+    {
+      "teryt": "1422",
+      "displayName": "powiat przasnyski",
+      "powiatName": "przasnyski",
+      "normalizedName": "powiat przasnyski",
+      "slug": "przasnyski",
+      "fileNameGeoJSON": "1422_przasnyski.geojson",
+      "fileNameSQLite": "1422_przasnyski.sqlite",
+      "hydrantsCount": 279,
+      "aliases": [
+        "powiat przasnyski",
+        "przasnyski"
+      ]
+    },
+    {
+      "teryt": "1813",
+      "displayName": "powiat przemyski",
+      "powiatName": "przemyski",
+      "normalizedName": "powiat przemyski",
+      "slug": "przemyski",
+      "fileNameGeoJSON": "1813_przemyski.geojson",
+      "fileNameSQLite": "1813_przemyski.sqlite",
+      "hydrantsCount": 171,
+      "aliases": [
+        "powiat przemyski",
+        "przemyski"
+      ]
+    },
+    {
+      "teryt": "1814",
+      "displayName": "powiat przeworski",
+      "powiatName": "przeworski",
+      "normalizedName": "powiat przeworski",
+      "slug": "przeworski",
+      "fileNameGeoJSON": "1814_przeworski.geojson",
+      "fileNameSQLite": "1814_przeworski.sqlite",
+      "hydrantsCount": 3875,
+      "aliases": [
+        "powiat przeworski",
+        "przeworski"
+      ]
+    },
+    {
+      "teryt": "1423",
+      "displayName": "powiat przysuski",
+      "powiatName": "przysuski",
+      "normalizedName": "powiat przysuski",
+      "slug": "przysuski",
+      "fileNameGeoJSON": "1423_przysuski.geojson",
+      "fileNameSQLite": "1423_przysuski.sqlite",
+      "hydrantsCount": 1535,
+      "aliases": [
+        "powiat przysuski",
+        "przysuski"
+      ]
+    },
+    {
+      "teryt": "2410",
+      "displayName": "powiat pszczyński",
+      "powiatName": "pszczyński",
+      "normalizedName": "powiat pszczynski",
+      "slug": "pszczynski",
+      "fileNameGeoJSON": "2410_pszczynski.geojson",
+      "fileNameSQLite": "2410_pszczynski.sqlite",
+      "hydrantsCount": 1065,
+      "aliases": [
+        "powiat pszczynski",
+        "pszczynski"
+      ]
+    },
+    {
+      "teryt": "2211",
+      "displayName": "powiat pucki",
+      "powiatName": "pucki",
+      "normalizedName": "powiat pucki",
+      "slug": "pucki",
+      "fileNameGeoJSON": "2211_pucki.geojson",
+      "fileNameSQLite": "2211_pucki.sqlite",
+      "hydrantsCount": 2104,
+      "aliases": [
+        "powiat pucki",
+        "pucki"
+      ]
+    },
+    {
+      "teryt": "0614",
+      "displayName": "powiat puławski",
+      "powiatName": "puławski",
+      "normalizedName": "powiat pulawski",
+      "slug": "pulawski",
+      "fileNameGeoJSON": "0614_pulawski.geojson",
+      "fileNameSQLite": "0614_pulawski.sqlite",
+      "hydrantsCount": 1491,
+      "aliases": [
+        "powiat pulawski",
+        "pulawski"
+      ]
+    },
+    {
+      "teryt": "1424",
+      "displayName": "powiat pułtuski",
+      "powiatName": "pułtuski",
+      "normalizedName": "powiat pultuski",
+      "slug": "pultuski",
+      "fileNameGeoJSON": "1424_pultuski.geojson",
+      "fileNameSQLite": "1424_pultuski.sqlite",
+      "hydrantsCount": 12,
+      "aliases": [
+        "powiat pultuski",
+        "pultuski"
+      ]
+    },
+    {
+      "teryt": "3212",
+      "displayName": "powiat pyrzycki",
+      "powiatName": "pyrzycki",
+      "normalizedName": "powiat pyrzycki",
+      "slug": "pyrzycki",
+      "fileNameGeoJSON": "3212_pyrzycki.geojson",
+      "fileNameSQLite": "3212_pyrzycki.sqlite",
+      "hydrantsCount": 180,
+      "aliases": [
+        "powiat pyrzycki",
+        "pyrzycki"
+      ]
+    },
+    {
+      "teryt": "1419",
+      "displayName": "powiat płocki",
+      "powiatName": "płocki",
+      "normalizedName": "powiat plocki",
+      "slug": "plocki",
+      "fileNameGeoJSON": "1419_plocki.geojson",
+      "fileNameSQLite": "1419_plocki.sqlite",
+      "hydrantsCount": 294,
+      "aliases": [
+        "plocki",
+        "powiat plocki"
+      ]
+    },
+    {
+      "teryt": "1420",
+      "displayName": "powiat płoński",
+      "powiatName": "płoński",
+      "normalizedName": "powiat plonski",
+      "slug": "plonski",
+      "fileNameGeoJSON": "1420_plonski.geojson",
+      "fileNameSQLite": "1420_plonski.sqlite",
+      "hydrantsCount": 119,
+      "aliases": [
+        "plonski",
+        "powiat plonski"
+      ]
+    },
+    {
+      "teryt": "2411",
+      "displayName": "powiat raciborski",
+      "powiatName": "raciborski",
+      "normalizedName": "powiat raciborski",
+      "slug": "raciborski",
+      "fileNameGeoJSON": "2411_raciborski.geojson",
+      "fileNameSQLite": "2411_raciborski.sqlite",
+      "hydrantsCount": 945,
+      "aliases": [
+        "powiat raciborski",
+        "raciborski"
+      ]
+    },
+    {
+      "teryt": "1425",
+      "displayName": "powiat radomski",
+      "powiatName": "radomski",
+      "normalizedName": "powiat radomski",
+      "slug": "radomski",
+      "fileNameGeoJSON": "1425_radomski.geojson",
+      "fileNameSQLite": "1425_radomski.sqlite",
+      "hydrantsCount": 382,
+      "aliases": [
+        "powiat radomski",
+        "radomski"
+      ]
+    },
+    {
+      "teryt": "1012",
+      "displayName": "powiat radomszczański",
+      "powiatName": "radomszczański",
+      "normalizedName": "powiat radomszczanski",
+      "slug": "radomszczanski",
+      "fileNameGeoJSON": "1012_radomszczanski.geojson",
+      "fileNameSQLite": "1012_radomszczanski.sqlite",
+      "hydrantsCount": 939,
+      "aliases": [
+        "powiat radomszczanski",
+        "radomszczanski"
+      ]
+    },
+    {
+      "teryt": "0411",
+      "displayName": "powiat radziejowski",
+      "powiatName": "radziejowski",
+      "normalizedName": "powiat radziejowski",
+      "slug": "radziejowski",
+      "fileNameGeoJSON": "0411_radziejowski.geojson",
+      "fileNameSQLite": "0411_radziejowski.sqlite",
+      "hydrantsCount": 973,
+      "aliases": [
+        "powiat radziejowski",
+        "radziejowski"
+      ]
+    },
+    {
+      "teryt": "0615",
+      "displayName": "powiat radzyński",
+      "powiatName": "radzyński",
+      "normalizedName": "powiat radzynski",
+      "slug": "radzynski",
+      "fileNameGeoJSON": "0615_radzynski.geojson",
+      "fileNameSQLite": "0615_radzynski.sqlite",
+      "hydrantsCount": 89,
+      "aliases": [
+        "powiat radzynski",
+        "radzynski"
+      ]
+    },
+    {
+      "teryt": "3022",
+      "displayName": "powiat rawicki",
+      "powiatName": "rawicki",
+      "normalizedName": "powiat rawicki",
+      "slug": "rawicki",
+      "fileNameGeoJSON": "3022_rawicki.geojson",
+      "fileNameSQLite": "3022_rawicki.sqlite",
+      "hydrantsCount": 93,
+      "aliases": [
+        "powiat rawicki",
+        "rawicki"
+      ]
+    },
+    {
+      "teryt": "1013",
+      "displayName": "powiat rawski",
+      "powiatName": "rawski",
+      "normalizedName": "powiat rawski",
+      "slug": "rawski",
+      "fileNameGeoJSON": "1013_rawski.geojson",
+      "fileNameSQLite": "1013_rawski.sqlite",
+      "hydrantsCount": 537,
+      "aliases": [
+        "powiat rawski",
+        "rawski"
+      ]
+    },
+    {
+      "teryt": "1815",
+      "displayName": "powiat ropczycko-sędziszowski",
+      "powiatName": "ropczycko-sędziszowski",
+      "normalizedName": "powiat ropczycko-sedziszowski",
+      "slug": "ropczycko-sedziszowski",
+      "fileNameGeoJSON": "1815_ropczycko-sedziszowski.geojson",
+      "fileNameSQLite": "1815_ropczycko-sedziszowski.sqlite",
+      "hydrantsCount": 609,
+      "aliases": [
+        "powiat ropczycko-sedziszowski",
+        "ropczycko sedziszowski",
+        "ropczycko-sedziszowski"
+      ]
+    },
+    {
+      "teryt": "2412",
+      "displayName": "powiat rybnicki",
+      "powiatName": "rybnicki",
+      "normalizedName": "powiat rybnicki",
+      "slug": "rybnicki",
+      "fileNameGeoJSON": "2412_rybnicki.geojson",
+      "fileNameSQLite": "2412_rybnicki.sqlite",
+      "hydrantsCount": 911,
+      "aliases": [
+        "powiat rybnicki",
+        "rybnicki"
+      ]
+    },
+    {
+      "teryt": "0616",
+      "displayName": "powiat rycki",
+      "powiatName": "rycki",
+      "normalizedName": "powiat rycki",
+      "slug": "rycki",
+      "fileNameGeoJSON": "0616_rycki.geojson",
+      "fileNameSQLite": "0616_rycki.sqlite",
+      "hydrantsCount": 491,
+      "aliases": [
+        "powiat rycki",
+        "rycki"
+      ]
+    },
+    {
+      "teryt": "0412",
+      "displayName": "powiat rypiński",
+      "powiatName": "rypiński",
+      "normalizedName": "powiat rypinski",
+      "slug": "rypinski",
+      "fileNameGeoJSON": "0412_rypinski.geojson",
+      "fileNameSQLite": "0412_rypinski.sqlite",
+      "hydrantsCount": 235,
+      "aliases": [
+        "powiat rypinski",
+        "rypinski"
+      ]
+    },
+    {
+      "teryt": "1816",
+      "displayName": "powiat rzeszowski",
+      "powiatName": "rzeszowski",
+      "normalizedName": "powiat rzeszowski",
+      "slug": "rzeszowski",
+      "fileNameGeoJSON": "1816_rzeszowski.geojson",
+      "fileNameSQLite": "1816_rzeszowski.sqlite",
+      "hydrantsCount": 2005,
+      "aliases": [
+        "powiat rzeszowski",
+        "rzeszowski"
+      ]
+    },
+    {
+      "teryt": "2609",
+      "displayName": "powiat sandomierski",
+      "powiatName": "sandomierski",
+      "normalizedName": "powiat sandomierski",
+      "slug": "sandomierski",
+      "fileNameGeoJSON": "2609_sandomierski.geojson",
+      "fileNameSQLite": "2609_sandomierski.sqlite",
+      "hydrantsCount": 2436,
+      "aliases": [
+        "powiat sandomierski",
+        "sandomierski"
+      ]
+    },
+    {
+      "teryt": "1817",
+      "displayName": "powiat sanocki",
+      "powiatName": "sanocki",
+      "normalizedName": "powiat sanocki",
+      "slug": "sanocki",
+      "fileNameGeoJSON": "1817_sanocki.geojson",
+      "fileNameSQLite": "1817_sanocki.sqlite",
+      "hydrantsCount": 1357,
+      "aliases": [
+        "powiat sanocki",
+        "sanocki"
+      ]
+    },
+    {
+      "teryt": "2009",
+      "displayName": "powiat sejneński",
+      "powiatName": "sejneński",
+      "normalizedName": "powiat sejnenski",
+      "slug": "sejnenski",
+      "fileNameGeoJSON": "2009_sejnenski.geojson",
+      "fileNameSQLite": "2009_sejnenski.sqlite",
+      "hydrantsCount": 90,
+      "aliases": [
+        "powiat sejnenski",
+        "sejnenski"
+      ]
+    },
+    {
+      "teryt": "1426",
+      "displayName": "powiat siedlecki",
+      "powiatName": "siedlecki",
+      "normalizedName": "powiat siedlecki",
+      "slug": "siedlecki",
+      "fileNameGeoJSON": "1426_siedlecki.geojson",
+      "fileNameSQLite": "1426_siedlecki.sqlite",
+      "hydrantsCount": 1723,
+      "aliases": [
+        "powiat siedlecki",
+        "siedlecki"
+      ]
+    },
+    {
+      "teryt": "2010",
+      "displayName": "powiat siemiatycki",
+      "powiatName": "siemiatycki",
+      "normalizedName": "powiat siemiatycki",
+      "slug": "siemiatycki",
+      "fileNameGeoJSON": "2010_siemiatycki.geojson",
+      "fileNameSQLite": "2010_siemiatycki.sqlite",
+      "hydrantsCount": 312,
+      "aliases": [
+        "powiat siemiatycki",
+        "siemiatycki"
+      ]
+    },
+    {
+      "teryt": "1014",
+      "displayName": "powiat sieradzki",
+      "powiatName": "sieradzki",
+      "normalizedName": "powiat sieradzki",
+      "slug": "sieradzki",
+      "fileNameGeoJSON": "1014_sieradzki.geojson",
+      "fileNameSQLite": "1014_sieradzki.sqlite",
+      "hydrantsCount": 1772,
+      "aliases": [
+        "powiat sieradzki",
+        "sieradzki"
+      ]
+    },
+    {
+      "teryt": "1427",
+      "displayName": "powiat sierpecki",
+      "powiatName": "sierpecki",
+      "normalizedName": "powiat sierpecki",
+      "slug": "sierpecki",
+      "fileNameGeoJSON": "1427_sierpecki.geojson",
+      "fileNameSQLite": "1427_sierpecki.sqlite",
+      "hydrantsCount": 5,
+      "aliases": [
+        "powiat sierpecki",
+        "sierpecki"
+      ]
+    },
+    {
+      "teryt": "2610",
+      "displayName": "powiat skarżyski",
+      "powiatName": "skarżyski",
+      "normalizedName": "powiat skarzyski",
+      "slug": "skarzyski",
+      "fileNameGeoJSON": "2610_skarzyski.geojson",
+      "fileNameSQLite": "2610_skarzyski.sqlite",
+      "hydrantsCount": 775,
+      "aliases": [
+        "powiat skarzyski",
+        "skarzyski"
+      ]
+    },
+    {
+      "teryt": "1015",
+      "displayName": "powiat skierniewicki",
+      "powiatName": "skierniewicki",
+      "normalizedName": "powiat skierniewicki",
+      "slug": "skierniewicki",
+      "fileNameGeoJSON": "1015_skierniewicki.geojson",
+      "fileNameSQLite": "1015_skierniewicki.sqlite",
+      "hydrantsCount": 370,
+      "aliases": [
+        "powiat skierniewicki",
+        "skierniewicki"
+      ]
+    },
+    {
+      "teryt": "1428",
+      "displayName": "powiat sochaczewski",
+      "powiatName": "sochaczewski",
+      "normalizedName": "powiat sochaczewski",
+      "slug": "sochaczewski",
+      "fileNameGeoJSON": "1428_sochaczewski.geojson",
+      "fileNameSQLite": "1428_sochaczewski.sqlite",
+      "hydrantsCount": 476,
+      "aliases": [
+        "powiat sochaczewski",
+        "sochaczewski"
+      ]
+    },
+    {
+      "teryt": "1429",
+      "displayName": "powiat sokołowski",
+      "powiatName": "sokołowski",
+      "normalizedName": "powiat sokolowski",
+      "slug": "sokolowski",
+      "fileNameGeoJSON": "1429_sokolowski.geojson",
+      "fileNameSQLite": "1429_sokolowski.sqlite",
+      "hydrantsCount": 366,
+      "aliases": [
+        "powiat sokolowski",
+        "sokolowski"
+      ]
+    },
+    {
+      "teryt": "2011",
+      "displayName": "powiat sokólski",
+      "powiatName": "sokólski",
+      "normalizedName": "powiat sokolski",
+      "slug": "sokolski",
+      "fileNameGeoJSON": "2011_sokolski.geojson",
+      "fileNameSQLite": "2011_sokolski.sqlite",
+      "hydrantsCount": 4198,
+      "aliases": [
+        "powiat sokolski",
+        "sokolski"
+      ]
+    },
+    {
+      "teryt": "1818",
+      "displayName": "powiat stalowowolski",
+      "powiatName": "stalowowolski",
+      "normalizedName": "powiat stalowowolski",
+      "slug": "stalowowolski",
+      "fileNameGeoJSON": "1818_stalowowolski.geojson",
+      "fileNameSQLite": "1818_stalowowolski.sqlite",
+      "hydrantsCount": 389,
+      "aliases": [
+        "powiat stalowowolski",
+        "stalowowolski"
+      ]
+    },
+    {
+      "teryt": "2611",
+      "displayName": "powiat starachowicki",
+      "powiatName": "starachowicki",
+      "normalizedName": "powiat starachowicki",
+      "slug": "starachowicki",
+      "fileNameGeoJSON": "2611_starachowicki.geojson",
+      "fileNameSQLite": "2611_starachowicki.sqlite",
+      "hydrantsCount": 2165,
+      "aliases": [
+        "powiat starachowicki",
+        "starachowicki"
+      ]
+    },
+    {
+      "teryt": "3214",
+      "displayName": "powiat stargardzki",
+      "powiatName": "stargardzki",
+      "normalizedName": "powiat stargardzki",
+      "slug": "stargardzki",
+      "fileNameGeoJSON": "3214_stargardzki.geojson",
+      "fileNameSQLite": "3214_stargardzki.sqlite",
+      "hydrantsCount": 1088,
+      "aliases": [
+        "powiat stargardzki",
+        "stargardzki"
+      ]
+    },
+    {
+      "teryt": "2213",
+      "displayName": "powiat starogardzki",
+      "powiatName": "starogardzki",
+      "normalizedName": "powiat starogardzki",
+      "slug": "starogardzki",
+      "fileNameGeoJSON": "2213_starogardzki.geojson",
+      "fileNameSQLite": "2213_starogardzki.sqlite",
+      "hydrantsCount": 2052,
+      "aliases": [
+        "powiat starogardzki",
+        "starogardzki"
+      ]
+    },
+    {
+      "teryt": "2612",
+      "displayName": "powiat staszowski",
+      "powiatName": "staszowski",
+      "normalizedName": "powiat staszowski",
+      "slug": "staszowski",
+      "fileNameGeoJSON": "2612_staszowski.geojson",
+      "fileNameSQLite": "2612_staszowski.sqlite",
+      "hydrantsCount": 1776,
+      "aliases": [
+        "powiat staszowski",
+        "staszowski"
+      ]
+    },
+    {
+      "teryt": "1611",
+      "displayName": "powiat strzelecki",
+      "powiatName": "strzelecki",
+      "normalizedName": "powiat strzelecki",
+      "slug": "strzelecki",
+      "fileNameGeoJSON": "1611_strzelecki.geojson",
+      "fileNameSQLite": "1611_strzelecki.sqlite",
+      "hydrantsCount": 581,
+      "aliases": [
+        "powiat strzelecki",
+        "strzelecki"
+      ]
+    },
+    {
+      "teryt": "0806",
+      "displayName": "powiat strzelecko-drezdenecki",
+      "powiatName": "strzelecko-drezdenecki",
+      "normalizedName": "powiat strzelecko-drezdenecki",
+      "slug": "strzelecko-drezdenecki",
+      "fileNameGeoJSON": "0806_strzelecko-drezdenecki.geojson",
+      "fileNameSQLite": "0806_strzelecko-drezdenecki.sqlite",
+      "hydrantsCount": 953,
+      "aliases": [
+        "powiat strzelecko-drezdenecki",
+        "strzelecko drezdenecki",
+        "strzelecko-drezdenecki"
+      ]
+    },
+    {
+      "teryt": "0217",
+      "displayName": "powiat strzeliński",
+      "powiatName": "strzeliński",
+      "normalizedName": "powiat strzelinski",
+      "slug": "strzelinski",
+      "fileNameGeoJSON": "0217_strzelinski.geojson",
+      "fileNameSQLite": "0217_strzelinski.sqlite",
+      "hydrantsCount": 2035,
+      "aliases": [
+        "powiat strzelinski",
+        "strzelinski"
+      ]
+    },
+    {
+      "teryt": "1819",
+      "displayName": "powiat strzyżowski",
+      "powiatName": "strzyżowski",
+      "normalizedName": "powiat strzyzowski",
+      "slug": "strzyzowski",
+      "fileNameGeoJSON": "1819_strzyzowski.geojson",
+      "fileNameSQLite": "1819_strzyzowski.sqlite",
+      "hydrantsCount": 86,
+      "aliases": [
+        "powiat strzyzowski",
+        "strzyzowski"
+      ]
+    },
+    {
+      "teryt": "0807",
+      "displayName": "powiat sulęciński",
+      "powiatName": "sulęciński",
+      "normalizedName": "powiat sulecinski",
+      "slug": "sulecinski",
+      "fileNameGeoJSON": "0807_sulecinski.geojson",
+      "fileNameSQLite": "0807_sulecinski.sqlite",
+      "hydrantsCount": 1005,
+      "aliases": [
+        "powiat sulecinski",
+        "sulecinski"
+      ]
+    },
+    {
+      "teryt": "1215",
+      "displayName": "powiat suski",
+      "powiatName": "suski",
+      "normalizedName": "powiat suski",
+      "slug": "suski",
+      "fileNameGeoJSON": "1215_suski.geojson",
+      "fileNameSQLite": "1215_suski.sqlite",
+      "hydrantsCount": 313,
+      "aliases": [
+        "powiat suski",
+        "suski"
+      ]
+    },
+    {
+      "teryt": "2012",
+      "displayName": "powiat suwalski",
+      "powiatName": "suwalski",
+      "normalizedName": "powiat suwalski",
+      "slug": "suwalski",
+      "fileNameGeoJSON": "2012_suwalski.geojson",
+      "fileNameSQLite": "2012_suwalski.sqlite",
+      "hydrantsCount": 1136,
+      "aliases": [
+        "powiat suwalski",
+        "suwalski"
+      ]
+    },
+    {
+      "teryt": "3024",
+      "displayName": "powiat szamotulski",
+      "powiatName": "szamotulski",
+      "normalizedName": "powiat szamotulski",
+      "slug": "szamotulski",
+      "fileNameGeoJSON": "3024_szamotulski.geojson",
+      "fileNameSQLite": "3024_szamotulski.sqlite",
+      "hydrantsCount": 126,
+      "aliases": [
+        "powiat szamotulski",
+        "szamotulski"
+      ]
+    },
+    {
+      "teryt": "3215",
+      "displayName": "powiat szczecinecki",
+      "powiatName": "szczecinecki",
+      "normalizedName": "powiat szczecinecki",
+      "slug": "szczecinecki",
+      "fileNameGeoJSON": "3215_szczecinecki.geojson",
+      "fileNameSQLite": "3215_szczecinecki.sqlite",
+      "hydrantsCount": 123,
+      "aliases": [
+        "powiat szczecinecki",
+        "szczecinecki"
+      ]
+    },
+    {
+      "teryt": "2817",
+      "displayName": "powiat szczycieński",
+      "powiatName": "szczycieński",
+      "normalizedName": "powiat szczycienski",
+      "slug": "szczycienski",
+      "fileNameGeoJSON": "2817_szczycienski.geojson",
+      "fileNameSQLite": "2817_szczycienski.sqlite",
+      "hydrantsCount": 923,
+      "aliases": [
+        "powiat szczycienski",
+        "szczycienski"
+      ]
+    },
+    {
+      "teryt": "2216",
+      "displayName": "powiat sztumski",
+      "powiatName": "sztumski",
+      "normalizedName": "powiat sztumski",
+      "slug": "sztumski",
+      "fileNameGeoJSON": "2216_sztumski.geojson",
+      "fileNameSQLite": "2216_sztumski.sqlite",
+      "hydrantsCount": 782,
+      "aliases": [
+        "powiat sztumski",
+        "sztumski"
+      ]
+    },
+    {
+      "teryt": "1430",
+      "displayName": "powiat szydłowiecki",
+      "powiatName": "szydłowiecki",
+      "normalizedName": "powiat szydlowiecki",
+      "slug": "szydlowiecki",
+      "fileNameGeoJSON": "1430_szydlowiecki.geojson",
+      "fileNameSQLite": "1430_szydlowiecki.sqlite",
+      "hydrantsCount": 161,
+      "aliases": [
+        "powiat szydlowiecki",
+        "szydlowiecki"
+      ]
+    },
+    {
+      "teryt": "0413",
+      "displayName": "powiat sępoleński",
+      "powiatName": "sępoleński",
+      "normalizedName": "powiat sepolenski",
+      "slug": "sepolenski",
+      "fileNameGeoJSON": "0413_sepolenski.geojson",
+      "fileNameSQLite": "0413_sepolenski.sqlite",
+      "hydrantsCount": 290,
+      "aliases": [
+        "powiat sepolenski",
+        "sepolenski"
+      ]
+    },
+    {
+      "teryt": "3213",
+      "displayName": "powiat sławieński",
+      "powiatName": "sławieński",
+      "normalizedName": "powiat slawienski",
+      "slug": "slawienski",
+      "fileNameGeoJSON": "3213_slawienski.geojson",
+      "fileNameSQLite": "3213_slawienski.sqlite",
+      "hydrantsCount": 103,
+      "aliases": [
+        "powiat slawienski",
+        "slawienski"
+      ]
+    },
+    {
+      "teryt": "0805",
+      "displayName": "powiat słubicki",
+      "powiatName": "słubicki",
+      "normalizedName": "powiat slubicki",
+      "slug": "slubicki",
+      "fileNameGeoJSON": "0805_slubicki.geojson",
+      "fileNameSQLite": "0805_slubicki.sqlite",
+      "hydrantsCount": 96,
+      "aliases": [
+        "powiat slubicki",
+        "slubicki"
+      ]
+    },
+    {
+      "teryt": "3023",
+      "displayName": "powiat słupecki",
+      "powiatName": "słupecki",
+      "normalizedName": "powiat slupecki",
+      "slug": "slupecki",
+      "fileNameGeoJSON": "3023_slupecki.geojson",
+      "fileNameSQLite": "3023_slupecki.sqlite",
+      "hydrantsCount": 403,
+      "aliases": [
+        "powiat slupecki",
+        "slupecki"
+      ]
+    },
+    {
+      "teryt": "2212",
+      "displayName": "powiat słupski",
+      "powiatName": "słupski",
+      "normalizedName": "powiat slupski",
+      "slug": "slupski",
+      "fileNameGeoJSON": "2212_slupski.geojson",
+      "fileNameSQLite": "2212_slupski.sqlite",
+      "hydrantsCount": 709,
+      "aliases": [
+        "powiat slupski",
+        "slupski"
+      ]
+    },
+    {
+      "teryt": "1820",
+      "displayName": "powiat tarnobrzeski",
+      "powiatName": "tarnobrzeski",
+      "normalizedName": "powiat tarnobrzeski",
+      "slug": "tarnobrzeski",
+      "fileNameGeoJSON": "1820_tarnobrzeski.geojson",
+      "fileNameSQLite": "1820_tarnobrzeski.sqlite",
+      "hydrantsCount": 1218,
+      "aliases": [
+        "powiat tarnobrzeski",
+        "tarnobrzeski"
+      ]
+    },
+    {
+      "teryt": "2413",
+      "displayName": "powiat tarnogórski",
+      "powiatName": "tarnogórski",
+      "normalizedName": "powiat tarnogorski",
+      "slug": "tarnogorski",
+      "fileNameGeoJSON": "2413_tarnogorski.geojson",
+      "fileNameSQLite": "2413_tarnogorski.sqlite",
+      "hydrantsCount": 2873,
+      "aliases": [
+        "powiat tarnogorski",
+        "tarnogorski"
+      ]
+    },
+    {
+      "teryt": "1216",
+      "displayName": "powiat tarnowski",
+      "powiatName": "tarnowski",
+      "normalizedName": "powiat tarnowski",
+      "slug": "tarnowski",
+      "fileNameGeoJSON": "1216_tarnowski.geojson",
+      "fileNameSQLite": "1216_tarnowski.sqlite",
+      "hydrantsCount": 2401,
+      "aliases": [
+        "powiat tarnowski",
+        "tarnowski"
+      ]
+    },
+    {
+      "teryt": "1217",
+      "displayName": "powiat tatrzański",
+      "powiatName": "tatrzański",
+      "normalizedName": "powiat tatrzanski",
+      "slug": "tatrzanski",
+      "fileNameGeoJSON": "1217_tatrzanski.geojson",
+      "fileNameSQLite": "1217_tatrzanski.sqlite",
+      "hydrantsCount": 797,
+      "aliases": [
+        "powiat tatrzanski",
+        "tatrzanski"
+      ]
+    },
+    {
+      "teryt": "2214",
+      "displayName": "powiat tczewski",
+      "powiatName": "tczewski",
+      "normalizedName": "powiat tczewski",
+      "slug": "tczewski",
+      "fileNameGeoJSON": "2214_tczewski.geojson",
+      "fileNameSQLite": "2214_tczewski.sqlite",
+      "hydrantsCount": 3211,
+      "aliases": [
+        "powiat tczewski",
+        "tczewski"
+      ]
+    },
+    {
+      "teryt": "0618",
+      "displayName": "powiat tomaszowski",
+      "powiatName": "tomaszowski",
+      "normalizedName": "powiat tomaszowski",
+      "slug": "tomaszowski",
+      "fileNameGeoJSON": "0618_tomaszowski.geojson",
+      "fileNameSQLite": "0618_tomaszowski.sqlite",
+      "hydrantsCount": 2046,
+      "aliases": [
+        "powiat tomaszowski",
+        "tomaszowski"
+      ]
+    },
+    {
+      "teryt": "1016",
+      "displayName": "powiat tomaszowski",
+      "powiatName": "tomaszowski",
+      "normalizedName": "powiat tomaszowski",
+      "slug": "tomaszowski",
+      "fileNameGeoJSON": "1016_tomaszowski.geojson",
+      "fileNameSQLite": "1016_tomaszowski.sqlite",
+      "hydrantsCount": 435,
+      "aliases": [
+        "powiat tomaszowski",
+        "tomaszowski"
+      ]
+    },
+    {
+      "teryt": "0415",
+      "displayName": "powiat toruński",
+      "powiatName": "toruński",
+      "normalizedName": "powiat torunski",
+      "slug": "torunski",
+      "fileNameGeoJSON": "0415_torunski.geojson",
+      "fileNameSQLite": "0415_torunski.sqlite",
+      "hydrantsCount": 243,
+      "aliases": [
+        "powiat torunski",
+        "torunski"
+      ]
+    },
+    {
+      "teryt": "0220",
+      "displayName": "powiat trzebnicki",
+      "powiatName": "trzebnicki",
+      "normalizedName": "powiat trzebnicki",
+      "slug": "trzebnicki",
+      "fileNameGeoJSON": "0220_trzebnicki.geojson",
+      "fileNameSQLite": "0220_trzebnicki.sqlite",
+      "hydrantsCount": 1408,
+      "aliases": [
+        "powiat trzebnicki",
+        "trzebnicki"
+      ]
+    },
+    {
+      "teryt": "0416",
+      "displayName": "powiat tucholski",
+      "powiatName": "tucholski",
+      "normalizedName": "powiat tucholski",
+      "slug": "tucholski",
+      "fileNameGeoJSON": "0416_tucholski.geojson",
+      "fileNameSQLite": "0416_tucholski.sqlite",
+      "hydrantsCount": 1049,
+      "aliases": [
+        "powiat tucholski",
+        "tucholski"
+      ]
+    },
+    {
+      "teryt": "3027",
+      "displayName": "powiat turecki",
+      "powiatName": "turecki",
+      "normalizedName": "powiat turecki",
+      "slug": "turecki",
+      "fileNameGeoJSON": "3027_turecki.geojson",
+      "fileNameSQLite": "3027_turecki.sqlite",
+      "hydrantsCount": 604,
+      "aliases": [
+        "powiat turecki",
+        "turecki"
+      ]
+    },
+    {
+      "teryt": "1218",
+      "displayName": "powiat wadowicki",
+      "powiatName": "wadowicki",
+      "normalizedName": "powiat wadowicki",
+      "slug": "wadowicki",
+      "fileNameGeoJSON": "1218_wadowicki.geojson",
+      "fileNameSQLite": "1218_wadowicki.sqlite",
+      "hydrantsCount": 1875,
+      "aliases": [
+        "powiat wadowicki",
+        "wadowicki"
+      ]
+    },
+    {
+      "teryt": "1432",
+      "displayName": "powiat warszawski zachodni",
+      "powiatName": "warszawski zachodni",
+      "normalizedName": "powiat warszawski zachodni",
+      "slug": "warszawski-zachodni",
+      "fileNameGeoJSON": "1432_warszawski-zachodni.geojson",
+      "fileNameSQLite": "1432_warszawski-zachodni.sqlite",
+      "hydrantsCount": 976,
+      "aliases": [
+        "powiat warszawski zachodni",
+        "warszawski zachodni",
+        "warszawski-zachodni"
+      ]
+    },
+    {
+      "teryt": "0221",
+      "displayName": "powiat wałbrzyski",
+      "powiatName": "wałbrzyski",
+      "normalizedName": "powiat walbrzyski",
+      "slug": "walbrzyski",
+      "fileNameGeoJSON": "0221_walbrzyski.geojson",
+      "fileNameSQLite": "0221_walbrzyski.sqlite",
+      "hydrantsCount": 171,
+      "aliases": [
+        "powiat walbrzyski",
+        "walbrzyski"
+      ]
+    },
+    {
+      "teryt": "3217",
+      "displayName": "powiat wałecki",
+      "powiatName": "wałecki",
+      "normalizedName": "powiat walecki",
+      "slug": "walecki",
+      "fileNameGeoJSON": "3217_walecki.geojson",
+      "fileNameSQLite": "3217_walecki.sqlite",
+      "hydrantsCount": 876,
+      "aliases": [
+        "powiat walecki",
+        "walecki"
+      ]
+    },
+    {
+      "teryt": "2215",
+      "displayName": "powiat wejherowski",
+      "powiatName": "wejherowski",
+      "normalizedName": "powiat wejherowski",
+      "slug": "wejherowski",
+      "fileNameGeoJSON": "2215_wejherowski.geojson",
+      "fileNameSQLite": "2215_wejherowski.sqlite",
+      "hydrantsCount": 2359,
+      "aliases": [
+        "powiat wejherowski",
+        "wejherowski"
+      ]
+    },
+    {
+      "teryt": "1219",
+      "displayName": "powiat wielicki",
+      "powiatName": "wielicki",
+      "normalizedName": "powiat wielicki",
+      "slug": "wielicki",
+      "fileNameGeoJSON": "1219_wielicki.geojson",
+      "fileNameSQLite": "1219_wielicki.sqlite",
+      "hydrantsCount": 1227,
+      "aliases": [
+        "powiat wielicki",
+        "wielicki"
+      ]
+    },
+    {
+      "teryt": "1017",
+      "displayName": "powiat wieluński",
+      "powiatName": "wieluński",
+      "normalizedName": "powiat wielunski",
+      "slug": "wielunski",
+      "fileNameGeoJSON": "1017_wielunski.geojson",
+      "fileNameSQLite": "1017_wielunski.sqlite",
+      "hydrantsCount": 3821,
+      "aliases": [
+        "powiat wielunski",
+        "wielunski"
+      ]
+    },
+    {
+      "teryt": "1018",
+      "displayName": "powiat wieruszowski",
+      "powiatName": "wieruszowski",
+      "normalizedName": "powiat wieruszowski",
+      "slug": "wieruszowski",
+      "fileNameGeoJSON": "1018_wieruszowski.geojson",
+      "fileNameSQLite": "1018_wieruszowski.sqlite",
+      "hydrantsCount": 1499,
+      "aliases": [
+        "powiat wieruszowski",
+        "wieruszowski"
+      ]
+    },
+    {
+      "teryt": "2415",
+      "displayName": "powiat wodzisławski",
+      "powiatName": "wodzisławski",
+      "normalizedName": "powiat wodzislawski",
+      "slug": "wodzislawski",
+      "fileNameGeoJSON": "2415_wodzislawski.geojson",
+      "fileNameSQLite": "2415_wodzislawski.sqlite",
+      "hydrantsCount": 2325,
+      "aliases": [
+        "powiat wodzislawski",
+        "wodzislawski"
+      ]
+    },
+    {
+      "teryt": "3029",
+      "displayName": "powiat wolsztyński",
+      "powiatName": "wolsztyński",
+      "normalizedName": "powiat wolsztynski",
+      "slug": "wolsztynski",
+      "fileNameGeoJSON": "3029_wolsztynski.geojson",
+      "fileNameSQLite": "3029_wolsztynski.sqlite",
+      "hydrantsCount": 622,
+      "aliases": [
+        "powiat wolsztynski",
+        "wolsztynski"
+      ]
+    },
+    {
+      "teryt": "1434",
+      "displayName": "powiat wołomiński",
+      "powiatName": "wołomiński",
+      "normalizedName": "powiat wolominski",
+      "slug": "wolominski",
+      "fileNameGeoJSON": "1434_wolominski.geojson",
+      "fileNameSQLite": "1434_wolominski.sqlite",
+      "hydrantsCount": 1993,
+      "aliases": [
+        "powiat wolominski",
+        "wolominski"
+      ]
+    },
+    {
+      "teryt": "0222",
+      "displayName": "powiat wołowski",
+      "powiatName": "wołowski",
+      "normalizedName": "powiat wolowski",
+      "slug": "wolowski",
+      "fileNameGeoJSON": "0222_wolowski.geojson",
+      "fileNameSQLite": "0222_wolowski.sqlite",
+      "hydrantsCount": 275,
+      "aliases": [
+        "powiat wolowski",
+        "wolowski"
+      ]
+    },
+    {
+      "teryt": "0223",
+      "displayName": "powiat wrocławski",
+      "powiatName": "wrocławski",
+      "normalizedName": "powiat wroclawski",
+      "slug": "wroclawski",
+      "fileNameGeoJSON": "0223_wroclawski.geojson",
+      "fileNameSQLite": "0223_wroclawski.sqlite",
+      "hydrantsCount": 2856,
+      "aliases": [
+        "powiat wroclawski",
+        "wroclawski"
+      ]
+    },
+    {
+      "teryt": "3030",
+      "displayName": "powiat wrzesiński",
+      "powiatName": "wrzesiński",
+      "normalizedName": "powiat wrzesinski",
+      "slug": "wrzesinski",
+      "fileNameGeoJSON": "3030_wrzesinski.geojson",
+      "fileNameSQLite": "3030_wrzesinski.sqlite",
+      "hydrantsCount": 779,
+      "aliases": [
+        "powiat wrzesinski",
+        "wrzesinski"
+      ]
+    },
+    {
+      "teryt": "0812",
+      "displayName": "powiat wschowski",
+      "powiatName": "wschowski",
+      "normalizedName": "powiat wschowski",
+      "slug": "wschowski",
+      "fileNameGeoJSON": "0812_wschowski.geojson",
+      "fileNameSQLite": "0812_wschowski.sqlite",
+      "hydrantsCount": 117,
+      "aliases": [
+        "powiat wschowski",
+        "wschowski"
+      ]
+    },
+    {
+      "teryt": "2013",
+      "displayName": "powiat wysokomazowiecki",
+      "powiatName": "wysokomazowiecki",
+      "normalizedName": "powiat wysokomazowiecki",
+      "slug": "wysokomazowiecki",
+      "fileNameGeoJSON": "2013_wysokomazowiecki.geojson",
+      "fileNameSQLite": "2013_wysokomazowiecki.sqlite",
+      "hydrantsCount": 22,
+      "aliases": [
+        "powiat wysokomazowiecki",
+        "wysokomazowiecki"
+      ]
+    },
+    {
+      "teryt": "1435",
+      "displayName": "powiat wyszkowski",
+      "powiatName": "wyszkowski",
+      "normalizedName": "powiat wyszkowski",
+      "slug": "wyszkowski",
+      "fileNameGeoJSON": "1435_wyszkowski.geojson",
+      "fileNameSQLite": "1435_wyszkowski.sqlite",
+      "hydrantsCount": 406,
+      "aliases": [
+        "powiat wyszkowski",
+        "wyszkowski"
+      ]
+    },
+    {
+      "teryt": "0417",
+      "displayName": "powiat wąbrzeski",
+      "powiatName": "wąbrzeski",
+      "normalizedName": "powiat wabrzeski",
+      "slug": "wabrzeski",
+      "fileNameGeoJSON": "0417_wabrzeski.geojson",
+      "fileNameSQLite": "0417_wabrzeski.sqlite",
+      "hydrantsCount": 86,
+      "aliases": [
+        "powiat wabrzeski",
+        "wabrzeski"
+      ]
+    },
+    {
+      "teryt": "3028",
+      "displayName": "powiat wągrowiecki",
+      "powiatName": "wągrowiecki",
+      "normalizedName": "powiat wagrowiecki",
+      "slug": "wagrowiecki",
+      "fileNameGeoJSON": "3028_wagrowiecki.geojson",
+      "fileNameSQLite": "3028_wagrowiecki.sqlite",
+      "hydrantsCount": 2119,
+      "aliases": [
+        "powiat wagrowiecki",
+        "wagrowiecki"
+      ]
+    },
+    {
+      "teryt": "2819",
+      "displayName": "powiat węgorzewski",
+      "powiatName": "węgorzewski",
+      "normalizedName": "powiat wegorzewski",
+      "slug": "wegorzewski",
+      "fileNameGeoJSON": "2819_wegorzewski.geojson",
+      "fileNameSQLite": "2819_wegorzewski.sqlite",
+      "hydrantsCount": 198,
+      "aliases": [
+        "powiat wegorzewski",
+        "wegorzewski"
+      ]
+    },
+    {
+      "teryt": "1433",
+      "displayName": "powiat węgrowski",
+      "powiatName": "węgrowski",
+      "normalizedName": "powiat wegrowski",
+      "slug": "wegrowski",
+      "fileNameGeoJSON": "1433_wegrowski.geojson",
+      "fileNameSQLite": "1433_wegrowski.sqlite",
+      "hydrantsCount": 951,
+      "aliases": [
+        "powiat wegrowski",
+        "wegrowski"
+      ]
+    },
+    {
+      "teryt": "0418",
+      "displayName": "powiat włocławski",
+      "powiatName": "włocławski",
+      "normalizedName": "powiat wloclawski",
+      "slug": "wloclawski",
+      "fileNameGeoJSON": "0418_wloclawski.geojson",
+      "fileNameSQLite": "0418_wloclawski.sqlite",
+      "hydrantsCount": 394,
+      "aliases": [
+        "powiat wloclawski",
+        "wloclawski"
+      ]
+    },
+    {
+      "teryt": "0619",
+      "displayName": "powiat włodawski",
+      "powiatName": "włodawski",
+      "normalizedName": "powiat wlodawski",
+      "slug": "wlodawski",
+      "fileNameGeoJSON": "0619_wlodawski.geojson",
+      "fileNameSQLite": "0619_wlodawski.sqlite",
+      "hydrantsCount": 2025,
+      "aliases": [
+        "powiat wlodawski",
+        "wlodawski"
+      ]
+    },
+    {
+      "teryt": "2613",
+      "displayName": "powiat włoszczowski",
+      "powiatName": "włoszczowski",
+      "normalizedName": "powiat wloszczowski",
+      "slug": "wloszczowski",
+      "fileNameGeoJSON": "2613_wloszczowski.geojson",
+      "fileNameSQLite": "2613_wloszczowski.sqlite",
+      "hydrantsCount": 1970,
+      "aliases": [
+        "powiat wloszczowski",
+        "wloszczowski"
+      ]
+    },
+    {
+      "teryt": "2014",
+      "displayName": "powiat zambrowski",
+      "powiatName": "zambrowski",
+      "normalizedName": "powiat zambrowski",
+      "slug": "zambrowski",
+      "fileNameGeoJSON": "2014_zambrowski.geojson",
+      "fileNameSQLite": "2014_zambrowski.sqlite",
+      "hydrantsCount": 49,
+      "aliases": [
+        "powiat zambrowski",
+        "zambrowski"
+      ]
+    },
+    {
+      "teryt": "0620",
+      "displayName": "powiat zamojski",
+      "powiatName": "zamojski",
+      "normalizedName": "powiat zamojski",
+      "slug": "zamojski",
+      "fileNameGeoJSON": "0620_zamojski.geojson",
+      "fileNameSQLite": "0620_zamojski.sqlite",
+      "hydrantsCount": 1278,
+      "aliases": [
+        "powiat zamojski",
+        "zamojski"
+      ]
+    },
+    {
+      "teryt": "2416",
+      "displayName": "powiat zawierciański",
+      "powiatName": "zawierciański",
+      "normalizedName": "powiat zawiercianski",
+      "slug": "zawiercianski",
+      "fileNameGeoJSON": "2416_zawiercianski.geojson",
+      "fileNameSQLite": "2416_zawiercianski.sqlite",
+      "hydrantsCount": 2497,
+      "aliases": [
+        "powiat zawiercianski",
+        "zawiercianski"
+      ]
+    },
+    {
+      "teryt": "1019",
+      "displayName": "powiat zduńskowolski",
+      "powiatName": "zduńskowolski",
+      "normalizedName": "powiat zdunskowolski",
+      "slug": "zdunskowolski",
+      "fileNameGeoJSON": "1019_zdunskowolski.geojson",
+      "fileNameSQLite": "1019_zdunskowolski.sqlite",
+      "hydrantsCount": 1741,
+      "aliases": [
+        "powiat zdunskowolski",
+        "zdunskowolski"
+      ]
+    },
+    {
+      "teryt": "1020",
+      "displayName": "powiat zgierski",
+      "powiatName": "zgierski",
+      "normalizedName": "powiat zgierski",
+      "slug": "zgierski",
+      "fileNameGeoJSON": "1020_zgierski.geojson",
+      "fileNameSQLite": "1020_zgierski.sqlite",
+      "hydrantsCount": 214,
+      "aliases": [
+        "powiat zgierski",
+        "zgierski"
+      ]
+    },
+    {
+      "teryt": "0225",
+      "displayName": "powiat zgorzelecki",
+      "powiatName": "zgorzelecki",
+      "normalizedName": "powiat zgorzelecki",
+      "slug": "zgorzelecki",
+      "fileNameGeoJSON": "0225_zgorzelecki.geojson",
+      "fileNameSQLite": "0225_zgorzelecki.sqlite",
+      "hydrantsCount": 281,
+      "aliases": [
+        "powiat zgorzelecki",
+        "zgorzelecki"
+      ]
+    },
+    {
+      "teryt": "0809",
+      "displayName": "powiat zielonogórski",
+      "powiatName": "zielonogórski",
+      "normalizedName": "powiat zielonogorski",
+      "slug": "zielonogorski",
+      "fileNameGeoJSON": "0809_zielonogorski.geojson",
+      "fileNameSQLite": "0809_zielonogorski.sqlite",
+      "hydrantsCount": 1191,
+      "aliases": [
+        "powiat zielonogorski",
+        "zielonogorski"
+      ]
+    },
+    {
+      "teryt": "1436",
+      "displayName": "powiat zwoleński",
+      "powiatName": "zwoleński",
+      "normalizedName": "powiat zwolenski",
+      "slug": "zwolenski",
+      "fileNameGeoJSON": "1436_zwolenski.geojson",
+      "fileNameSQLite": "1436_zwolenski.sqlite",
+      "hydrantsCount": 744,
+      "aliases": [
+        "powiat zwolenski",
+        "zwolenski"
+      ]
+    },
+    {
+      "teryt": "0224",
+      "displayName": "powiat ząbkowicki",
+      "powiatName": "ząbkowicki",
+      "normalizedName": "powiat zabkowicki",
+      "slug": "zabkowicki",
+      "fileNameGeoJSON": "0224_zabkowicki.geojson",
+      "fileNameSQLite": "0224_zabkowicki.sqlite",
+      "hydrantsCount": 241,
+      "aliases": [
+        "powiat zabkowicki",
+        "zabkowicki"
+      ]
+    },
+    {
+      "teryt": "0226",
+      "displayName": "powiat złotoryjski",
+      "powiatName": "złotoryjski",
+      "normalizedName": "powiat zlotoryjski",
+      "slug": "zlotoryjski",
+      "fileNameGeoJSON": "0226_zlotoryjski.geojson",
+      "fileNameSQLite": "0226_zlotoryjski.sqlite",
+      "hydrantsCount": 125,
+      "aliases": [
+        "powiat zlotoryjski",
+        "zlotoryjski"
+      ]
+    },
+    {
+      "teryt": "3031",
+      "displayName": "powiat złotowski",
+      "powiatName": "złotowski",
+      "normalizedName": "powiat zlotowski",
+      "slug": "zlotowski",
+      "fileNameGeoJSON": "3031_zlotowski.geojson",
+      "fileNameSQLite": "3031_zlotowski.sqlite",
+      "hydrantsCount": 551,
+      "aliases": [
+        "powiat zlotowski",
+        "zlotowski"
+      ]
+    },
+    {
+      "teryt": "2062",
+      "displayName": "powiat Łomża",
+      "powiatName": "Łomża",
+      "normalizedName": "powiat lomza",
+      "slug": "lomza",
+      "fileNameGeoJSON": "2062_lomza.geojson",
+      "fileNameSQLite": "2062_lomza.sqlite",
+      "hydrantsCount": 26,
+      "aliases": [
+        "lomza",
+        "powiat lomza"
+      ]
+    },
+    {
+      "teryt": "1061",
+      "displayName": "powiat Łódź",
+      "powiatName": "Łódź",
+      "normalizedName": "powiat lodz",
+      "slug": "lodz",
+      "fileNameGeoJSON": "1061_lodz.geojson",
+      "fileNameSQLite": "1061_lodz.sqlite",
+      "hydrantsCount": 588,
+      "aliases": [
+        "lodz",
+        "powiat lodz"
+      ]
+    },
+    {
+      "teryt": "1003",
+      "displayName": "powiat łaski",
+      "powiatName": "łaski",
+      "normalizedName": "powiat laski",
+      "slug": "laski",
+      "fileNameGeoJSON": "1003_laski.geojson",
+      "fileNameSQLite": "1003_laski.sqlite",
+      "hydrantsCount": 1114,
+      "aliases": [
+        "laski",
+        "powiat laski"
+      ]
+    },
+    {
+      "teryt": "1810",
+      "displayName": "powiat łańcucki",
+      "powiatName": "łańcucki",
+      "normalizedName": "powiat lancucki",
+      "slug": "lancucki",
+      "fileNameGeoJSON": "1810_lancucki.geojson",
+      "fileNameSQLite": "1810_lancucki.sqlite",
+      "hydrantsCount": 1915,
+      "aliases": [
+        "lancucki",
+        "powiat lancucki"
+      ]
+    },
+    {
+      "teryt": "3218",
+      "displayName": "powiat łobeski",
+      "powiatName": "łobeski",
+      "normalizedName": "powiat lobeski",
+      "slug": "lobeski",
+      "fileNameGeoJSON": "3218_lobeski.geojson",
+      "fileNameSQLite": "3218_lobeski.sqlite",
+      "hydrantsCount": 188,
+      "aliases": [
+        "lobeski",
+        "powiat lobeski"
+      ]
+    },
+    {
+      "teryt": "2007",
+      "displayName": "powiat łomżyński",
+      "powiatName": "łomżyński",
+      "normalizedName": "powiat lomzynski",
+      "slug": "lomzynski",
+      "fileNameGeoJSON": "2007_lomzynski.geojson",
+      "fileNameSQLite": "2007_lomzynski.sqlite",
+      "hydrantsCount": 244,
+      "aliases": [
+        "lomzynski",
+        "powiat lomzynski"
+      ]
+    },
+    {
+      "teryt": "1410",
+      "displayName": "powiat łosicki",
+      "powiatName": "łosicki",
+      "normalizedName": "powiat losicki",
+      "slug": "losicki",
+      "fileNameGeoJSON": "1410_losicki.geojson",
+      "fileNameSQLite": "1410_losicki.sqlite",
+      "hydrantsCount": 313,
+      "aliases": [
+        "losicki",
+        "powiat losicki"
+      ]
+    },
+    {
+      "teryt": "1005",
+      "displayName": "powiat łowicki",
+      "powiatName": "łowicki",
+      "normalizedName": "powiat lowicki",
+      "slug": "lowicki",
+      "fileNameGeoJSON": "1005_lowicki.geojson",
+      "fileNameSQLite": "1005_lowicki.sqlite",
+      "hydrantsCount": 272,
+      "aliases": [
+        "lowicki",
+        "powiat lowicki"
+      ]
+    },
+    {
+      "teryt": "0611",
+      "displayName": "powiat łukowski",
+      "powiatName": "łukowski",
+      "normalizedName": "powiat lukowski",
+      "slug": "lukowski",
+      "fileNameGeoJSON": "0611_lukowski.geojson",
+      "fileNameSQLite": "0611_lukowski.sqlite",
+      "hydrantsCount": 2824,
+      "aliases": [
+        "lukowski",
+        "powiat lukowski"
+      ]
+    },
+    {
+      "teryt": "1006",
+      "displayName": "powiat łódzki wschodni",
+      "powiatName": "łódzki wschodni",
+      "normalizedName": "powiat lodzki wschodni",
+      "slug": "lodzki-wschodni",
+      "fileNameGeoJSON": "1006_lodzki-wschodni.geojson",
+      "fileNameSQLite": "1006_lodzki-wschodni.sqlite",
+      "hydrantsCount": 410,
+      "aliases": [
+        "lodzki wschodni",
+        "lodzki-wschodni",
+        "powiat lodzki wschodni"
+      ]
+    },
+    {
+      "teryt": "1004",
+      "displayName": "powiat łęczycki",
+      "powiatName": "łęczycki",
+      "normalizedName": "powiat leczycki",
+      "slug": "leczycki",
+      "fileNameGeoJSON": "1004_leczycki.geojson",
+      "fileNameSQLite": "1004_leczycki.sqlite",
+      "hydrantsCount": 578,
+      "aliases": [
+        "leczycki",
+        "powiat leczycki"
+      ]
+    },
+    {
+      "teryt": "0610",
+      "displayName": "powiat łęczyński",
+      "powiatName": "łęczyński",
+      "normalizedName": "powiat leczynski",
+      "slug": "leczynski",
+      "fileNameGeoJSON": "0610_leczynski.geojson",
+      "fileNameSQLite": "0610_leczynski.sqlite",
+      "hydrantsCount": 859,
+      "aliases": [
+        "leczynski",
+        "powiat leczynski"
+      ]
+    },
+    {
+      "teryt": "3263",
+      "displayName": "powiat Świnoujście",
+      "powiatName": "Świnoujście",
+      "normalizedName": "powiat swinoujscie",
+      "slug": "swinoujscie",
+      "fileNameGeoJSON": "3263_swinoujscie.geojson",
+      "fileNameSQLite": "3263_swinoujscie.sqlite",
+      "hydrantsCount": 718,
+      "aliases": [
+        "powiat swinoujscie",
+        "swinoujscie"
+      ]
+    },
+    {
+      "teryt": "2476",
+      "displayName": "powiat Świętochłowice",
+      "powiatName": "Świętochłowice",
+      "normalizedName": "powiat swietochlowice",
+      "slug": "swietochlowice",
+      "fileNameGeoJSON": "2476_swietochlowice.geojson",
+      "fileNameSQLite": "2476_swietochlowice.sqlite",
+      "hydrantsCount": 246,
+      "aliases": [
+        "powiat swietochlowice",
+        "swietochlowice"
+      ]
+    },
+    {
+      "teryt": "0218",
+      "displayName": "powiat średzki",
+      "powiatName": "średzki",
+      "normalizedName": "powiat sredzki",
+      "slug": "sredzki",
+      "fileNameGeoJSON": "0218_sredzki.geojson",
+      "fileNameSQLite": "0218_sredzki.sqlite",
+      "hydrantsCount": 190,
+      "aliases": [
+        "powiat sredzki",
+        "sredzki"
+      ]
+    },
+    {
+      "teryt": "3025",
+      "displayName": "powiat średzki",
+      "powiatName": "średzki",
+      "normalizedName": "powiat sredzki",
+      "slug": "sredzki",
+      "fileNameGeoJSON": "3025_sredzki.geojson",
+      "fileNameSQLite": "3025_sredzki.sqlite",
+      "hydrantsCount": 725,
+      "aliases": [
+        "powiat sredzki",
+        "sredzki"
+      ]
+    },
+    {
+      "teryt": "3026",
+      "displayName": "powiat śremski",
+      "powiatName": "śremski",
+      "normalizedName": "powiat sremski",
+      "slug": "sremski",
+      "fileNameGeoJSON": "3026_sremski.geojson",
+      "fileNameSQLite": "3026_sremski.sqlite",
+      "hydrantsCount": 170,
+      "aliases": [
+        "powiat sremski",
+        "sremski"
+      ]
+    },
+    {
+      "teryt": "0219",
+      "displayName": "powiat świdnicki",
+      "powiatName": "świdnicki",
+      "normalizedName": "powiat swidnicki",
+      "slug": "swidnicki",
+      "fileNameGeoJSON": "0219_swidnicki.geojson",
+      "fileNameSQLite": "0219_swidnicki.sqlite",
+      "hydrantsCount": 517,
+      "aliases": [
+        "powiat swidnicki",
+        "swidnicki"
+      ]
+    },
+    {
+      "teryt": "0617",
+      "displayName": "powiat świdnicki",
+      "powiatName": "świdnicki",
+      "normalizedName": "powiat swidnicki",
+      "slug": "swidnicki",
+      "fileNameGeoJSON": "0617_swidnicki.geojson",
+      "fileNameSQLite": "0617_swidnicki.sqlite",
+      "hydrantsCount": 1237,
+      "aliases": [
+        "powiat swidnicki",
+        "swidnicki"
+      ]
+    },
+    {
+      "teryt": "3216",
+      "displayName": "powiat świdwiński",
+      "powiatName": "świdwiński",
+      "normalizedName": "powiat swidwinski",
+      "slug": "swidwinski",
+      "fileNameGeoJSON": "3216_swidwinski.geojson",
+      "fileNameSQLite": "3216_swidwinski.sqlite",
+      "hydrantsCount": 1444,
+      "aliases": [
+        "powiat swidwinski",
+        "swidwinski"
+      ]
+    },
+    {
+      "teryt": "0808",
+      "displayName": "powiat świebodziński",
+      "powiatName": "świebodziński",
+      "normalizedName": "powiat swiebodzinski",
+      "slug": "swiebodzinski",
+      "fileNameGeoJSON": "0808_swiebodzinski.geojson",
+      "fileNameSQLite": "0808_swiebodzinski.sqlite",
+      "hydrantsCount": 1516,
+      "aliases": [
+        "powiat swiebodzinski",
+        "swiebodzinski"
+      ]
+    },
+    {
+      "teryt": "0414",
+      "displayName": "powiat świecki",
+      "powiatName": "świecki",
+      "normalizedName": "powiat swiecki",
+      "slug": "swiecki",
+      "fileNameGeoJSON": "0414_swiecki.geojson",
+      "fileNameSQLite": "0414_swiecki.sqlite",
+      "hydrantsCount": 928,
+      "aliases": [
+        "powiat swiecki",
+        "swiecki"
+      ]
+    },
+    {
+      "teryt": "2479",
+      "displayName": "powiat Żory",
+      "powiatName": "Żory",
+      "normalizedName": "powiat zory",
+      "slug": "zory",
+      "fileNameGeoJSON": "2479_zory.geojson",
+      "fileNameSQLite": "2479_zory.sqlite",
+      "hydrantsCount": 1734,
+      "aliases": [
+        "powiat zory",
+        "zory"
+      ]
+    },
+    {
+      "teryt": "0810",
+      "displayName": "powiat żagański",
+      "powiatName": "żagański",
+      "normalizedName": "powiat zaganski",
+      "slug": "zaganski",
+      "fileNameGeoJSON": "0810_zaganski.geojson",
+      "fileNameSQLite": "0810_zaganski.sqlite",
+      "hydrantsCount": 77,
+      "aliases": [
+        "powiat zaganski",
+        "zaganski"
+      ]
+    },
+    {
+      "teryt": "0811",
+      "displayName": "powiat żarski",
+      "powiatName": "żarski",
+      "normalizedName": "powiat zarski",
+      "slug": "zarski",
+      "fileNameGeoJSON": "0811_zarski.geojson",
+      "fileNameSQLite": "0811_zarski.sqlite",
+      "hydrantsCount": 600,
+      "aliases": [
+        "powiat zarski",
+        "zarski"
+      ]
+    },
+    {
+      "teryt": "0419",
+      "displayName": "powiat żniński",
+      "powiatName": "żniński",
+      "normalizedName": "powiat zninski",
+      "slug": "zninski",
+      "fileNameGeoJSON": "0419_zninski.geojson",
+      "fileNameSQLite": "0419_zninski.sqlite",
+      "hydrantsCount": 319,
+      "aliases": [
+        "powiat zninski",
+        "zninski"
+      ]
+    },
+    {
+      "teryt": "1437",
+      "displayName": "powiat żuromiński",
+      "powiatName": "żuromiński",
+      "normalizedName": "powiat zurominski",
+      "slug": "zurominski",
+      "fileNameGeoJSON": "1437_zurominski.geojson",
+      "fileNameSQLite": "1437_zurominski.sqlite",
+      "hydrantsCount": 241,
+      "aliases": [
+        "powiat zurominski",
+        "zurominski"
+      ]
+    },
+    {
+      "teryt": "1438",
+      "displayName": "powiat żyrardowski",
+      "powiatName": "żyrardowski",
+      "normalizedName": "powiat zyrardowski",
+      "slug": "zyrardowski",
+      "fileNameGeoJSON": "1438_zyrardowski.geojson",
+      "fileNameSQLite": "1438_zyrardowski.sqlite",
+      "hydrantsCount": 791,
+      "aliases": [
+        "powiat zyrardowski",
+        "zyrardowski"
+      ]
+    },
+    {
+      "teryt": "2417",
+      "displayName": "powiat żywiecki",
+      "powiatName": "żywiecki",
+      "normalizedName": "powiat zywiecki",
+      "slug": "zywiecki",
+      "fileNameGeoJSON": "2417_zywiecki.geojson",
+      "fileNameSQLite": "2417_zywiecki.sqlite",
+      "hydrantsCount": 406,
+      "aliases": [
+        "powiat zywiecki",
+        "zywiecki"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2282 @@
+[
+  {
+    "teryt": "0661",
+    "nazwa": "Biała Podlaska",
+    "plik": "0661_biala-podlaska.geojson",
+    "liczba_hydrantow": 131
+  },
+  {
+    "teryt": "2061",
+    "nazwa": "Białystok",
+    "plik": "2061_bialystok.geojson",
+    "liczba_hydrantow": 1018
+  },
+  {
+    "teryt": "2461",
+    "nazwa": "Bielsko-Biała",
+    "plik": "2461_bielsko-biala.geojson",
+    "liczba_hydrantow": 1346
+  },
+  {
+    "teryt": "0461",
+    "nazwa": "Bydgoszcz",
+    "plik": "0461_bydgoszcz.geojson",
+    "liczba_hydrantow": 1848
+  },
+  {
+    "teryt": "2462",
+    "nazwa": "Bytom",
+    "plik": "2462_bytom.geojson",
+    "liczba_hydrantow": 178
+  },
+  {
+    "teryt": "0662",
+    "nazwa": "Chełm",
+    "plik": "0662_chelm.geojson",
+    "liczba_hydrantow": 905
+  },
+  {
+    "teryt": "2463",
+    "nazwa": "Chorzów",
+    "plik": "2463_chorzow.geojson",
+    "liczba_hydrantow": 513
+  },
+  {
+    "teryt": "2464",
+    "nazwa": "Częstochowa",
+    "plik": "2464_czestochowa.geojson",
+    "liczba_hydrantow": 670
+  },
+  {
+    "teryt": "2465",
+    "nazwa": "Dąbrowa Górnicza",
+    "plik": "2465_dabrowa-gornicza.geojson",
+    "liczba_hydrantow": 94
+  },
+  {
+    "teryt": "2861",
+    "nazwa": "Elbląg",
+    "plik": "2861_elblag.geojson",
+    "liczba_hydrantow": 588
+  },
+  {
+    "teryt": "2261",
+    "nazwa": "Gdańsk",
+    "plik": "2261_gdansk.geojson",
+    "liczba_hydrantow": 2812
+  },
+  {
+    "teryt": "2262",
+    "nazwa": "Gdynia",
+    "plik": "2262_gdynia.geojson",
+    "liczba_hydrantow": 1631
+  },
+  {
+    "teryt": "2466",
+    "nazwa": "Gliwice",
+    "plik": "2466_gliwice.geojson",
+    "liczba_hydrantow": 4409
+  },
+  {
+    "teryt": "0861",
+    "nazwa": "Gorzów Wielkopolski",
+    "plik": "0861_gorzow-wielkopolski.geojson",
+    "liczba_hydrantow": 233
+  },
+  {
+    "teryt": "0462",
+    "nazwa": "Grudziądz",
+    "plik": "0462_grudziadz.geojson",
+    "liczba_hydrantow": 1844
+  },
+  {
+    "teryt": "2467",
+    "nazwa": "Jastrzębie-Zdrój",
+    "plik": "2467_jastrzebie-zdroj.geojson",
+    "liczba_hydrantow": 114
+  },
+  {
+    "teryt": "2468",
+    "nazwa": "Jaworzno",
+    "plik": "2468_jaworzno.geojson",
+    "liczba_hydrantow": 1744
+  },
+  {
+    "teryt": "0261",
+    "nazwa": "Jelenia Góra",
+    "plik": "0261_jelenia-gora.geojson",
+    "liczba_hydrantow": 96
+  },
+  {
+    "teryt": "3061",
+    "nazwa": "Kalisz",
+    "plik": "3061_kalisz.geojson",
+    "liczba_hydrantow": 297
+  },
+  {
+    "teryt": "2469",
+    "nazwa": "Katowice",
+    "plik": "2469_katowice.geojson",
+    "liczba_hydrantow": 2373
+  },
+  {
+    "teryt": "2661",
+    "nazwa": "Kielce",
+    "plik": "2661_kielce.geojson",
+    "liczba_hydrantow": 2867
+  },
+  {
+    "teryt": "3062",
+    "nazwa": "Konin",
+    "plik": "3062_konin.geojson",
+    "liczba_hydrantow": 217
+  },
+  {
+    "teryt": "3261",
+    "nazwa": "Koszalin",
+    "plik": "3261_koszalin.geojson",
+    "liczba_hydrantow": 134
+  },
+  {
+    "teryt": "1261",
+    "nazwa": "Kraków",
+    "plik": "1261_krakow.geojson",
+    "liczba_hydrantow": 2407
+  },
+  {
+    "teryt": "1861",
+    "nazwa": "Krosno",
+    "plik": "1861_krosno.geojson",
+    "liczba_hydrantow": 664
+  },
+  {
+    "teryt": "0262",
+    "nazwa": "Legnica",
+    "plik": "0262_legnica.geojson",
+    "liczba_hydrantow": 32
+  },
+  {
+    "teryt": "3063",
+    "nazwa": "Leszno",
+    "plik": "3063_leszno.geojson",
+    "liczba_hydrantow": 71
+  },
+  {
+    "teryt": "0663",
+    "nazwa": "Lublin",
+    "plik": "0663_lublin.geojson",
+    "liczba_hydrantow": 4121
+  },
+  {
+    "teryt": "2470",
+    "nazwa": "Mysłowice",
+    "plik": "2470_myslowice.geojson",
+    "liczba_hydrantow": 562
+  },
+  {
+    "teryt": "1262",
+    "nazwa": "Nowy Sącz",
+    "plik": "1262_nowy-sacz.geojson",
+    "liczba_hydrantow": 1641
+  },
+  {
+    "teryt": "2862",
+    "nazwa": "Olsztyn",
+    "plik": "2862_olsztyn.geojson",
+    "liczba_hydrantow": 552
+  },
+  {
+    "teryt": "1661",
+    "nazwa": "Opole",
+    "plik": "1661_opole.geojson",
+    "liczba_hydrantow": 1452
+  },
+  {
+    "teryt": "1461",
+    "nazwa": "Ostrołęka",
+    "plik": "1461_ostroleka.geojson",
+    "liczba_hydrantow": 136
+  },
+  {
+    "teryt": "2471",
+    "nazwa": "Piekary Śląskie",
+    "plik": "2471_piekary-slaskie.geojson",
+    "liczba_hydrantow": 649
+  },
+  {
+    "teryt": "1062",
+    "nazwa": "Piotrków Trybunalski",
+    "plik": "1062_piotrkow-trybunalski.geojson",
+    "liczba_hydrantow": 911
+  },
+  {
+    "teryt": "3064",
+    "nazwa": "Poznań",
+    "plik": "3064_poznan.geojson",
+    "liczba_hydrantow": 8224
+  },
+  {
+    "teryt": "1862",
+    "nazwa": "Przemyśl",
+    "plik": "1862_przemysl.geojson",
+    "liczba_hydrantow": 154
+  },
+  {
+    "teryt": "1462",
+    "nazwa": "Płock",
+    "plik": "1462_plock.geojson",
+    "liczba_hydrantow": 2126
+  },
+  {
+    "teryt": "1463",
+    "nazwa": "Radom",
+    "plik": "1463_radom.geojson",
+    "liczba_hydrantow": 484
+  },
+  {
+    "teryt": "2472",
+    "nazwa": "Ruda Śląska",
+    "plik": "2472_ruda-slaska.geojson",
+    "liczba_hydrantow": 285
+  },
+  {
+    "teryt": "2473",
+    "nazwa": "Rybnik",
+    "plik": "2473_rybnik.geojson",
+    "liczba_hydrantow": 4944
+  },
+  {
+    "teryt": "1863",
+    "nazwa": "Rzeszów",
+    "plik": "1863_rzeszow.geojson",
+    "liczba_hydrantow": 1645
+  },
+  {
+    "teryt": "1464",
+    "nazwa": "Siedlce",
+    "plik": "1464_siedlce.geojson",
+    "liczba_hydrantow": 728
+  },
+  {
+    "teryt": "2474",
+    "nazwa": "Siemianowice Śląskie",
+    "plik": "2474_siemianowice-slaskie.geojson",
+    "liczba_hydrantow": 295
+  },
+  {
+    "teryt": "1063",
+    "nazwa": "Skierniewice",
+    "plik": "1063_skierniewice.geojson",
+    "liczba_hydrantow": 47
+  },
+  {
+    "teryt": "2264",
+    "nazwa": "Sopot",
+    "plik": "2264_sopot.geojson",
+    "liczba_hydrantow": 225
+  },
+  {
+    "teryt": "2475",
+    "nazwa": "Sosnowiec",
+    "plik": "2475_sosnowiec.geojson",
+    "liczba_hydrantow": 528
+  },
+  {
+    "teryt": "2063",
+    "nazwa": "Suwałki",
+    "plik": "2063_suwalki.geojson",
+    "liczba_hydrantow": 1244
+  },
+  {
+    "teryt": "3262",
+    "nazwa": "Szczecin",
+    "plik": "3262_szczecin.geojson",
+    "liczba_hydrantow": 1168
+  },
+  {
+    "teryt": "2263",
+    "nazwa": "Słupsk",
+    "plik": "2263_slupsk.geojson",
+    "liczba_hydrantow": 109
+  },
+  {
+    "teryt": "1864",
+    "nazwa": "Tarnobrzeg",
+    "plik": "1864_tarnobrzeg.geojson",
+    "liczba_hydrantow": 673
+  },
+  {
+    "teryt": "1263",
+    "nazwa": "Tarnów",
+    "plik": "1263_tarnow.geojson",
+    "liczba_hydrantow": 1586
+  },
+  {
+    "teryt": "0463",
+    "nazwa": "Toruń",
+    "plik": "0463_torun.geojson",
+    "liczba_hydrantow": 95
+  },
+  {
+    "teryt": "2477",
+    "nazwa": "Tychy",
+    "plik": "2477_tychy.geojson",
+    "liczba_hydrantow": 866
+  },
+  {
+    "teryt": "1465",
+    "nazwa": "Warszawa",
+    "plik": "1465_warszawa.geojson",
+    "liczba_hydrantow": 7219
+  },
+  {
+    "teryt": "0265",
+    "nazwa": "Wałbrzych",
+    "plik": "0265_walbrzych.geojson",
+    "liczba_hydrantow": 33
+  },
+  {
+    "teryt": "0264",
+    "nazwa": "Wrocław",
+    "plik": "0264_wroclaw.geojson",
+    "liczba_hydrantow": 3334
+  },
+  {
+    "teryt": "0464",
+    "nazwa": "Włocławek",
+    "plik": "0464_wloclawek.geojson",
+    "liczba_hydrantow": 141
+  },
+  {
+    "teryt": "2478",
+    "nazwa": "Zabrze",
+    "plik": "2478_zabrze.geojson",
+    "liczba_hydrantow": 226
+  },
+  {
+    "teryt": "0664",
+    "nazwa": "Zamość",
+    "plik": "0664_zamosc.geojson",
+    "liczba_hydrantow": 486
+  },
+  {
+    "teryt": "0862",
+    "nazwa": "Zielona Góra",
+    "plik": "0862_zielona-gora.geojson",
+    "liczba_hydrantow": 1465
+  },
+  {
+    "teryt": "0401",
+    "nazwa": "aleksandrowski",
+    "plik": "0401_aleksandrowski.geojson",
+    "liczba_hydrantow": 281
+  },
+  {
+    "teryt": "2001",
+    "nazwa": "augustowski",
+    "plik": "2001_augustowski.geojson",
+    "liczba_hydrantow": 1138
+  },
+  {
+    "teryt": "2801",
+    "nazwa": "bartoszycki",
+    "plik": "2801_bartoszycki.geojson",
+    "liczba_hydrantow": 713
+  },
+  {
+    "teryt": "1001",
+    "nazwa": "bełchatowski",
+    "plik": "1001_belchatowski.geojson",
+    "liczba_hydrantow": 211
+  },
+  {
+    "teryt": "0601",
+    "nazwa": "bialski",
+    "plik": "0601_bialski.geojson",
+    "liczba_hydrantow": 1130
+  },
+  {
+    "teryt": "1401",
+    "nazwa": "białobrzeski",
+    "plik": "1401_bialobrzeski.geojson",
+    "liczba_hydrantow": 1954
+  },
+  {
+    "teryt": "3201",
+    "nazwa": "białogardzki",
+    "plik": "3201_bialogardzki.geojson",
+    "liczba_hydrantow": 269
+  },
+  {
+    "teryt": "2002",
+    "nazwa": "białostocki",
+    "plik": "2002_bialostocki.geojson",
+    "liczba_hydrantow": 383
+  },
+  {
+    "teryt": "2003",
+    "nazwa": "bielski",
+    "plik": "2003_bielski.geojson",
+    "liczba_hydrantow": 414
+  },
+  {
+    "teryt": "2402",
+    "nazwa": "bielski",
+    "plik": "2402_bielski.geojson",
+    "liczba_hydrantow": 1142
+  },
+  {
+    "teryt": "2414",
+    "nazwa": "bieruńsko-lędziński",
+    "plik": "2414_bierunsko-ledzinski.geojson",
+    "liczba_hydrantow": 260
+  },
+  {
+    "teryt": "1801",
+    "nazwa": "bieszczadzki",
+    "plik": "1801_bieszczadzki.geojson",
+    "liczba_hydrantow": 470
+  },
+  {
+    "teryt": "0602",
+    "nazwa": "biłgorajski",
+    "plik": "0602_bilgorajski.geojson",
+    "liczba_hydrantow": 515
+  },
+  {
+    "teryt": "1201",
+    "nazwa": "bocheński",
+    "plik": "1201_bochenski.geojson",
+    "liczba_hydrantow": 2547
+  },
+  {
+    "teryt": "0201",
+    "nazwa": "bolesławiecki",
+    "plik": "0201_boleslawiecki.geojson",
+    "liczba_hydrantow": 1722
+  },
+  {
+    "teryt": "2802",
+    "nazwa": "braniewski",
+    "plik": "2802_braniewski.geojson",
+    "liczba_hydrantow": 271
+  },
+  {
+    "teryt": "0402",
+    "nazwa": "brodnicki",
+    "plik": "0402_brodnicki.geojson",
+    "liczba_hydrantow": 697
+  },
+  {
+    "teryt": "1202",
+    "nazwa": "brzeski",
+    "plik": "1202_brzeski.geojson",
+    "liczba_hydrantow": 1889
+  },
+  {
+    "teryt": "1601",
+    "nazwa": "brzeski",
+    "plik": "1601_brzeski.geojson",
+    "liczba_hydrantow": 557
+  },
+  {
+    "teryt": "1021",
+    "nazwa": "brzeziński",
+    "plik": "1021_brzezinski.geojson",
+    "liczba_hydrantow": 299
+  },
+  {
+    "teryt": "1802",
+    "nazwa": "brzozowski",
+    "plik": "1802_brzozowski.geojson",
+    "liczba_hydrantow": 149
+  },
+  {
+    "teryt": "2601",
+    "nazwa": "buski",
+    "plik": "2601_buski.geojson",
+    "liczba_hydrantow": 2949
+  },
+  {
+    "teryt": "0403",
+    "nazwa": "bydgoski",
+    "plik": "0403_bydgoski.geojson",
+    "liczba_hydrantow": 2980
+  },
+  {
+    "teryt": "2201",
+    "nazwa": "bytowski",
+    "plik": "2201_bytowski.geojson",
+    "liczba_hydrantow": 1489
+  },
+  {
+    "teryt": "2401",
+    "nazwa": "będziński",
+    "plik": "2401_bedzinski.geojson",
+    "liczba_hydrantow": 6313
+  },
+  {
+    "teryt": "0404",
+    "nazwa": "chełmiński",
+    "plik": "0404_chelminski.geojson",
+    "liczba_hydrantow": 620
+  },
+  {
+    "teryt": "0603",
+    "nazwa": "chełmski",
+    "plik": "0603_chelmski.geojson",
+    "liczba_hydrantow": 229
+  },
+  {
+    "teryt": "3001",
+    "nazwa": "chodzieski",
+    "plik": "3001_chodzieski.geojson",
+    "liczba_hydrantow": 742
+  },
+  {
+    "teryt": "2202",
+    "nazwa": "chojnicki",
+    "plik": "2202_chojnicki.geojson",
+    "liczba_hydrantow": 1392
+  },
+  {
+    "teryt": "3202",
+    "nazwa": "choszczeński",
+    "plik": "3202_choszczenski.geojson",
+    "liczba_hydrantow": 1507
+  },
+  {
+    "teryt": "1203",
+    "nazwa": "chrzanowski",
+    "plik": "1203_chrzanowski.geojson",
+    "liczba_hydrantow": 335
+  },
+  {
+    "teryt": "1402",
+    "nazwa": "ciechanowski",
+    "plik": "1402_ciechanowski.geojson",
+    "liczba_hydrantow": 1488
+  },
+  {
+    "teryt": "2403",
+    "nazwa": "cieszyński",
+    "plik": "2403_cieszynski.geojson",
+    "liczba_hydrantow": 2892
+  },
+  {
+    "teryt": "3002",
+    "nazwa": "czarnkowsko-trzcianecki",
+    "plik": "3002_czarnkowsko-trzcianecki.geojson",
+    "liczba_hydrantow": 273
+  },
+  {
+    "teryt": "2404",
+    "nazwa": "częstochowski",
+    "plik": "2404_czestochowski.geojson",
+    "liczba_hydrantow": 1021
+  },
+  {
+    "teryt": "2203",
+    "nazwa": "człuchowski",
+    "plik": "2203_czluchowski.geojson",
+    "liczba_hydrantow": 318
+  },
+  {
+    "teryt": "3203",
+    "nazwa": "drawski",
+    "plik": "3203_drawski.geojson",
+    "liczba_hydrantow": 1464
+  },
+  {
+    "teryt": "2803",
+    "nazwa": "działdowski",
+    "plik": "2803_dzialdowski.geojson",
+    "liczba_hydrantow": 366
+  },
+  {
+    "teryt": "0202",
+    "nazwa": "dzierżoniowski",
+    "plik": "0202_dzierzoniowski.geojson",
+    "liczba_hydrantow": 35
+  },
+  {
+    "teryt": "1204",
+    "nazwa": "dąbrowski",
+    "plik": "1204_dabrowski.geojson",
+    "liczba_hydrantow": 172
+  },
+  {
+    "teryt": "1803",
+    "nazwa": "dębicki",
+    "plik": "1803_debicki.geojson",
+    "liczba_hydrantow": 292
+  },
+  {
+    "teryt": "2804",
+    "nazwa": "elbląski",
+    "plik": "2804_elblaski.geojson",
+    "liczba_hydrantow": 158
+  },
+  {
+    "teryt": "2805",
+    "nazwa": "ełcki",
+    "plik": "2805_elcki.geojson",
+    "liczba_hydrantow": 1018
+  },
+  {
+    "teryt": "1403",
+    "nazwa": "garwoliński",
+    "plik": "1403_garwolinski.geojson",
+    "liczba_hydrantow": 687
+  },
+  {
+    "teryt": "2204",
+    "nazwa": "gdański",
+    "plik": "2204_gdanski.geojson",
+    "liczba_hydrantow": 1999
+  },
+  {
+    "teryt": "2806",
+    "nazwa": "giżycki",
+    "plik": "2806_gizycki.geojson",
+    "liczba_hydrantow": 116
+  },
+  {
+    "teryt": "2405",
+    "nazwa": "gliwicki",
+    "plik": "2405_gliwicki.geojson",
+    "liczba_hydrantow": 1087
+  },
+  {
+    "teryt": "3003",
+    "nazwa": "gnieźnieński",
+    "plik": "3003_gnieznienski.geojson",
+    "liczba_hydrantow": 457
+  },
+  {
+    "teryt": "3204",
+    "nazwa": "goleniowski",
+    "plik": "3204_goleniowski.geojson",
+    "liczba_hydrantow": 1935
+  },
+  {
+    "teryt": "0405",
+    "nazwa": "golubsko-dobrzyński",
+    "plik": "0405_golubsko-dobrzynski.geojson",
+    "liczba_hydrantow": 991
+  },
+  {
+    "teryt": "1205",
+    "nazwa": "gorlicki",
+    "plik": "1205_gorlicki.geojson",
+    "liczba_hydrantow": 209
+  },
+  {
+    "teryt": "0801",
+    "nazwa": "gorzowski",
+    "plik": "0801_gorzowski.geojson",
+    "liczba_hydrantow": 905
+  },
+  {
+    "teryt": "1404",
+    "nazwa": "gostyniński",
+    "plik": "1404_gostyninski.geojson",
+    "liczba_hydrantow": 521
+  },
+  {
+    "teryt": "3004",
+    "nazwa": "gostyński",
+    "plik": "3004_gostynski.geojson",
+    "liczba_hydrantow": 713
+  },
+  {
+    "teryt": "2818",
+    "nazwa": "gołdapski",
+    "plik": "2818_goldapski.geojson",
+    "liczba_hydrantow": 864
+  },
+  {
+    "teryt": "2004",
+    "nazwa": "grajewski",
+    "plik": "2004_grajewski.geojson",
+    "liczba_hydrantow": 659
+  },
+  {
+    "teryt": "1405",
+    "nazwa": "grodziski",
+    "plik": "1405_grodziski.geojson",
+    "liczba_hydrantow": 4144
+  },
+  {
+    "teryt": "3005",
+    "nazwa": "grodziski",
+    "plik": "3005_grodziski.geojson",
+    "liczba_hydrantow": 7
+  },
+  {
+    "teryt": "0406",
+    "nazwa": "grudziądzki",
+    "plik": "0406_grudziadzki.geojson",
+    "liczba_hydrantow": 98
+  },
+  {
+    "teryt": "3205",
+    "nazwa": "gryficki",
+    "plik": "3205_gryficki.geojson",
+    "liczba_hydrantow": 1298
+  },
+  {
+    "teryt": "3206",
+    "nazwa": "gryfiński",
+    "plik": "3206_gryfinski.geojson",
+    "liczba_hydrantow": 566
+  },
+  {
+    "teryt": "1406",
+    "nazwa": "grójecki",
+    "plik": "1406_grojecki.geojson",
+    "liczba_hydrantow": 3125
+  },
+  {
+    "teryt": "0204",
+    "nazwa": "górowski",
+    "plik": "0204_gorowski.geojson",
+    "liczba_hydrantow": 417
+  },
+  {
+    "teryt": "0203",
+    "nazwa": "głogowski",
+    "plik": "0203_glogowski.geojson",
+    "liczba_hydrantow": 712
+  },
+  {
+    "teryt": "1602",
+    "nazwa": "głubczycki",
+    "plik": "1602_glubczycki.geojson",
+    "liczba_hydrantow": 77
+  },
+  {
+    "teryt": "2005",
+    "nazwa": "hajnowski",
+    "plik": "2005_hajnowski.geojson",
+    "liczba_hydrantow": 562
+  },
+  {
+    "teryt": "0604",
+    "nazwa": "hrubieszowski",
+    "plik": "0604_hrubieszowski.geojson",
+    "liczba_hydrantow": 288
+  },
+  {
+    "teryt": "0407",
+    "nazwa": "inowrocławski",
+    "plik": "0407_inowroclawski.geojson",
+    "liczba_hydrantow": 955
+  },
+  {
+    "teryt": "2807",
+    "nazwa": "iławski",
+    "plik": "2807_ilawski.geojson",
+    "liczba_hydrantow": 272
+  },
+  {
+    "teryt": "0605",
+    "nazwa": "janowski",
+    "plik": "0605_janowski.geojson",
+    "liczba_hydrantow": 128
+  },
+  {
+    "teryt": "3006",
+    "nazwa": "jarociński",
+    "plik": "3006_jarocinski.geojson",
+    "liczba_hydrantow": 1045
+  },
+  {
+    "teryt": "1804",
+    "nazwa": "jarosławski",
+    "plik": "1804_jaroslawski.geojson",
+    "liczba_hydrantow": 3208
+  },
+  {
+    "teryt": "1805",
+    "nazwa": "jasielski",
+    "plik": "1805_jasielski.geojson",
+    "liczba_hydrantow": 788
+  },
+  {
+    "teryt": "0205",
+    "nazwa": "jaworski",
+    "plik": "0205_jaworski.geojson",
+    "liczba_hydrantow": 1006
+  },
+  {
+    "teryt": "0206",
+    "nazwa": "jeleniogórski",
+    "plik": "0206_jeleniogorski.geojson",
+    "liczba_hydrantow": 236
+  },
+  {
+    "teryt": "2602",
+    "nazwa": "jędrzejowski",
+    "plik": "2602_jedrzejowski.geojson",
+    "liczba_hydrantow": 3259
+  },
+  {
+    "teryt": "3007",
+    "nazwa": "kaliski",
+    "plik": "3007_kaliski.geojson",
+    "liczba_hydrantow": 526
+  },
+  {
+    "teryt": "0207",
+    "nazwa": "kamiennogórski",
+    "plik": "0207_kamiennogorski.geojson",
+    "liczba_hydrantow": 354
+  },
+  {
+    "teryt": "3207",
+    "nazwa": "kamieński",
+    "plik": "3207_kamienski.geojson",
+    "liczba_hydrantow": 418
+  },
+  {
+    "teryt": "2205",
+    "nazwa": "kartuski",
+    "plik": "2205_kartuski.geojson",
+    "liczba_hydrantow": 1811
+  },
+  {
+    "teryt": "2603",
+    "nazwa": "kazimierski",
+    "plik": "2603_kazimierski.geojson",
+    "liczba_hydrantow": 2209
+  },
+  {
+    "teryt": "2604",
+    "nazwa": "kielecki",
+    "plik": "2604_kielecki.geojson",
+    "liczba_hydrantow": 7687
+  },
+  {
+    "teryt": "1604",
+    "nazwa": "kluczborski",
+    "plik": "1604_kluczborski.geojson",
+    "liczba_hydrantow": 794
+  },
+  {
+    "teryt": "1806",
+    "nazwa": "kolbuszowski",
+    "plik": "1806_kolbuszowski.geojson",
+    "liczba_hydrantow": 293
+  },
+  {
+    "teryt": "2006",
+    "nazwa": "kolneński",
+    "plik": "2006_kolnenski.geojson",
+    "liczba_hydrantow": 1989
+  },
+  {
+    "teryt": "3009",
+    "nazwa": "kolski",
+    "plik": "3009_kolski.geojson",
+    "liczba_hydrantow": 943
+  },
+  {
+    "teryt": "2605",
+    "nazwa": "konecki",
+    "plik": "2605_konecki.geojson",
+    "liczba_hydrantow": 1698
+  },
+  {
+    "teryt": "3010",
+    "nazwa": "koniński",
+    "plik": "3010_koninski.geojson",
+    "liczba_hydrantow": 256
+  },
+  {
+    "teryt": "3209",
+    "nazwa": "koszaliński",
+    "plik": "3209_koszalinski.geojson",
+    "liczba_hydrantow": 442
+  },
+  {
+    "teryt": "1407",
+    "nazwa": "kozienicki",
+    "plik": "1407_kozienicki.geojson",
+    "liczba_hydrantow": 52
+  },
+  {
+    "teryt": "3208",
+    "nazwa": "kołobrzeski",
+    "plik": "3208_kolobrzeski.geojson",
+    "liczba_hydrantow": 973
+  },
+  {
+    "teryt": "3011",
+    "nazwa": "kościański",
+    "plik": "3011_koscianski.geojson",
+    "liczba_hydrantow": 31
+  },
+  {
+    "teryt": "2206",
+    "nazwa": "kościerski",
+    "plik": "2206_koscierski.geojson",
+    "liczba_hydrantow": 931
+  },
+  {
+    "teryt": "1206",
+    "nazwa": "krakowski",
+    "plik": "1206_krakowski.geojson",
+    "liczba_hydrantow": 1246
+  },
+  {
+    "teryt": "1605",
+    "nazwa": "krapkowicki",
+    "plik": "1605_krapkowicki.geojson",
+    "liczba_hydrantow": 542
+  },
+  {
+    "teryt": "0606",
+    "nazwa": "krasnostawski",
+    "plik": "0606_krasnostawski.geojson",
+    "liczba_hydrantow": 4127
+  },
+  {
+    "teryt": "0607",
+    "nazwa": "kraśnicki",
+    "plik": "0607_krasnicki.geojson",
+    "liczba_hydrantow": 76
+  },
+  {
+    "teryt": "3012",
+    "nazwa": "krotoszyński",
+    "plik": "3012_krotoszynski.geojson",
+    "liczba_hydrantow": 2022
+  },
+  {
+    "teryt": "0802",
+    "nazwa": "krośnieński",
+    "plik": "0802_krosnienski.geojson",
+    "liczba_hydrantow": 918
+  },
+  {
+    "teryt": "1807",
+    "nazwa": "krośnieński",
+    "plik": "1807_krosnienski.geojson",
+    "liczba_hydrantow": 1584
+  },
+  {
+    "teryt": "1002",
+    "nazwa": "kutnowski",
+    "plik": "1002_kutnowski.geojson",
+    "liczba_hydrantow": 63
+  },
+  {
+    "teryt": "2207",
+    "nazwa": "kwidzyński",
+    "plik": "2207_kwidzynski.geojson",
+    "liczba_hydrantow": 1497
+  },
+  {
+    "teryt": "1603",
+    "nazwa": "kędzierzyńsko-kozielski",
+    "plik": "1603_kedzierzynsko-kozielski.geojson",
+    "liczba_hydrantow": 647
+  },
+  {
+    "teryt": "3008",
+    "nazwa": "kępiński",
+    "plik": "3008_kepinski.geojson",
+    "liczba_hydrantow": 759
+  },
+  {
+    "teryt": "2808",
+    "nazwa": "kętrzyński",
+    "plik": "2808_ketrzynski.geojson",
+    "liczba_hydrantow": 313
+  },
+  {
+    "teryt": "2406",
+    "nazwa": "kłobucki",
+    "plik": "2406_klobucki.geojson",
+    "liczba_hydrantow": 1078
+  },
+  {
+    "teryt": "0208",
+    "nazwa": "kłodzki",
+    "plik": "0208_klodzki.geojson",
+    "liczba_hydrantow": 1239
+  },
+  {
+    "teryt": "1408",
+    "nazwa": "legionowski",
+    "plik": "1408_legionowski.geojson",
+    "liczba_hydrantow": 996
+  },
+  {
+    "teryt": "0209",
+    "nazwa": "legnicki",
+    "plik": "0209_legnicki.geojson",
+    "liczba_hydrantow": 303
+  },
+  {
+    "teryt": "1821",
+    "nazwa": "leski",
+    "plik": "1821_leski.geojson",
+    "liczba_hydrantow": 184
+  },
+  {
+    "teryt": "3013",
+    "nazwa": "leszczyński",
+    "plik": "3013_leszczynski.geojson",
+    "liczba_hydrantow": 474
+  },
+  {
+    "teryt": "1808",
+    "nazwa": "leżajski",
+    "plik": "1808_lezajski.geojson",
+    "liczba_hydrantow": 618
+  },
+  {
+    "teryt": "2809",
+    "nazwa": "lidzbarski",
+    "plik": "2809_lidzbarski.geojson",
+    "liczba_hydrantow": 524
+  },
+  {
+    "teryt": "1207",
+    "nazwa": "limanowski",
+    "plik": "1207_limanowski.geojson",
+    "liczba_hydrantow": 98
+  },
+  {
+    "teryt": "0408",
+    "nazwa": "lipnowski",
+    "plik": "0408_lipnowski.geojson",
+    "liczba_hydrantow": 89
+  },
+  {
+    "teryt": "1409",
+    "nazwa": "lipski",
+    "plik": "1409_lipski.geojson",
+    "liczba_hydrantow": 697
+  },
+  {
+    "teryt": "1809",
+    "nazwa": "lubaczowski",
+    "plik": "1809_lubaczowski.geojson",
+    "liczba_hydrantow": 629
+  },
+  {
+    "teryt": "0608",
+    "nazwa": "lubartowski",
+    "plik": "0608_lubartowski.geojson",
+    "liczba_hydrantow": 1408
+  },
+  {
+    "teryt": "0210",
+    "nazwa": "lubański",
+    "plik": "0210_lubanski.geojson",
+    "liczba_hydrantow": 282
+  },
+  {
+    "teryt": "0609",
+    "nazwa": "lubelski",
+    "plik": "0609_lubelski.geojson",
+    "liczba_hydrantow": 1945
+  },
+  {
+    "teryt": "0211",
+    "nazwa": "lubiński",
+    "plik": "0211_lubinski.geojson",
+    "liczba_hydrantow": 509
+  },
+  {
+    "teryt": "2407",
+    "nazwa": "lubliniecki",
+    "plik": "2407_lubliniecki.geojson",
+    "liczba_hydrantow": 1368
+  },
+  {
+    "teryt": "0212",
+    "nazwa": "lwówecki",
+    "plik": "0212_lwowecki.geojson",
+    "liczba_hydrantow": 1127
+  },
+  {
+    "teryt": "2208",
+    "nazwa": "lęborski",
+    "plik": "2208_leborski.geojson",
+    "liczba_hydrantow": 547
+  },
+  {
+    "teryt": "1411",
+    "nazwa": "makowski",
+    "plik": "1411_makowski.geojson",
+    "liczba_hydrantow": 15
+  },
+  {
+    "teryt": "2209",
+    "nazwa": "malborski",
+    "plik": "2209_malborski.geojson",
+    "liczba_hydrantow": 720
+  },
+  {
+    "teryt": "1208",
+    "nazwa": "miechowski",
+    "plik": "1208_miechowski.geojson",
+    "liczba_hydrantow": 255
+  },
+  {
+    "teryt": "1811",
+    "nazwa": "mielecki",
+    "plik": "1811_mielecki.geojson",
+    "liczba_hydrantow": 544
+  },
+  {
+    "teryt": "2408",
+    "nazwa": "mikołowski",
+    "plik": "2408_mikolowski.geojson",
+    "liczba_hydrantow": 2360
+  },
+  {
+    "teryt": "0213",
+    "nazwa": "milicki",
+    "plik": "0213_milicki.geojson",
+    "liczba_hydrantow": 172
+  },
+  {
+    "teryt": "3014",
+    "nazwa": "międzychodzki",
+    "plik": "3014_miedzychodzki.geojson",
+    "liczba_hydrantow": 293
+  },
+  {
+    "teryt": "0803",
+    "nazwa": "międzyrzecki",
+    "plik": "0803_miedzyrzecki.geojson",
+    "liczba_hydrantow": 765
+  },
+  {
+    "teryt": "1412",
+    "nazwa": "miński",
+    "plik": "1412_minski.geojson",
+    "liczba_hydrantow": 5349
+  },
+  {
+    "teryt": "0409",
+    "nazwa": "mogileński",
+    "plik": "0409_mogilenski.geojson",
+    "liczba_hydrantow": 365
+  },
+  {
+    "teryt": "2008",
+    "nazwa": "moniecki",
+    "plik": "2008_moniecki.geojson",
+    "liczba_hydrantow": 919
+  },
+  {
+    "teryt": "2810",
+    "nazwa": "mrągowski",
+    "plik": "2810_mragowski.geojson",
+    "liczba_hydrantow": 518
+  },
+  {
+    "teryt": "2409",
+    "nazwa": "myszkowski",
+    "plik": "2409_myszkowski.geojson",
+    "liczba_hydrantow": 1168
+  },
+  {
+    "teryt": "1209",
+    "nazwa": "myślenicki",
+    "plik": "1209_myslenicki.geojson",
+    "liczba_hydrantow": 2005
+  },
+  {
+    "teryt": "3210",
+    "nazwa": "myśliborski",
+    "plik": "3210_mysliborski.geojson",
+    "liczba_hydrantow": 1116
+  },
+  {
+    "teryt": "1413",
+    "nazwa": "mławski",
+    "plik": "1413_mlawski.geojson",
+    "liczba_hydrantow": 334
+  },
+  {
+    "teryt": "0410",
+    "nazwa": "nakielski",
+    "plik": "0410_nakielski.geojson",
+    "liczba_hydrantow": 382
+  },
+  {
+    "teryt": "1606",
+    "nazwa": "namysłowski",
+    "plik": "1606_namyslowski.geojson",
+    "liczba_hydrantow": 837
+  },
+  {
+    "teryt": "2811",
+    "nazwa": "nidzicki",
+    "plik": "2811_nidzicki.geojson",
+    "liczba_hydrantow": 272
+  },
+  {
+    "teryt": "1812",
+    "nazwa": "niżański",
+    "plik": "1812_nizanski.geojson",
+    "liczba_hydrantow": 1753
+  },
+  {
+    "teryt": "1414",
+    "nazwa": "nowodworski",
+    "plik": "1414_nowodworski.geojson",
+    "liczba_hydrantow": 196
+  },
+  {
+    "teryt": "2210",
+    "nazwa": "nowodworski",
+    "plik": "2210_nowodworski.geojson",
+    "liczba_hydrantow": 182
+  },
+  {
+    "teryt": "2812",
+    "nazwa": "nowomiejski",
+    "plik": "2812_nowomiejski.geojson",
+    "liczba_hydrantow": 341
+  },
+  {
+    "teryt": "0804",
+    "nazwa": "nowosolski",
+    "plik": "0804_nowosolski.geojson",
+    "liczba_hydrantow": 2367
+  },
+  {
+    "teryt": "1210",
+    "nazwa": "nowosądecki",
+    "plik": "1210_nowosadecki.geojson",
+    "liczba_hydrantow": 2557
+  },
+  {
+    "teryt": "1211",
+    "nazwa": "nowotarski",
+    "plik": "1211_nowotarski.geojson",
+    "liczba_hydrantow": 823
+  },
+  {
+    "teryt": "3015",
+    "nazwa": "nowotomyski",
+    "plik": "3015_nowotomyski.geojson",
+    "liczba_hydrantow": 946
+  },
+  {
+    "teryt": "1607",
+    "nazwa": "nyski",
+    "plik": "1607_nyski.geojson",
+    "liczba_hydrantow": 291
+  },
+  {
+    "teryt": "3016",
+    "nazwa": "obornicki",
+    "plik": "3016_obornicki.geojson",
+    "liczba_hydrantow": 1471
+  },
+  {
+    "teryt": "2813",
+    "nazwa": "olecki",
+    "plik": "2813_olecki.geojson",
+    "liczba_hydrantow": 589
+  },
+  {
+    "teryt": "1608",
+    "nazwa": "oleski",
+    "plik": "1608_oleski.geojson",
+    "liczba_hydrantow": 466
+  },
+  {
+    "teryt": "0214",
+    "nazwa": "oleśnicki",
+    "plik": "0214_olesnicki.geojson",
+    "liczba_hydrantow": 623
+  },
+  {
+    "teryt": "1212",
+    "nazwa": "olkuski",
+    "plik": "1212_olkuski.geojson",
+    "liczba_hydrantow": 625
+  },
+  {
+    "teryt": "2814",
+    "nazwa": "olsztyński",
+    "plik": "2814_olsztynski.geojson",
+    "liczba_hydrantow": 472
+  },
+  {
+    "teryt": "2606",
+    "nazwa": "opatowski",
+    "plik": "2606_opatowski.geojson",
+    "liczba_hydrantow": 2440
+  },
+  {
+    "teryt": "1007",
+    "nazwa": "opoczyński",
+    "plik": "1007_opoczynski.geojson",
+    "liczba_hydrantow": 331
+  },
+  {
+    "teryt": "0612",
+    "nazwa": "opolski",
+    "plik": "0612_opolski.geojson",
+    "liczba_hydrantow": 908
+  },
+  {
+    "teryt": "1609",
+    "nazwa": "opolski",
+    "plik": "1609_opolski.geojson",
+    "liczba_hydrantow": 1026
+  },
+  {
+    "teryt": "2607",
+    "nazwa": "ostrowiecki",
+    "plik": "2607_ostrowiecki.geojson",
+    "liczba_hydrantow": 2221
+  },
+  {
+    "teryt": "1416",
+    "nazwa": "ostrowski",
+    "plik": "1416_ostrowski.geojson",
+    "liczba_hydrantow": 636
+  },
+  {
+    "teryt": "3017",
+    "nazwa": "ostrowski",
+    "plik": "3017_ostrowski.geojson",
+    "liczba_hydrantow": 2520
+  },
+  {
+    "teryt": "1415",
+    "nazwa": "ostrołęcki",
+    "plik": "1415_ostrolecki.geojson",
+    "liczba_hydrantow": 260
+  },
+  {
+    "teryt": "3018",
+    "nazwa": "ostrzeszowski",
+    "plik": "3018_ostrzeszowski.geojson",
+    "liczba_hydrantow": 570
+  },
+  {
+    "teryt": "2815",
+    "nazwa": "ostródzki",
+    "plik": "2815_ostrodzki.geojson",
+    "liczba_hydrantow": 239
+  },
+  {
+    "teryt": "1417",
+    "nazwa": "otwocki",
+    "plik": "1417_otwocki.geojson",
+    "liczba_hydrantow": 1363
+  },
+  {
+    "teryt": "0215",
+    "nazwa": "oławski",
+    "plik": "0215_olawski.geojson",
+    "liczba_hydrantow": 49
+  },
+  {
+    "teryt": "1213",
+    "nazwa": "oświęcimski",
+    "plik": "1213_oswiecimski.geojson",
+    "liczba_hydrantow": 1442
+  },
+  {
+    "teryt": "1008",
+    "nazwa": "pabianicki",
+    "plik": "1008_pabianicki.geojson",
+    "liczba_hydrantow": 199
+  },
+  {
+    "teryt": "1009",
+    "nazwa": "pajęczański",
+    "plik": "1009_pajeczanski.geojson",
+    "liczba_hydrantow": 625
+  },
+  {
+    "teryt": "0613",
+    "nazwa": "parczewski",
+    "plik": "0613_parczewski.geojson",
+    "liczba_hydrantow": 88
+  },
+  {
+    "teryt": "1418",
+    "nazwa": "piaseczyński",
+    "plik": "1418_piaseczynski.geojson",
+    "liczba_hydrantow": 3490
+  },
+  {
+    "teryt": "3019",
+    "nazwa": "pilski",
+    "plik": "3019_pilski.geojson",
+    "liczba_hydrantow": 649
+  },
+  {
+    "teryt": "1010",
+    "nazwa": "piotrkowski",
+    "plik": "1010_piotrkowski.geojson",
+    "liczba_hydrantow": 253
+  },
+  {
+    "teryt": "2816",
+    "nazwa": "piski",
+    "plik": "2816_piski.geojson",
+    "liczba_hydrantow": 1188
+  },
+  {
+    "teryt": "2608",
+    "nazwa": "pińczowski",
+    "plik": "2608_pinczowski.geojson",
+    "liczba_hydrantow": 1610
+  },
+  {
+    "teryt": "3020",
+    "nazwa": "pleszewski",
+    "plik": "3020_pleszewski.geojson",
+    "liczba_hydrantow": 1854
+  },
+  {
+    "teryt": "1011",
+    "nazwa": "poddębicki",
+    "plik": "1011_poddebicki.geojson",
+    "liczba_hydrantow": 504
+  },
+  {
+    "teryt": "3211",
+    "nazwa": "policki",
+    "plik": "3211_policki.geojson",
+    "liczba_hydrantow": 2074
+  },
+  {
+    "teryt": "0216",
+    "nazwa": "polkowicki",
+    "plik": "0216_polkowicki.geojson",
+    "liczba_hydrantow": 171
+  },
+  {
+    "teryt": "3021",
+    "nazwa": "poznański",
+    "plik": "3021_poznanski.geojson",
+    "liczba_hydrantow": 3121
+  },
+  {
+    "teryt": "1214",
+    "nazwa": "proszowicki",
+    "plik": "1214_proszowicki.geojson",
+    "liczba_hydrantow": 394
+  },
+  {
+    "teryt": "1610",
+    "nazwa": "prudnicki",
+    "plik": "1610_prudnicki.geojson",
+    "liczba_hydrantow": 1275
+  },
+  {
+    "teryt": "1421",
+    "nazwa": "pruszkowski",
+    "plik": "1421_pruszkowski.geojson",
+    "liczba_hydrantow": 1216
+  },
+  {
+    "teryt": "1422",
+    "nazwa": "przasnyski",
+    "plik": "1422_przasnyski.geojson",
+    "liczba_hydrantow": 279
+  },
+  {
+    "teryt": "1813",
+    "nazwa": "przemyski",
+    "plik": "1813_przemyski.geojson",
+    "liczba_hydrantow": 171
+  },
+  {
+    "teryt": "1814",
+    "nazwa": "przeworski",
+    "plik": "1814_przeworski.geojson",
+    "liczba_hydrantow": 3875
+  },
+  {
+    "teryt": "1423",
+    "nazwa": "przysuski",
+    "plik": "1423_przysuski.geojson",
+    "liczba_hydrantow": 1535
+  },
+  {
+    "teryt": "2410",
+    "nazwa": "pszczyński",
+    "plik": "2410_pszczynski.geojson",
+    "liczba_hydrantow": 1065
+  },
+  {
+    "teryt": "2211",
+    "nazwa": "pucki",
+    "plik": "2211_pucki.geojson",
+    "liczba_hydrantow": 2104
+  },
+  {
+    "teryt": "0614",
+    "nazwa": "puławski",
+    "plik": "0614_pulawski.geojson",
+    "liczba_hydrantow": 1491
+  },
+  {
+    "teryt": "1424",
+    "nazwa": "pułtuski",
+    "plik": "1424_pultuski.geojson",
+    "liczba_hydrantow": 12
+  },
+  {
+    "teryt": "3212",
+    "nazwa": "pyrzycki",
+    "plik": "3212_pyrzycki.geojson",
+    "liczba_hydrantow": 180
+  },
+  {
+    "teryt": "1419",
+    "nazwa": "płocki",
+    "plik": "1419_plocki.geojson",
+    "liczba_hydrantow": 294
+  },
+  {
+    "teryt": "1420",
+    "nazwa": "płoński",
+    "plik": "1420_plonski.geojson",
+    "liczba_hydrantow": 119
+  },
+  {
+    "teryt": "2411",
+    "nazwa": "raciborski",
+    "plik": "2411_raciborski.geojson",
+    "liczba_hydrantow": 945
+  },
+  {
+    "teryt": "1425",
+    "nazwa": "radomski",
+    "plik": "1425_radomski.geojson",
+    "liczba_hydrantow": 382
+  },
+  {
+    "teryt": "1012",
+    "nazwa": "radomszczański",
+    "plik": "1012_radomszczanski.geojson",
+    "liczba_hydrantow": 939
+  },
+  {
+    "teryt": "0411",
+    "nazwa": "radziejowski",
+    "plik": "0411_radziejowski.geojson",
+    "liczba_hydrantow": 973
+  },
+  {
+    "teryt": "0615",
+    "nazwa": "radzyński",
+    "plik": "0615_radzynski.geojson",
+    "liczba_hydrantow": 89
+  },
+  {
+    "teryt": "3022",
+    "nazwa": "rawicki",
+    "plik": "3022_rawicki.geojson",
+    "liczba_hydrantow": 93
+  },
+  {
+    "teryt": "1013",
+    "nazwa": "rawski",
+    "plik": "1013_rawski.geojson",
+    "liczba_hydrantow": 537
+  },
+  {
+    "teryt": "1815",
+    "nazwa": "ropczycko-sędziszowski",
+    "plik": "1815_ropczycko-sedziszowski.geojson",
+    "liczba_hydrantow": 609
+  },
+  {
+    "teryt": "2412",
+    "nazwa": "rybnicki",
+    "plik": "2412_rybnicki.geojson",
+    "liczba_hydrantow": 911
+  },
+  {
+    "teryt": "0616",
+    "nazwa": "rycki",
+    "plik": "0616_rycki.geojson",
+    "liczba_hydrantow": 491
+  },
+  {
+    "teryt": "0412",
+    "nazwa": "rypiński",
+    "plik": "0412_rypinski.geojson",
+    "liczba_hydrantow": 235
+  },
+  {
+    "teryt": "1816",
+    "nazwa": "rzeszowski",
+    "plik": "1816_rzeszowski.geojson",
+    "liczba_hydrantow": 2005
+  },
+  {
+    "teryt": "2609",
+    "nazwa": "sandomierski",
+    "plik": "2609_sandomierski.geojson",
+    "liczba_hydrantow": 2436
+  },
+  {
+    "teryt": "1817",
+    "nazwa": "sanocki",
+    "plik": "1817_sanocki.geojson",
+    "liczba_hydrantow": 1357
+  },
+  {
+    "teryt": "2009",
+    "nazwa": "sejneński",
+    "plik": "2009_sejnenski.geojson",
+    "liczba_hydrantow": 90
+  },
+  {
+    "teryt": "1426",
+    "nazwa": "siedlecki",
+    "plik": "1426_siedlecki.geojson",
+    "liczba_hydrantow": 1723
+  },
+  {
+    "teryt": "2010",
+    "nazwa": "siemiatycki",
+    "plik": "2010_siemiatycki.geojson",
+    "liczba_hydrantow": 312
+  },
+  {
+    "teryt": "1014",
+    "nazwa": "sieradzki",
+    "plik": "1014_sieradzki.geojson",
+    "liczba_hydrantow": 1772
+  },
+  {
+    "teryt": "1427",
+    "nazwa": "sierpecki",
+    "plik": "1427_sierpecki.geojson",
+    "liczba_hydrantow": 5
+  },
+  {
+    "teryt": "2610",
+    "nazwa": "skarżyski",
+    "plik": "2610_skarzyski.geojson",
+    "liczba_hydrantow": 775
+  },
+  {
+    "teryt": "1015",
+    "nazwa": "skierniewicki",
+    "plik": "1015_skierniewicki.geojson",
+    "liczba_hydrantow": 370
+  },
+  {
+    "teryt": "1428",
+    "nazwa": "sochaczewski",
+    "plik": "1428_sochaczewski.geojson",
+    "liczba_hydrantow": 476
+  },
+  {
+    "teryt": "1429",
+    "nazwa": "sokołowski",
+    "plik": "1429_sokolowski.geojson",
+    "liczba_hydrantow": 366
+  },
+  {
+    "teryt": "2011",
+    "nazwa": "sokólski",
+    "plik": "2011_sokolski.geojson",
+    "liczba_hydrantow": 4198
+  },
+  {
+    "teryt": "1818",
+    "nazwa": "stalowowolski",
+    "plik": "1818_stalowowolski.geojson",
+    "liczba_hydrantow": 389
+  },
+  {
+    "teryt": "2611",
+    "nazwa": "starachowicki",
+    "plik": "2611_starachowicki.geojson",
+    "liczba_hydrantow": 2165
+  },
+  {
+    "teryt": "3214",
+    "nazwa": "stargardzki",
+    "plik": "3214_stargardzki.geojson",
+    "liczba_hydrantow": 1088
+  },
+  {
+    "teryt": "2213",
+    "nazwa": "starogardzki",
+    "plik": "2213_starogardzki.geojson",
+    "liczba_hydrantow": 2052
+  },
+  {
+    "teryt": "2612",
+    "nazwa": "staszowski",
+    "plik": "2612_staszowski.geojson",
+    "liczba_hydrantow": 1776
+  },
+  {
+    "teryt": "1611",
+    "nazwa": "strzelecki",
+    "plik": "1611_strzelecki.geojson",
+    "liczba_hydrantow": 581
+  },
+  {
+    "teryt": "0806",
+    "nazwa": "strzelecko-drezdenecki",
+    "plik": "0806_strzelecko-drezdenecki.geojson",
+    "liczba_hydrantow": 953
+  },
+  {
+    "teryt": "0217",
+    "nazwa": "strzeliński",
+    "plik": "0217_strzelinski.geojson",
+    "liczba_hydrantow": 2035
+  },
+  {
+    "teryt": "1819",
+    "nazwa": "strzyżowski",
+    "plik": "1819_strzyzowski.geojson",
+    "liczba_hydrantow": 86
+  },
+  {
+    "teryt": "0807",
+    "nazwa": "sulęciński",
+    "plik": "0807_sulecinski.geojson",
+    "liczba_hydrantow": 1005
+  },
+  {
+    "teryt": "1215",
+    "nazwa": "suski",
+    "plik": "1215_suski.geojson",
+    "liczba_hydrantow": 313
+  },
+  {
+    "teryt": "2012",
+    "nazwa": "suwalski",
+    "plik": "2012_suwalski.geojson",
+    "liczba_hydrantow": 1136
+  },
+  {
+    "teryt": "3024",
+    "nazwa": "szamotulski",
+    "plik": "3024_szamotulski.geojson",
+    "liczba_hydrantow": 126
+  },
+  {
+    "teryt": "3215",
+    "nazwa": "szczecinecki",
+    "plik": "3215_szczecinecki.geojson",
+    "liczba_hydrantow": 123
+  },
+  {
+    "teryt": "2817",
+    "nazwa": "szczycieński",
+    "plik": "2817_szczycienski.geojson",
+    "liczba_hydrantow": 923
+  },
+  {
+    "teryt": "2216",
+    "nazwa": "sztumski",
+    "plik": "2216_sztumski.geojson",
+    "liczba_hydrantow": 782
+  },
+  {
+    "teryt": "1430",
+    "nazwa": "szydłowiecki",
+    "plik": "1430_szydlowiecki.geojson",
+    "liczba_hydrantow": 161
+  },
+  {
+    "teryt": "0413",
+    "nazwa": "sępoleński",
+    "plik": "0413_sepolenski.geojson",
+    "liczba_hydrantow": 290
+  },
+  {
+    "teryt": "3213",
+    "nazwa": "sławieński",
+    "plik": "3213_slawienski.geojson",
+    "liczba_hydrantow": 103
+  },
+  {
+    "teryt": "0805",
+    "nazwa": "słubicki",
+    "plik": "0805_slubicki.geojson",
+    "liczba_hydrantow": 96
+  },
+  {
+    "teryt": "3023",
+    "nazwa": "słupecki",
+    "plik": "3023_slupecki.geojson",
+    "liczba_hydrantow": 403
+  },
+  {
+    "teryt": "2212",
+    "nazwa": "słupski",
+    "plik": "2212_slupski.geojson",
+    "liczba_hydrantow": 709
+  },
+  {
+    "teryt": "1820",
+    "nazwa": "tarnobrzeski",
+    "plik": "1820_tarnobrzeski.geojson",
+    "liczba_hydrantow": 1218
+  },
+  {
+    "teryt": "2413",
+    "nazwa": "tarnogórski",
+    "plik": "2413_tarnogorski.geojson",
+    "liczba_hydrantow": 2873
+  },
+  {
+    "teryt": "1216",
+    "nazwa": "tarnowski",
+    "plik": "1216_tarnowski.geojson",
+    "liczba_hydrantow": 2401
+  },
+  {
+    "teryt": "1217",
+    "nazwa": "tatrzański",
+    "plik": "1217_tatrzanski.geojson",
+    "liczba_hydrantow": 797
+  },
+  {
+    "teryt": "2214",
+    "nazwa": "tczewski",
+    "plik": "2214_tczewski.geojson",
+    "liczba_hydrantow": 3211
+  },
+  {
+    "teryt": "0618",
+    "nazwa": "tomaszowski",
+    "plik": "0618_tomaszowski.geojson",
+    "liczba_hydrantow": 2046
+  },
+  {
+    "teryt": "1016",
+    "nazwa": "tomaszowski",
+    "plik": "1016_tomaszowski.geojson",
+    "liczba_hydrantow": 435
+  },
+  {
+    "teryt": "0415",
+    "nazwa": "toruński",
+    "plik": "0415_torunski.geojson",
+    "liczba_hydrantow": 243
+  },
+  {
+    "teryt": "0220",
+    "nazwa": "trzebnicki",
+    "plik": "0220_trzebnicki.geojson",
+    "liczba_hydrantow": 1408
+  },
+  {
+    "teryt": "0416",
+    "nazwa": "tucholski",
+    "plik": "0416_tucholski.geojson",
+    "liczba_hydrantow": 1049
+  },
+  {
+    "teryt": "3027",
+    "nazwa": "turecki",
+    "plik": "3027_turecki.geojson",
+    "liczba_hydrantow": 604
+  },
+  {
+    "teryt": "1218",
+    "nazwa": "wadowicki",
+    "plik": "1218_wadowicki.geojson",
+    "liczba_hydrantow": 1875
+  },
+  {
+    "teryt": "1432",
+    "nazwa": "warszawski zachodni",
+    "plik": "1432_warszawski-zachodni.geojson",
+    "liczba_hydrantow": 976
+  },
+  {
+    "teryt": "0221",
+    "nazwa": "wałbrzyski",
+    "plik": "0221_walbrzyski.geojson",
+    "liczba_hydrantow": 171
+  },
+  {
+    "teryt": "3217",
+    "nazwa": "wałecki",
+    "plik": "3217_walecki.geojson",
+    "liczba_hydrantow": 876
+  },
+  {
+    "teryt": "2215",
+    "nazwa": "wejherowski",
+    "plik": "2215_wejherowski.geojson",
+    "liczba_hydrantow": 2359
+  },
+  {
+    "teryt": "1219",
+    "nazwa": "wielicki",
+    "plik": "1219_wielicki.geojson",
+    "liczba_hydrantow": 1227
+  },
+  {
+    "teryt": "1017",
+    "nazwa": "wieluński",
+    "plik": "1017_wielunski.geojson",
+    "liczba_hydrantow": 3821
+  },
+  {
+    "teryt": "1018",
+    "nazwa": "wieruszowski",
+    "plik": "1018_wieruszowski.geojson",
+    "liczba_hydrantow": 1499
+  },
+  {
+    "teryt": "2415",
+    "nazwa": "wodzisławski",
+    "plik": "2415_wodzislawski.geojson",
+    "liczba_hydrantow": 2325
+  },
+  {
+    "teryt": "3029",
+    "nazwa": "wolsztyński",
+    "plik": "3029_wolsztynski.geojson",
+    "liczba_hydrantow": 622
+  },
+  {
+    "teryt": "1434",
+    "nazwa": "wołomiński",
+    "plik": "1434_wolominski.geojson",
+    "liczba_hydrantow": 1993
+  },
+  {
+    "teryt": "0222",
+    "nazwa": "wołowski",
+    "plik": "0222_wolowski.geojson",
+    "liczba_hydrantow": 275
+  },
+  {
+    "teryt": "0223",
+    "nazwa": "wrocławski",
+    "plik": "0223_wroclawski.geojson",
+    "liczba_hydrantow": 2856
+  },
+  {
+    "teryt": "3030",
+    "nazwa": "wrzesiński",
+    "plik": "3030_wrzesinski.geojson",
+    "liczba_hydrantow": 779
+  },
+  {
+    "teryt": "0812",
+    "nazwa": "wschowski",
+    "plik": "0812_wschowski.geojson",
+    "liczba_hydrantow": 117
+  },
+  {
+    "teryt": "2013",
+    "nazwa": "wysokomazowiecki",
+    "plik": "2013_wysokomazowiecki.geojson",
+    "liczba_hydrantow": 22
+  },
+  {
+    "teryt": "1435",
+    "nazwa": "wyszkowski",
+    "plik": "1435_wyszkowski.geojson",
+    "liczba_hydrantow": 406
+  },
+  {
+    "teryt": "0417",
+    "nazwa": "wąbrzeski",
+    "plik": "0417_wabrzeski.geojson",
+    "liczba_hydrantow": 86
+  },
+  {
+    "teryt": "3028",
+    "nazwa": "wągrowiecki",
+    "plik": "3028_wagrowiecki.geojson",
+    "liczba_hydrantow": 2119
+  },
+  {
+    "teryt": "2819",
+    "nazwa": "węgorzewski",
+    "plik": "2819_wegorzewski.geojson",
+    "liczba_hydrantow": 198
+  },
+  {
+    "teryt": "1433",
+    "nazwa": "węgrowski",
+    "plik": "1433_wegrowski.geojson",
+    "liczba_hydrantow": 951
+  },
+  {
+    "teryt": "0418",
+    "nazwa": "włocławski",
+    "plik": "0418_wloclawski.geojson",
+    "liczba_hydrantow": 394
+  },
+  {
+    "teryt": "0619",
+    "nazwa": "włodawski",
+    "plik": "0619_wlodawski.geojson",
+    "liczba_hydrantow": 2025
+  },
+  {
+    "teryt": "2613",
+    "nazwa": "włoszczowski",
+    "plik": "2613_wloszczowski.geojson",
+    "liczba_hydrantow": 1970
+  },
+  {
+    "teryt": "2014",
+    "nazwa": "zambrowski",
+    "plik": "2014_zambrowski.geojson",
+    "liczba_hydrantow": 49
+  },
+  {
+    "teryt": "0620",
+    "nazwa": "zamojski",
+    "plik": "0620_zamojski.geojson",
+    "liczba_hydrantow": 1278
+  },
+  {
+    "teryt": "2416",
+    "nazwa": "zawierciański",
+    "plik": "2416_zawiercianski.geojson",
+    "liczba_hydrantow": 2497
+  },
+  {
+    "teryt": "1019",
+    "nazwa": "zduńskowolski",
+    "plik": "1019_zdunskowolski.geojson",
+    "liczba_hydrantow": 1741
+  },
+  {
+    "teryt": "1020",
+    "nazwa": "zgierski",
+    "plik": "1020_zgierski.geojson",
+    "liczba_hydrantow": 214
+  },
+  {
+    "teryt": "0225",
+    "nazwa": "zgorzelecki",
+    "plik": "0225_zgorzelecki.geojson",
+    "liczba_hydrantow": 281
+  },
+  {
+    "teryt": "0809",
+    "nazwa": "zielonogórski",
+    "plik": "0809_zielonogorski.geojson",
+    "liczba_hydrantow": 1191
+  },
+  {
+    "teryt": "1436",
+    "nazwa": "zwoleński",
+    "plik": "1436_zwolenski.geojson",
+    "liczba_hydrantow": 744
+  },
+  {
+    "teryt": "0224",
+    "nazwa": "ząbkowicki",
+    "plik": "0224_zabkowicki.geojson",
+    "liczba_hydrantow": 241
+  },
+  {
+    "teryt": "0226",
+    "nazwa": "złotoryjski",
+    "plik": "0226_zlotoryjski.geojson",
+    "liczba_hydrantow": 125
+  },
+  {
+    "teryt": "3031",
+    "nazwa": "złotowski",
+    "plik": "3031_zlotowski.geojson",
+    "liczba_hydrantow": 551
+  },
+  {
+    "teryt": "2062",
+    "nazwa": "Łomża",
+    "plik": "2062_lomza.geojson",
+    "liczba_hydrantow": 26
+  },
+  {
+    "teryt": "1061",
+    "nazwa": "Łódź",
+    "plik": "1061_lodz.geojson",
+    "liczba_hydrantow": 588
+  },
+  {
+    "teryt": "1003",
+    "nazwa": "łaski",
+    "plik": "1003_laski.geojson",
+    "liczba_hydrantow": 1114
+  },
+  {
+    "teryt": "1810",
+    "nazwa": "łańcucki",
+    "plik": "1810_lancucki.geojson",
+    "liczba_hydrantow": 1915
+  },
+  {
+    "teryt": "3218",
+    "nazwa": "łobeski",
+    "plik": "3218_lobeski.geojson",
+    "liczba_hydrantow": 188
+  },
+  {
+    "teryt": "2007",
+    "nazwa": "łomżyński",
+    "plik": "2007_lomzynski.geojson",
+    "liczba_hydrantow": 244
+  },
+  {
+    "teryt": "1410",
+    "nazwa": "łosicki",
+    "plik": "1410_losicki.geojson",
+    "liczba_hydrantow": 313
+  },
+  {
+    "teryt": "1005",
+    "nazwa": "łowicki",
+    "plik": "1005_lowicki.geojson",
+    "liczba_hydrantow": 272
+  },
+  {
+    "teryt": "0611",
+    "nazwa": "łukowski",
+    "plik": "0611_lukowski.geojson",
+    "liczba_hydrantow": 2824
+  },
+  {
+    "teryt": "1006",
+    "nazwa": "łódzki wschodni",
+    "plik": "1006_lodzki-wschodni.geojson",
+    "liczba_hydrantow": 410
+  },
+  {
+    "teryt": "1004",
+    "nazwa": "łęczycki",
+    "plik": "1004_leczycki.geojson",
+    "liczba_hydrantow": 578
+  },
+  {
+    "teryt": "0610",
+    "nazwa": "łęczyński",
+    "plik": "0610_leczynski.geojson",
+    "liczba_hydrantow": 859
+  },
+  {
+    "teryt": "3263",
+    "nazwa": "Świnoujście",
+    "plik": "3263_swinoujscie.geojson",
+    "liczba_hydrantow": 718
+  },
+  {
+    "teryt": "2476",
+    "nazwa": "Świętochłowice",
+    "plik": "2476_swietochlowice.geojson",
+    "liczba_hydrantow": 246
+  },
+  {
+    "teryt": "0218",
+    "nazwa": "średzki",
+    "plik": "0218_sredzki.geojson",
+    "liczba_hydrantow": 190
+  },
+  {
+    "teryt": "3025",
+    "nazwa": "średzki",
+    "plik": "3025_sredzki.geojson",
+    "liczba_hydrantow": 725
+  },
+  {
+    "teryt": "3026",
+    "nazwa": "śremski",
+    "plik": "3026_sremski.geojson",
+    "liczba_hydrantow": 170
+  },
+  {
+    "teryt": "0219",
+    "nazwa": "świdnicki",
+    "plik": "0219_swidnicki.geojson",
+    "liczba_hydrantow": 517
+  },
+  {
+    "teryt": "0617",
+    "nazwa": "świdnicki",
+    "plik": "0617_swidnicki.geojson",
+    "liczba_hydrantow": 1237
+  },
+  {
+    "teryt": "3216",
+    "nazwa": "świdwiński",
+    "plik": "3216_swidwinski.geojson",
+    "liczba_hydrantow": 1444
+  },
+  {
+    "teryt": "0808",
+    "nazwa": "świebodziński",
+    "plik": "0808_swiebodzinski.geojson",
+    "liczba_hydrantow": 1516
+  },
+  {
+    "teryt": "0414",
+    "nazwa": "świecki",
+    "plik": "0414_swiecki.geojson",
+    "liczba_hydrantow": 928
+  },
+  {
+    "teryt": "2479",
+    "nazwa": "Żory",
+    "plik": "2479_zory.geojson",
+    "liczba_hydrantow": 1734
+  },
+  {
+    "teryt": "0810",
+    "nazwa": "żagański",
+    "plik": "0810_zaganski.geojson",
+    "liczba_hydrantow": 77
+  },
+  {
+    "teryt": "0811",
+    "nazwa": "żarski",
+    "plik": "0811_zarski.geojson",
+    "liczba_hydrantow": 600
+  },
+  {
+    "teryt": "0419",
+    "nazwa": "żniński",
+    "plik": "0419_zninski.geojson",
+    "liczba_hydrantow": 319
+  },
+  {
+    "teryt": "1437",
+    "nazwa": "żuromiński",
+    "plik": "1437_zurominski.geojson",
+    "liczba_hydrantow": 241
+  },
+  {
+    "teryt": "1438",
+    "nazwa": "żyrardowski",
+    "plik": "1438_zyrardowski.geojson",
+    "liczba_hydrantow": 791
+  },
+  {
+    "teryt": "2417",
+    "nazwa": "żywiecki",
+    "plik": "2417_zywiecki.geojson",
+    "liczba_hydrantow": 406
+  }
+]
