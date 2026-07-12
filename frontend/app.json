@@ -38,8 +38,7 @@
         "android.permission.POST_NOTIFICATIONS",
         "android.permission.USE_FULL_SCREEN_INTENT",
         "android.permission.WAKE_LOCK"
-      ],
-      "versionCode": 6
+      ]
     },
     "web": {
       "bundler": "metro",

@@ -24,7 +24,7 @@ BASE_URL = "https://www.gov.pl"
 BAZA_WIEDZY_URL = f"{BASE_URL}/web/kgpsp/baza-wiedzy"
 KGPSP_PREFIX = "/web/kgpsp/"
 MAX_DEPTH = 4  # Maximum depth of page traversal
-REQUEST_TIMEOUT = 15  # Seconds
+REQUEST_TIMEOUT = 45  # Seconds
 MAX_CONCURRENT_REQUESTS = 3  # Limit concurrent requests to be polite
 DELAY_BETWEEN_REQUESTS = 0.5  # Seconds
 

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Switch, Alert, ActivityIndicator, Platform, Linking } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
+import Constants from 'expo-constants';
 import { useTheme } from '../src/contexts/ThemeContext';
 import { syncAllData, clearCache, getLastSyncTime, downloadAkcjaDataForOffline, fetchAboutApp } from '../src/utils/dataService';
 import { AboutAppData } from '../src/types';
@@ -242,7 +243,7 @@ export default function UstawieniaScreen() {
                 {aboutData?.tytul || 'FireFighter Helper'}
               </Text>
               <Text style={[styles.appVersion, { color: colors.textSecondary }]}>
-                Wersja {aboutData?.wersja || '1.0.0'}
+                Wersja {Constants.expoConfig?.version || '1.0.0'}
               </Text>
               <Text style={[styles.appDesc, { color: colors.textSecondary }]}>
                 {aboutData?.opis || 'Podręcznik PSP/OSP dla strażaków'}

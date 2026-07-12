@@ -14,7 +14,7 @@
     "production": {
       "autoIncrement": true,
       "env": {
-        "EXPO_PUBLIC_BACKEND_URL": "https://ffh-backend.onrender.com"
+        "EXPO_PUBLIC_BACKEND_URL": "https://firefighter-helper-backend.onrender.com"
       }
     }
   },
