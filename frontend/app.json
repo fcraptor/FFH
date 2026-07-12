@@ -2,7 +2,7 @@
   "expo": {
     "name": "FireFighter Helper",
     "slug": "firefighter-helper",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "sdkVersion": "54.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",

@@ -119,16 +119,19 @@ const fetchKnowledgeData = async (): Promise<KnowledgeApiResponse | null> => {
 
       console.warn('[KnowledgeSync] Invalid response structure from:', url);
     } catch (error) {
+      // More detailed error logging
       if (axios.isAxiosError(error)) {
         if (error.code === 'ECONNABORTED') {
           console.warn('[KnowledgeSync] Request timeout for:', url);
         } else if (error.response) {
-          console.warn(`[KnowledgeSync] Server error ${error.response.status} for:`, url);
+          console.warn(`[KnowledgeSync] Server error ${error.response.status} for: ${url}. Response:`, error.response.data);
         } else if (error.request) {
           console.warn('[KnowledgeSync] Network error - no response received from:', url);
+        } else {
+          console.error('[KnowledgeSync] Axios setup error:', error.message);
         }
       } else {
-        console.error('[KnowledgeSync] Fetch error for:', url, error);
+        console.error('[KnowledgeSync] Generic fetch error for:', url, error);
       }
     }
   }
