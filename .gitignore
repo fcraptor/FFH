@@ -1,23 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # IDE and editors
-.idea
-.vscode
-
-# Dependencies
-/node_modules
-ios/Pods/
-ios/build/
-android/build/
-android/app/build/
-/.pnp
-.pnp.js
-.yarn/install-state.gz
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+.idea/
+.vscode/
 
 # Logs and debug files
 *.log
@@ -26,8 +11,8 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 dump.rdb
-.metro-cache/
 
+*.hprof
 # System files
 .DS_Store
 *.pem
@@ -39,24 +24,50 @@ __pycache__/
 venv/
 .venv/
 
-# Production builds
-dist/
-build/
+# ===== FRONTEND =====
+
+# Dependencies
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+frontend/.yarn/
 
 # Expo
-.expo/
-web-build/
-expo-env.d.ts
+frontend/.expo/
+frontend/dist/
+frontend/web-build/
+frontend/expo-env.d.ts
+
+# Metro
+frontend/.metro-cache/
+frontend/.metro-health-check*
 
 # Native Mobile
-*.jks
-*.p8
-*.p12
-*.mobileprovision
+frontend/ios/Pods/
+frontend/ios/build/
+frontend/android/build/
+frontend/android/app/build/
+frontend/android/.gradle/
+frontend/android/local.properties
+frontend/android/*.iml
+frontend/android/.cxx/
+frontend/.kotlin/
+frontend/*.orig.*
+frontend/*.jks
+frontend/*.p8
+frontend/*.p12
+frontend/*.mobileprovision
+
+# Build artifacts
+frontend/*.jsbundle
+
+# Typescript
+frontend/*.tsbuildinfo
 
 # Environment files
 .env
 .env.*
+frontend/.env*.local
 *credentials.json
 !/.env.example
 
@@ -68,3 +79,4 @@ test_result.md
 memory/
 design_guidelines.json
 frontend/.tmp_download_test/
+frontend/app-example/

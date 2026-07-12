@@ -78,7 +78,7 @@ const getKnowledgeSyncUrlCandidates = (): string[] => {
   return Array.from(candidates);
 };
 
-const SYNC_TIMEOUT = 120000; // 120 seconds - scraping takes time
+const SYNC_TIMEOUT = 180000; // 180 seconds (3 minutes) - scraping takes time, free servers have cold starts
 
 // ============================================================
 // SYNC RESULT TYPE
